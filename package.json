@@ -1,0 +1,16 @@
+{
+  "name": "kin-developer-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bram Borggreve",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocket/cli": "^0.9.10",
+    "@rocket/launch": "^0.5.5"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "rocket start",
+    "docs": "rocket build"
+  }
+}
