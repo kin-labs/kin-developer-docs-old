@@ -1,0 +1,21 @@
+<div class="kh-start__header-wrapper">
+    {% for starters in getStarted %}
+        <h2 class="kh-start__header">{{ starters.header }}</h2>
+        <p class="kh-start__subheader-text">{{ starters.text | safe }}</p>
+    {% endfor %}
+</div>
+<div class="kh-start__items-wrapper">
+    {% for item in getStartedItems %}
+    <a href={{ item.link }} class="kh-start__item-wrapper">
+        <span class="kh-start__graphic-wrapper ">
+            <img class="kh-start__graphic" src={{ item.graphicUrl | asset | url }} alt="something">
+        </span>
+        <span class="kh-start__item-details-wrapper">
+            <span class="kh-start__item-details">
+                <h3 class="kh-start__item-header">{{ item.header }}</h3>
+                <p class="kh-start__item-text">{{ item.text | safe }}</p>
+            </span>
+        </span>
+    </a>
+    {% endfor %}
+</div>

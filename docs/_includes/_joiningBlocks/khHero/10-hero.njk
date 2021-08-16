@@ -1,0 +1,21 @@
+<section class="kh-hero__wrapper">
+  <div class="kh-hero__content-wrapper">
+    <div class="kh-hero__cta-section-wrapper">
+      <div class="kh-hero__logo-wrapper">
+        <img class="kh-hero__logo" src="{{ '/_assets/kin_logo.svg' | asset | url }}" alt="Kin Foundation Logo"/>
+      </div>
+
+      <h1 class="kh-hero__title">{{slogan}}</h1>
+
+      <div class="kh-hero__cta-wrapper" role="list">
+        {% for callToAction in callToActionItems %}
+          <a class="kh-hero__cta" href="{{ callToAction.href | url }}" role="listitem">{{ callToAction.text | safe }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="kh-hero__graphic-section-wrapper">
+        <img class="kh-hero__graphic" src="{{ '/_assets/kin_ecosystem_graphic.svg' | asset | url }}" alt="Kin Foundation Logo"/>
+    </div>
+  </div>
+</section>

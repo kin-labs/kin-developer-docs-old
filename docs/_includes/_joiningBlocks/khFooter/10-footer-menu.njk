@@ -1,0 +1,16 @@
+<div class="kh-footer-menu__wrapper">
+  <div class="kh-footer__menu-section">
+    {% for category in footer %}
+      <nav class="kh-footer__menu">
+        <h3 class="kh-footer__menu-title">{{category.name}}</h3>
+        <ul class="kh-footer__ul">
+          {% for entry in category.children %}
+            <li class="kh-footer__li">
+              <a class="kh-footer__link" href="{{entry.href | url}}">{{entry.text}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endfor %}
+  </div>
+</div>

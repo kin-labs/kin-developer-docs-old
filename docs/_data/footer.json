@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Quick Links",
+    "children": [
+      {
+        "text": "Kin Foundation",
+        "href": "https://kin.org"
+      },
+      {
+        "text": "Quick Start",
+        "href": "https://kintegrate.dev/tutorials/getting-started/"
+      },
+      {
+        "text": "SDKs",
+        "href": "https://docs.kin.org/intro#available-sdks"
+      },
+      {
+        "text": "Tutorials",
+        "href": "https://kintegrate.dev/tutorials/"
+      },
+      {
+        "text": "Blog",
+        "href": "https://kin.org/blog"
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "children": [
+      {
+        "text": "Twitter",
+        "href": "https://twitter.com/Kin_Ecosystem"
+      },
+      {
+        "text": "Reddit",
+        "href": "https://www.reddit.com/r/KinFoundation/"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/kin-ecosystem/"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/kin_ecosystem/?hl=en"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/KinEcosystem/"
+      }
+    ]
+  },
+  {
+    "name": "Connect",
+    "children": [
+      {
+        "text": "Developer Portal",
+        "href": "https://portal.kin.org"
+      },
+      {
+        "text": "Discord",
+        "href": "https://discord.gg/kdRyUNmHDn"
+      }
+    ]
+  }
+]

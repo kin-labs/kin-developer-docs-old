@@ -1,0 +1,31 @@
+<h2 class="kh-sdks__header">{{ sdkSectionHeader }}</h2>
+<p class="kh-sdks__subheader">{{ officialSDKHeader }}</p>
+<div class="kh-sdks__links-wrapper">
+    {% for sdk in officialList %}
+        <a href={{sdk.link}} class="kh-sdks__link">
+            <span class="kh-sdks__link-info-wrapper">
+                <span class="kh-sdks__graphic-wrapper">
+                    <img class="kh-sdks__graphic" src={{ sdk.graphicUrl | asset | url }} alt={{name}}>
+                </span>
+                <span class="kh-sdks__name-wrapper">
+                    <p class="kh-sdks__name">{{ sdk.name }}</p>
+                </span>
+            </span>
+        </a>
+    {% endfor %}
+</div>
+<p class="kh-sdks__subheader">{{ communitySDKHeader }}</p>
+<div class="kh-sdks__links-wrapper">
+    {% for sdk in communityList %}
+        <a href={{sdk.link}} class="kh-sdks__link">
+            <span class="kh-sdks__link-info-wrapper">
+                <span class="kh-sdks__graphic-wrapper">
+                    <img class="kh-sdks__graphic" src={{ sdk.graphicUrl | asset | url }} alt={{name}}>
+                </span>
+                <span class="kh-sdks__name-wrapper">
+                    <p class="kh-sdks__name">{{ sdk.name }}</p>
+                </span>
+            </span>
+        </a>
+    {% endfor %}
+</div>

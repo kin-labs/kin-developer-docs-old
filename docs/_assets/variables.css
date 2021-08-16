@@ -1,0 +1,69 @@
+html {
+  --primary-color: #6f41e8;
+  --primary-color-lighter: #c9b5fd;
+  --primary-color-darker: #5728d1;
+  --primary-color-accent: #cee5f6;
+  --primary-color-lightest: #efedf5;
+  --primary-text-color: #2c3e50;
+  --primary-lines-color: #ccc;
+  --white: #ffffff;
+
+  --code-button-color: #6f41e8;
+  --code-button-background: #efedf5;
+  --code-button-focus-color: #efedf5;
+  --code-button-focus-background: #6f41e8;
+
+  --code-tabs-background: #c9b5fd;
+  --code-tabs-tabpanel-background: #efedf5;
+  --markdown-syntax-background-color: #efedf5;
+  --code-button-active-color: #c9b5fd;
+
+  /* Contrast colors */
+  --contrast-color-light: #fff;
+  --contrast-color-dark: #1d3557;
+
+  /* background-colors */
+  --page-background: white;
+  --footer-background: rgba(0, 0, 0, 0.1);
+
+  /* typography */
+  --text-color: black;
+  --primary-font-family: "Open Sans", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
+  --monospace-font-family: "SFMono-Regular", "Consolas", "Liberation Mono",
+    "Menlo", "Courier", monospace;
+
+  /* Common Margins, Paddings, Spacings, and Widths */
+  --content-area: 80%;
+  --line-height: 1.4;
+  --section-margin: 4rem;
+
+  /* Shadows and Hover States */
+  --link-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  --link-shadow-hover: 3px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+html.dark {
+  --primary-color: #e63946;
+  --primary-color-lighter: #e25761;
+  --primary-color-darker: #a22831;
+  --primary-color-accent: #cee5f6;
+  --primary-text-color: #eee;
+
+  /* Contrast colors */
+  --contrast-color-light: #fff;
+  --contrast-color-dark: #1d3557;
+
+  /* background-colors */
+  --page-background: #333;
+  --footer-background: #4f4f4f;
+
+  /* typography */
+  --text-color: white;
+
+  /* markdown */
+  --markdown-octicon-link: white;
+  --markdown-syntax-background-color: #a0a0a0;
+  --markdown-link-color: #fb7881;
+  --markdown-blockquote-color: #c9e3ff;
+}
