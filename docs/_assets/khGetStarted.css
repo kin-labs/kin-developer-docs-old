@@ -5,7 +5,8 @@ section.kh-start__wrapper {
 }
 
 .kh-start__header-wrapper {
-  max-width: 70%;
+  /* Left this in for now until design is resolved. Current copy doesn't look good at 100% */
+  /* max-width: 70%; */
 }
 .kh-start__header {
   margin-bottom: 0.5rem;
