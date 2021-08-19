@@ -1,15 +1,18 @@
 .kh-connect__wrapper {
   width: var(--content-area);
-  margin: 0 auto var(--section-margin) auto;
+  margin: 2rem auto var(--section-margin) auto;
   display: flex;
+  border-top: 2px solid var(--primary-text-color);
+  padding-top: 3rem;
 }
 .kh-connect__item-wrapper {
 }
 .kh-connect__header {
   margin-top: 0;
+  font-size: 1rem;
 }
 .kh-connect__subheader-text {
-  margin-bottom: 3rem;
+  margin-bottom: 1.4rem;
   line-height: var(--line-height);
   width: 90%;
 }
@@ -19,13 +22,14 @@
   text-decoration: none;
   box-shadow: var(--link-shadow);
   background-color: var(--primary-color-lightest);
-  width: 13rem;
-  height: 4rem;
+  width: 8rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--primary-color);
   font-weight: 600;
+  font-size: 0.7rem;
 }
 
 .kh-connect__link:hover {

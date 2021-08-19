@@ -1,7 +1,7 @@
 ---
 title: Kin
 layout: layout-home-background
-slogan: The easiest path to developing app experiences with cryptocurrency
+slogan: Easy. Quick. Intuitive. Integrate cryptocurrency into your app’s experience.
 callToActionItems:
   - text: Docs
     href: https://docs.kin.org
@@ -9,10 +9,10 @@ callToActionItems:
     href: https://kintegrate.dev/tutorials/
   - text: SDKs
     href: https://docs.kin.org/intro#available-sdks
-reasonHeader: Connect your app to an ecosystem with more than 60 million wallets
+reasonHeader: Join a growing ecosystem of developers who are choosing the Kin monetization model
 reasons:
   - header: Quick Wins
-    text: You don't need to be knowledgeable in crypto or blockchain to start building experiences you can monetize.
+    text: You don't need to be knowledgeable in crypto or blockchain to start building meaningful experiences you can monetize.
   - header: The Mobile Leader
     text: Kin was the first, and now the largest, token dedicated to building an ecosystem of mobile experiences.
   - header: $300K+ in Weekly Payouts
@@ -74,7 +74,7 @@ communityList:
     link: https://github.com/kin-sdk/kin-sdk-react-native
 connectAndJoinSection:
   - header: Connect and contribute
-    text: Become a contributing member of one of the largest and most active ecosystems in crypto.
+    text: Become an open source contributer to one of the largest and most active ecosystems in crypto.
     link: https://discord.gg/kdRyUNmHDn
     linkText: Contribute
   - header: We’re growing, join us
