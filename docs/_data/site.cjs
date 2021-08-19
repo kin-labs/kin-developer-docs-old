@@ -4,7 +4,7 @@ module.exports = function () {
     lang: "en",
     name: "Kin",
     description:
-      "Kin is the easiest path for developing app experiences with cryptocurrency",
+      "Easy. Quick. Intuitive. Integrate cryptocurrency into your app’s experience.",
     socialLinks: [
       {
         name: "GitHub",
