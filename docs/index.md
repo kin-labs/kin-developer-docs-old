@@ -1,7 +1,8 @@
 ---
 title: Kin
 layout: layout-home-background
-slogan: Easy. Quick. Intuitive. Integrate cryptocurrency into your app’s experience.
+mainHeader: Easy. Quick. Intuitive.
+mainSubheader: Integrate cryptocurrency into your app’s experience.
 callToActionItems:
   - text: Docs
     href: https://docs.kin.org

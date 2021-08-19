@@ -26,10 +26,18 @@
   margin-bottom: 1.5rem;
 }
 
-.kh-hero__title {
+.kh-hero__header {
   border-bottom: none;
   color: var(--text-color);
   font-size: 2rem;
+  font-weight: 400;
+  line-height: var(--line-height);
+}
+
+.kh-hero__subheader {
+  border-bottom: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: var(--line-height);
 }
