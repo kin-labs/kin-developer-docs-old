@@ -3,7 +3,6 @@ title: Kin
 layout: layout-home-background
 mainHeader: Easy. Quick. Intuitive.
 mainSubheader: Integrate cryptocurrency into your app’s experience.
-headerFooterBackgroundImage: "/_assets/kin-shapes-background.svg"
 callToActionItems:
   - text: Docs
     href: https://docs.kin.org
