@@ -3,11 +3,12 @@
   justify-content: center;
   align-items: center;
   padding: 7rem 0 0 0;
-  /* background-image: url("{{ '/_assets/kin-shapes-background.svg' | asset | url }}"); */
+  background-image: url("/_merged_assets/kin-shapes-background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: var(--section-margin);
+  position: relative;
 }
 
 .kh-hero__content-wrapper {
