@@ -24,7 +24,7 @@ html {
 
   /* background-colors */
   --page-background: white;
-  --footer-background: rgba(0, 0, 0, 0.1);
+  --footer-background: #6f41e8;
 
   /* typography */
   --text-color: black;
@@ -41,6 +41,7 @@ html {
   /* Shadows and Hover States */
   --link-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
   --link-shadow-hover: 3px 5px 4px rgba(0, 0, 0, 0.2);
+  --markdown-link-color: #6f41e8;
 }
 
 html.dark {
@@ -56,14 +57,14 @@ html.dark {
 
   /* background-colors */
   --page-background: #333;
-  --footer-background: #4f4f4f;
+  --footer-background: #6f41e8;
 
   /* typography */
   --text-color: white;
 
   /* markdown */
   --markdown-octicon-link: white;
-  --markdown-syntax-background-color: #a0a0a0;
-  --markdown-link-color: #fb7881;
+  --markdown-syntax-background-color: #efedf5;
+  --markdown-link-color: #6f41e8;
   --markdown-blockquote-color: #c9e3ff;
 }
