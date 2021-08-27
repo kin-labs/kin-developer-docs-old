@@ -25,9 +25,4 @@ Kin has a range of official and community driven SDKs for both the client and se
 ### Community Driven SDKs
 
 - [Web](/sdks/web/)
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-react" target="_blank">React Starter Kit</a>
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-vue" target="_blank">Vue Starter Kit</a>
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-angular" target="_blank">Angular Starter Kit</a>
-- Unity — Currently in Private Beta
-- Flutter — Currently in Private Beta
 - [React Native](/sdks/react-native/)
