@@ -24,5 +24,5 @@ Kin has a range of official and community driven SDKs for both the client and se
 
 ### Community Driven SDKs
 
-- [Web](/sdks/web/)
-- [React Native](/sdks/react-native/)
+- <a href="https://github.com/kin-sdk/kin-sdk-web" target="_blank">Web</a>
+- <a href="https://github.com/kin-sdk/kin-sdk-react-native" target="_blank">React Native</a>
