@@ -30,15 +30,12 @@ All of the SDKs listed below support using Kin.
 - <a href="https://github.com/kinecosystem/kin-go" target="_blank">Go</a>
 - <a href="https://github.com/kinecosystem/kin-python" target="_blank">Python</a>
 
-#### Community Driven SDKs
+### Community Driven SDKs
 
-- [Web](/sdks/web/)
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-react" target="_blank">React Starter Kit</a>
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-vue" target="_blank">Vue Starter Kit</a>
-  - <a href="https://github.com/kin-sdk/kin-sdk-demo-angular" target="_blank">Angular Starter Kit</a>
-- Unity — Currently in Private Beta
-- Flutter — Currently in Private Beta
-- [React Native](/sdks/react-native/)
+- <a href="https://github.com/kin-sdk/kin-sdk-web" target="_blank">Web</a>
+- <a href="https://github.com/kin-sdk/kin-sdk-react-native" target="_blank">React Native</a>
+- Flutter — in private beta as of 2021-08-26
+- Unity — in private beta as of 2021-08-26
 
 ### Where to start
 
