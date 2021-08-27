@@ -58,7 +58,7 @@ As outlined in the diagram above, developers planning on building a Kin app shou
 
 ### Client App
 
-The client app acts as the interface with users, allowing them to create, manage and use their Kin accounts. Two client SDKs are currently available: [Android](https://github.com/kinecosystem/kin-android) and [iOS](https://github.com/kinecosystem/kin-ios).
+The client app acts as the interface with users, allowing them to create, manage and use their Kin accounts. Several client SDKs are currently available — [click here to see a full list](/sdks/).
 
 Creating an account for a user begins with creating an account keypair. The client SDKs provide classes and methods for creating and storing the account keypair, which is required for users to access their account. An account keypair consists of a public address (i.e. public key), and a private key (i.e. private/secret seed). The private key is stored on the user’s device and is only accessible by the app. After creating a keypair, the client SDK then submits a request to Agora to create the user's Kin account on the blockchain.
 
@@ -70,10 +70,7 @@ The client SDK also includes classes and methods for other functionality, includ
 - obtaining account balance
 - listening for account events
 
-For more details, please refer to each SDK's documentation:
-
-- [Android](https://github.com/kinecosystem/kin-android)
-- [iOS](https://github.com/kinecosystem/kin-ios)
+For more details, please refer to our [SDK's and their individual documentation](/sdks/).
 
 ### Backend Server
 

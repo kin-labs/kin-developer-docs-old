@@ -37,22 +37,7 @@ Kin can work in many situations, and once set up, a developer can just call the 
 
 ## Can my app monetize with Kin?
 
-Kin is free to integrate into any app that follows these [guidelines](https://github.com/kinecosystem/rewards-engine/blob/master/current-valid-spend-guidelines.md). Kin currently supports the following SDKs.
-
-### Client side
-
-- [Android native](https://github.com/kinecosystem/kin-android)
-- [iOs native](https://github.com/kinecosystem/kin-ios/tree/master/KinBase)
-- [Web (beta)](https://kintegrate.dev/tutorials/getting-started-web-sdk/)
-- Unity (coming soon)
-- Flutter (coming soon)
-- React Native (coming soon)
-
-### Server side
-
-- [Python](https://github.com/kinecosystem/kin-sdk-python)
-- [Go](https://github.com/kinecosystem/kin-go)
-- [NodeJs](https://github.com/kinecosystem/kin-node)
+Kin is free to integrate into any app that follows these [guidelines](https://github.com/kinecosystem/rewards-engine/blob/master/current-valid-spend-guidelines.md). To make integration easier, Kin Foundation supports a range of SDKs — [click here to see a full list](/sdks/).
 
 ## How do the Kin SDKs work?
 

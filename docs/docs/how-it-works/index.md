@@ -19,20 +19,13 @@ Although you're free to test your app without registering, to benefit from the [
 
 ### Implement a Client SDK
 
-Implementing a Client SDK allows developers to give their users access to the Kin blockchain, and is typically the first step developers take to get their app integrated with Kin. Currently, two client SDKs are available:
-
-- [Android](https://github.com/kinecosystem/kin-android)
-- [iOS](https://github.com/kinecosystem/kin-ios)
+Implementing a [Client SDK](/sdks/) allows developers to give their users access to the Kin blockchain, and is typically the first step developers take to get their app integrated with Kin.
 
 Each SDK provides classes and methods for creating, managing and using Kin accounts. Developers must integrate them into their client application code.
 
 ### Implement a Server SDK
 
-Implementing a Server SDK allows apps to create and submit transactions from their backend server (for example, to send Kin to their users). Additionally, it allows developers to make use of [webhooks](/docs/how-it-works/#webhooks), which assist developers with transaction monitoring and signing their users' transactions to make them fee-less.
-
-- [Go](https://github.com/kinecosystem/kin-go)
-- [Python](https://github.com/kinecosystem/kin-python)
-- [Node.js](https://github.com/kinecosystem/kin-node)
+Implementing a [Server SDK](/sdks/) allows apps to create and submit transactions from their backend server (for example, to send Kin to their users). Additionally, it allows developers to make use of [webhooks](/docs/how-it-works/#webhooks), which assist developers with transaction monitoring and signing their users' transactions to make them fee-less.
 
 ## Core Functionalities
 
