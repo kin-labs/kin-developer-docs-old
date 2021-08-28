@@ -5,11 +5,11 @@ mainHeader: Easy. Quick. Intuitive.
 mainSubheader: Integrate cryptocurrency into your app’s experience.
 callToActionItems:
   - text: Docs
-    href: https://docs.kin.org
+    href: /docs/
   - text: Tutorials
-    href: https://kintegrate.dev/tutorials/
+    href: /tutorials/
   - text: SDKs
-    href: https://docs.kin.org/intro#available-sdks
+    href: /sdks/
 reasonHeader: Join a growing ecosystem of developers who are choosing the Kin monetization model
 reasons:
   - header: Quick Wins
@@ -22,23 +22,23 @@ getStarted:
   - header: Get Started
     text: From guides and SDKs to weekly office hours, tutorials, and connections with live developer advocates, there are a range of easy ways to start developing with Kin.
 getStartedItems:
-  - header: Quick Start Guides
-    text: Choose your platform and language then walk through quick steps to integrate Kin’s ecosystem.
+  - header: Start Quickly
+    text: Choose your platform, language, and a related starter kit to quickly walk through how Kin integrates into an app.
     graphicUrl: "/_assets/kin-get-started.svg"
-    link: https://kintegrate.dev/starters/
+    link: /starters/
   - header: SDKs
     text: Check out official and community driven SDKs in major lanugages like Kotlin, Swift, Python, and JavaScript (Node).
     graphicUrl: "/_assets/kin-sdks.svg"
-    link: https://docs.kin.org/intro#available-sdks
+    link: /sdks/
   - header: Tutorials
     text: Always wanted to build something in crypto? Dive in and follow one of the easy-to-use tutorials.
     graphicUrl: "/_assets/kin-tutorial.svg"
-    link: https://kintegrate.dev/tutorials/
+    link: /tutorials/
   - header: Developer Portal
     text: Let’s get serious. Join the developer portal to self-manage your app’s environments, track transactions, and more.
     graphicUrl: "/_assets/kin-dev-portal.svg"
     link: https://portal.kin.org
-sdkSectionHeader: Server and client-side SDKs
+sdkSectionHeader: Server and Client SDKs
 officialSDKHeader: Official SDKs
 officialList:
   - name: IOS/Swift
