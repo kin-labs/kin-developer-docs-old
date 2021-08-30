@@ -7,16 +7,16 @@
         "href": "https://kin.org/developer"
       },
       {
-        "text": "Quick Start",
-        "href": "https://kintegrate.dev/tutorials/getting-started/"
+        "text": "Start Quickly",
+        "href": "/starters/"
       },
       {
         "text": "SDKs",
-        "href": "https://docs.kin.org/intro#available-sdks"
+        "href": "/sdks/"
       },
       {
         "text": "Tutorials",
-        "href": "https://kintegrate.dev/tutorials/"
+        "href": "/tutorials/"
       },
       {
         "text": "Blog",
