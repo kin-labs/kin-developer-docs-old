@@ -21,6 +21,18 @@
       {
         "text": "Blog",
         "href": "https://kin.org/blog"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://kin.org/privacy-policy/"
+      },
+      {
+        "text": "Cookie Policy",
+        "href": "https://kin.org/cookie-policy/"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "https://kin.org/terms-and-conditions/"
       }
     ]
   },
