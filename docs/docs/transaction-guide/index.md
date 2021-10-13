@@ -1,29 +1,56 @@
-# KRE Valid Transactions ||110
+# KRE Valid Spend Checklist ||110
 
-The purpose of the [KRE](/docs/the-kre-explained/) is to promote a healthy digital ecosystem that maximizes opportunity for participation and recognition for developers and safe and fair experiences for users.
+The Kin Rewards Engine [KRE](/docs/the-kre-explained/) rewards developers for creating awesome experiences that utilize Kin. In order to maintain a fair playing field amongst Kin developers and a safe experience for users, applications must satisfy these requirements to be eligible for rewards from the [KRE](/docs/the-kre-explained/).
 
-If your app’s experience aligns to that purpose and follows the guides below, then it's highly likely your transactions are compliant and will be considered valid.
+## Spend Checklist
 
-## Spends
+A `Spend` Transaction is a User-to-Developer or a User-to-User transaction. For every `Spend` Transaction in the app:
 
-A `Spend` Transaction is a User-to-Developer or a User-to-User transaction.
+<div>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
+  <label for="accessible">Users are aware of items/services they are spending Kin on.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">Users are aware of the cost of each item/ service.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">Users voluntarily initiate the spend transaction by performing an action such as clicking a button.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
+  <label for="accessible">No transaction occurs without authorisation from the user to spend their Kin.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">Transactions greater than 100 Kin have a confirmation prompt before the spend transaction occurs.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">The Kin icon is displayed in the UI.</label></br>
+</div>
 
-| Do                                                                                             | Don't                                                                                                                         |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Ensure the user is voluntarily initiating Spend Transactions.                                  | Automate Spend Transactions, force the user to initiate a transaction or debit the User's wallet without their authorisation. |
-| Clearly communicate the cost of the transaction, and what the User will receive for their Kin. | Obfuscate or hide transaction amounts or leave out important transaction details.                                             |
-| Clearly display the Kin logo on the action/button that triggers the Spend Transaction.         | Obfuscate or hide what currency is being spent.                                                                               |
-| Let users know their Spend Transaction was completed                                           | Leave the user wondering whether their Spend Transaction was successful                                                       |
-| Allow the user to reconfirm or undo their Spend intent when the amount is over 100 Kin         | Introduce single click or turn UI that could lead to accidental Spend Transactions when the amount is over 100 Kin            |
+## Subscription Checklist
 
-## Subscriptions
+The initial payment of a `Subscription` is a `Spend` Transaction, however subsequent payments for the `Subscription` may occur automatically so therefore we have special rules about `Subscriptions`.
 
-The initial payment of a Subscription is an ordinarily Spend Transaction, however subsequent payments for the subscription cost may occur automatically so therefore we have special rules about subscriptions.
+<div>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
+  <label for="accessible">Initial Subscription signup conforms to the <a href="/docs/transaction-guide/#spend-checklist">Spend checklist</a> above.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">Users are aware of what they are subscribing to.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">Users are aware of the length and cost of the Subscription.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
+  <label for="accessible">No Subscription occurs without authorization from the user.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">The billing interval is not less than 1 week in length.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">The cost of the Subscription does not change during the Subscription period.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">The user has information on how to unsubscribe.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">The user can unsubscribe at any time.</label>
+</div>
 
-| Do                                                                                                                                                                      | Don't                                                                                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ensure subscription purchases clearly shows the amount of Kin being charged, the length of the subscription period, what the user will receive, and how to unsubscribe. | Change the amount being charged during a subscription period or make it difficult to unsubscribe.                                                                                             |
-| Only offer subscriptions in weekly, monthly or annual time periods.                                                                                                     | Don't offer subscription time periods that are less than one week.                                                                                                                            |
-| Permit a user to unsubscribe at any time without further obligation to pay.                                                                                             | Make it difficult or impossible to unsubscribe or charge a user after they've unsubscribed.                                                                                                   |
-| Ensure your app or web service is accessible by the general public.                                                                                                     | Violate the Terms of Use or any app store rules which host your app.                                                                                                                          |
-| Offer safe, fair, equitable, and respectful products, services, activities or spaces.                                                                                   | Sell, promote or encourage violent, abusive, discriminatory, hateful, mean-spirited, bullying, harassing, pornographic, racial, or exploitative products, services, experiences or activities |
+## App Checklist
+
+<div>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
+  <label for="accessible">The app is accessible by the Kin Foundation.</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
+  <label for="compliant">Developer is in compliance with the app store rules that host the app (if applicable).</label></br>
+  <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
+  <label for="terms">Developer is in compliance with the Kin Foundation <a href="https://kin.org/terms-and-conditions/">Terms of Use</a> and <a href="https://kin.org/kin-developer-terms/">Developer Terms</a></label>
+</div>

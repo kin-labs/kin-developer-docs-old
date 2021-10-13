@@ -2,13 +2,13 @@
 
 The Kin Rewards Engine incentivises developers to create amazing user experiences that utilize Kin.
 
-Approved developers are incentivized via a shared `Daily Payout` that can be as high as 250,000,000 Kin. [Refer here for the most up todate value.](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#the-daily-payout)
+Approved developers are incentivized via a shared `Daily Payout` that can be as high as 250,000,000 Kin. [Refer here for the most up to date `Daily Payout` value.](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#the-daily-payout)
 
-Developers can increase their possible portion of the Daily Payout by simply encouraging their users to obtain and spend Kin
+Developers can increase their possible portion of the `Daily Payout` by simply encouraging their users to obtain and spend Kin
 
 Those developers who create the biggest consumer demand and use for Kin receive the biggest daily rewards. There are controls put in place to promote fairness for newer/smaller apps that reduce the possibility of a monopoly.
 
-The Daily Payouts are sent to approved developers weekly.
+The `Daily Payout`s are sent to approved developers weekly.
 
 ## What Is The Daily Payout
 
@@ -16,7 +16,7 @@ The `Daily Payout` is the total amount of Kin paid to developers per day as summ
 
 The `Daily Payout` is set according to a budgeted amount called the `Daily Budget` along with an adjustment for volatility of the price of Kin.
 
-The `Daily Budget` is currently set at 250,000,000 Kin. As the `Daily Budget` will be adjusted over time, [refer here for the most up todate value](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#the-daily-payout).
+The `Daily Budget` is currently set at 250,000,000 Kin (as of 10/12/2021). As the `Daily Budget` will be adjusted over time, [refer here for the most up todate value](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#the-daily-payout).
 
 The exact amount of the `Daily Payout` is calculated by multiplying the `Daily Budget` by the difference of 1 minus the `Volatility Adjustment` (VA).
 
@@ -36,7 +36,7 @@ Where, `P` is the set of closing prices in the last 30 days and `Pavg` is the av
 
 Apps earn Kin by encouraging their users to obtain and spend Kin which is proven by two important metrics:
 
-1. **Active User Balance (`AUB`)** — the total amount of Kin held by an Active User
+1. **Active User Balance (`AUB`)** — the total amount of Kin held by an `Active User`
 2. **Active User (`AU`)** — a user who spent Kin, in your app, 3 or more times in the previous 30 days
 
 ### How to Calculate One's Portion of the Daily Payout
@@ -52,21 +52,21 @@ Where `your_eligible_aub` is the smallest of either:
 1. Sum of all active user balances divided by the number of active users
 2. 100,000 \* number of active users (Effectively caps the amount of eligible `AUB`)
 
-And where `ecosystem_aub` is the sum total of eligible `AUB` for all apps participating in the KRE.
+And where `ecosystem_aub` is the sum total of eligible `AUB` for all apps participating in the [KRE](/docs/the-kre-explained/).
 
 ## How We Reduce Gaming and Prevent Monopolies
 
-To be eligible to participate in the KRE, apps must first build a functioning integration on the Testnet and then apply for an AppIndex in our developer portal. By having a valid AppIndex, we are able to verify ecosystem apps’ Kin based transactions and user balances.
+To be eligible to participate in the [KRE](/docs/the-kre-explained/), apps must first build a functioning integration on the Testnet and then [apply for an AppIndex](/docs/app-registration/#register) in our [developer portal](/docs/developer-portal/). By having a valid [AppIndex](/docs/app-registration/#register), we are able to verify ecosystem apps’ Kin based transactions and user balances.
 
-Apps are regularly audited, manually and programmatically (via transaction data), to ensure they are creating positive user experiences, are improving the overall Kin exocystem, and are meeting our [list names of all compliance documents here].
+Apps are regularly audited, manually and programmatically (via transaction data), to ensure they are creating positive user experiences, are improving the overall Kin ecosystem, and are meeting our [Spend Checklist](/docs/transaction-guide/#spend-checklist), [Developer Terms](https://kin.org/kin-developer-terms/), and [Terms of Use](https://kin.org/terms-and-conditions/) to remain eligible to receive rewards from the [KRE](/docs/the-kre-explained/).
 
-In order to prevent monopolies, no app (AppIndex) will receive more than 66.67% of the Daily Payout. Furthermore, any developer that would have received more than 50% of the Daily Payout will have their portion of the Daily Payout adjusted.
+In order to prevent monopolies, no app ([AppIndex](/docs/app-registration/#register)) will receive more than 66.67% of the `Daily Payout`. Furthermore, any developer that would have received more than 50% of the `Daily Payout` will have their portion of the `Daily Payout` adjusted.
 
-No two apps (AppIndexes) will receive more than 90% of the Daily Payout and residual payouts will be redistributed proportionally to remaining developers (AppIndexes).
+No two apps ([AppIndexes](/docs/app-registration/)) will receive more than 90% of the `Daily Payout` and residual payouts will be redistributed proportionally to remaining developers ([AppIndexes](/docs/app-registration/)).
 
-See below for a detailed example of how the “Monopoly Clause” is calculated.
+See below for a detailed example of how the “[Monopoly Clause](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#monopoly-clause)” is calculated.
 
-Let `s_1, s_2, …, s_n` be the KRE payout shares ordered by payout proportion in descending order before invoking the monopoly clause.
+Let `s_1, s_2, …, s_n` be the [KRE](/docs/the-kre-explained/) payout shares ordered by payout proportion in descending order before invoking the [monopoly clause](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#monopoly-clause).
 
 ```
 If (s_1 + s_2  > 0.90) or (s_1 > 0.5):
