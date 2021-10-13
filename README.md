@@ -1,3 +1,12 @@
+# Getting Started
+
+In the terminal run the following commands:
+
+```
+yarn // install dependencies
+yarn start // start the local server
+```
+
 # Kin Developer Docs
 
 The Kin Developer Documentation is powered by: [Rocket](https://rocket.modern-web.dev).
