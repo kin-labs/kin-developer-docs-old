@@ -18,7 +18,7 @@ A `Spend` Transaction is a User-to-Developer or a User-to-User transaction. For 
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
   <label for="compliant">Transactions greater than 100 Kin have a confirmation prompt before the spend transaction occurs.</label></br>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
-  <label for="terms">The Kin icon is displayed in the UI.</label></br>
+  <label for="terms">The Kin icon is displayed in the UI to the extent practicable.</label></br>
 </div>
 
 ## Subscription Checklist
