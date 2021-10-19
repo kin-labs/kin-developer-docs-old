@@ -1,4 +1,4 @@
-# KRE Valid Spend Checklist ||110
+# KRE Valid Transaction Checklist ||110
 
 The Kin Rewards Engine [KRE](/docs/the-kre-explained/) rewards developers for creating awesome experiences that utilize Kin. In order to maintain a fair playing field amongst Kin developers and a safe experience for users, applications must satisfy these requirements to be eligible for rewards from the [KRE](/docs/the-kre-explained/).
 
