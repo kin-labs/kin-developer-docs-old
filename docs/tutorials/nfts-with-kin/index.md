@@ -1,6 +1,6 @@
 # NFTs With Kin ||80
 
-So you have that fire NFT concept ready to make it's way into the metaverse but you have a few problems:
+So you have that fire NFT concept ready to make its way into the metaverse but you have a few problems:
 
 - You need to design the NFTs
 - Mint the NFTs
