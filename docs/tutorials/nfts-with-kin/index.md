@@ -87,7 +87,7 @@ Now that we have a shiny new wallet, let's airdrop in some funds:
 
 ## Installing Dependencies
 
-In the next step, we'll start setting up the store but first we need to ensure we have the following prerequisites installed:
+In the next step, we'll start setting up the store but first we need to ensure we have the following prerequisites installed. <em>Note that for anyone who may not have a code editor already installed or know how to open their terminal, there are some basic 3rd party videos covering that at the end of this section.</em>
 
 1. `Node.js`(at or above versions `14.17.0` )
 2. `yarn`
@@ -128,11 +128,29 @@ Rather than repeating the many tutorials on how to install Node and yarn, we'll 
 - **Written:** [https://www.geeksforgeeks.org/how-to-install-yarn-in-macos-ubuntu-windows/](https://www.geeksforgeeks.org/how-to-install-yarn-in-macos-ubuntu-windows/)
 - **Video:** [https://www.youtube.com/watch?v=B7T5vabyeis](https://www.youtube.com/watch?v=B7T5vabyeis) ( no sound but quick and to the point)
 
+### What is the Command Line/Terminal?
+
+**Mac:**
+
+- **video** [How to use the Command Line | Terminal Basics for Beginners](https://www.youtube.com/watch?v=5XgBd6rjuDQ)
+
+**Windows**
+
+- **video** [How to Open Windows Command Prompt in Windows 10](https://www.youtube.com/watch?v=BNPWy9S_e1g)
+
+### Choosing and Installing a Code Editor
+
+There are a range of different code editors. Ask five different developers which is best and you'll likely hear five different answers. For the purposes of this tutorial it doesn't matter which one you choose. Sublime, VsCode, Atom, Brackets, intellij, Note++, Note Pad etc ... choose a name, go to youtube, and then search "2021 How to install [code editor name of your choice] on [your machine type (mac, windows, linux)]", and have fun.
+
+- **video** [Opionon piece on the "Best 3 Text Editors for Coding" ](https://www.youtube.com/watch?v=kCZQPL8u_YI)
+
+Note that after you choose a code editor, the easiest next step is to search Youtube for "2021 How to Install [Your Choice of Editor Here]"
+
 ## Setting up the store
 
 The store will be built using Metaplex.
 
-To spin up a new store we first need to clone down the Metaplex repo using the following command.
+To spin up a new store we first need to clone down the Metaplex repo using the following command in the [command line](#what-is-the-command-lineterminal).
 
 `git clone https://github.com/metaplex-foundation/metaplex.git`
 
@@ -193,7 +211,7 @@ If your storefront fails to connect or initialize, double check the following:
 
 ![Ensure wallet is using the same network](./images/troubleshooting_1.gif)
 
-If the initialization is successful then you will see your Store Configuration information.
+If the initialization is successful then you will see your Store Configuration information. Note that some users (thanks to KriegJ and Polype01) stated they only see the `REACT_APP_STORE_OWNER_ADDRESS_ADDRESS` and NOT the `REACT_APP_STORE_ADDRESS`. If that is the case for your instance, that's okay, you can follow the on screen instructions and only use the `REACT_APP_STORE_OWNER_ADDRESS_ADDRESS`.
 
 ![Metaplex Storefront Configuration](./images/troubleshooting_2.png)
 
@@ -394,7 +412,7 @@ Transaction Two
 
 Now that our storefront is initialized we need to add the Mainnet Store Configuration details to `./js/packages/web/.env.production` .
 
-If you need a refresher on how do that, click here [ADD ANCHOR LINK HERE].
+If you need a refresher on how do that, [click here](#add-the-store-address).
 
 ### Welp! We did it!
 
