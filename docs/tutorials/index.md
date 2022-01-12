@@ -24,7 +24,7 @@ To get started with Kin:
 
 ## Getting Started
 
-For prduction, you will need a client and server side implementation. But to get started exploring what Kin can do, we recommend begining with the client side where you can start making transactions on the Test Network in as little as 5 steps!
+For production, you will need a client and server side implementation. But to get started exploring what Kin can do, we recommend begining with the client side where you can start making transactions on the Test Network in as little as 5 steps!
 
 ### Prerequisites
 
@@ -80,13 +80,20 @@ Follow the steps below to prepare your app for Kin integration.
 6. Return to the Developer Portal and Update Your Production Environment
 
    - Go to the [Apps section of the Developer Portal](https://portal.kin.org/apps)
-   - Click on the `Environments` tab and then click the `prod` button
-   - Fill-in the form with the following information:
+   - Click on the `Settings` tab and add the following:
      - Name = the name of your app
+     - Description = description of your app
+     - KRE Contact = contact that receives updates about KRE Rewards
+     - KRE Email = email address to receive updates about KRE Rewards
+     - Other settings are optional
+     ![Add App Settings](./images/DevPortalSettings1.gif)
+
+   - Click on the `Environments` tab and then click the `Prod` button and add the following:
      - Public Key = the `public key` you created in step 3 above
      - Webhook Secret = the `webhook password` you create in step 5 above
      - Events Webhook = the `Server Events` created in step 4 above
      - Transactions Webhook = `Server Webhook` created in step 4 above
+     ![Add Environment Settings](./images/DevPortalSettings2.gif)
 
    The Kin foundation now has all the data they need to reward you for implementing Kin in your app. We will use all these variables in later tutorials, and also learn how to use webhooks and invoicing to send payments. You will be surprised at how easy it is to implement Kin into any app.
 
