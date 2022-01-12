@@ -83,13 +83,13 @@ Follow the steps below to prepare your app for Kin integration.
    - Click on the `Settings` tab and add the following:
      - Name = the name of your app
      - Description = description of your app
+     - Public Key = the `public key` you created in step 3 above
      - KRE Contact = contact that receives updates about KRE Rewards
      - KRE Email = email address to receive updates about KRE Rewards
      - Other settings are optional
      ![Add App Settings](./images/DevPortalSettings1.gif)
 
    - Click on the `Environments` tab and then click the `Prod` button and add the following:
-     - Public Key = the `public key` you created in step 3 above
      - Webhook Secret = the `webhook password` you create in step 5 above
      - Events Webhook = the `Server Events` created in step 4 above
      - Transactions Webhook = `Server Webhook` created in step 4 above
