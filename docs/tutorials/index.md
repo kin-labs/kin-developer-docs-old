@@ -79,7 +79,7 @@ Follow the steps below to prepare your app for Kin integration.
 
 6. Return to the Developer Portal and Update Your Production Environment
 
-   - Go to the [Apps section of the Developer Portal](https://portal.kin.org/apps)
+   - Go to the [Apps section of the Developer Portal](https://portal.kin.org/apps) and select your App.
    - Click on the `Settings` tab and add the following:
      - Name = the name of your app
      - Description = description of your app
