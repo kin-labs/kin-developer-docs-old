@@ -188,7 +188,9 @@ Since Kin holds monetary value, when working with it, it is important to take so
 There is always a risk that something, somewhere in an application is not secure. To minimize the risk of losing Kin, developers should work with at least two wallets: a "cold" wallet and a "hot" wallet. A cold wallet is where a developer can store most of their Kin but isn't used regularly to transact Kin with users, while a hot wallet contains a smaller amount that is used in the app to actually make Kin transactions with users.
 
 By having these two wallets, if a malicious user discovers a security vulnerability in the application code that allows them to drain the hot wallet, the maximum amount of Kin that can be lost is what is stored in the hot wallet. If that happens, developers can then identify the problem in the application code, fix the security bug and then create a new hot wallet (since the old one has been compromised) to use. Developers can simply keep a check on the amount of Kin in the hot wallet and top it up when needed.
-For more detailed security flow tips, check out [this blog](https://medium.com/kinblog/create-a-secure-flow-for-kin-earns-and-spends-1e1bc0062a53) created by one of our Ecosystem app developers.
+<!-- TODO find a replacement for this article -->
+<!-- https://github.com/kinecosystem/kin-devs/issues/211 -->
+<!-- For more detailed security flow tips, check out [this blog](https://medium.com/kinblog/create-a-secure-flow-for-kin-earns-and-spends-1e1bc0062a53) created by one of our Ecosystem app developers. -->
 
 ### Earns
 
