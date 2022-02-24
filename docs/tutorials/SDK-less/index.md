@@ -35,6 +35,7 @@ In the example above, we've used `Memo Program v2` to add some SKU info about th
 ## Did it work?
 To check if your transaction was correctly formatted, again head over to our [Kin Laboratory](https://laboratory.kin.org/transaction) and check the status of your transaction.
 ![KIN Transaction](./images/SDKless-05-transaction.png)
+
 You should also be able to see the transaction when you log in to the [Kin Developer Portal](https://portal.kin.org/dashboard).
 ![KIN Transaction](./images/SDKless-06-transaction_dev_portal.png)
 
