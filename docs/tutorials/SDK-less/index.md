@@ -38,7 +38,7 @@ In the example above, we've used `Memo Program v2` to add some SKU info about th
 ## How about the code?
 To try it yourself, check out our [Kin DApp Demo](https://github.com/kin-labs/kin-dapp-demo).
 
-Look [here](https://github.com/kin-labs/kin-dapp-demo/blob/master/src/kinSDKlessHelpers.tsx#L476-L558) if you want to skip straight to creating transactions.
+Look [here](https://github.com/kin-labs/kin-dapp-demo/blob/master/src/helpers/SDKless/handleSendKin.ts) if you want to skip straight to creating transactions.
 
 TLDR?
 ```JavaScript
