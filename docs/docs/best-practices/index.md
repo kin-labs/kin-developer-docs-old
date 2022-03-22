@@ -5,8 +5,7 @@ We want to make it as easy as possible for Kin developers to release their beaut
 ## Check the Kin Developer Terms
 A great place to start is our [Developer Terms](https://kin.org/kin-developer-terms/). We’re sure you’ve seen this before… but it can’t hurt to be reminded! We want to make sure our partners get rewarded for all their hard work, so ensuring your application complies with the Developer Terms can help to avoid any issues with awarding your lovely KRE payments. Thanks for reading them so carefully!
 
-## Account Creation Best Practices
-### Creating Accounts Efficiently
+## Creating Accounts Efficiently
 
 Account creation on the Solana blockchain comes with a SOL cost that is currently paid for by the Kin Foundation when using SDK-based solutions, which will change in the future. Accounts with zero balances or activity are still charged a [rent fee](https://docs.solana.com/implemented-proposals/rent) by Solana. That means it is in your best interest to make sure that account creation is done efficiently, so as to avoid unnecessary fees.
 
