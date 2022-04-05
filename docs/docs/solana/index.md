@@ -4,13 +4,15 @@ This section highlights some nuances of transacting with Kin on the Solana block
 
 ## Subsidization
 
-To help solve the problem of bootstrapping new accounts, as well as ease the transition from Kin 3, Agora provides a mechanism whereby the service can be configured To help solve the problem of bootstrapping new accounts, Agora provides a mechanism whereby the service can be configured to fund transactions by being a signer (called a subsidizer). Since the subsidizer account must be present inside the transaction payload, clients must be aware of the account subsidizing their transactions. This is available via the `GetServiceConfig` RPC. SDKs pull this information automatically.
+To help solve the problem of bootstrapping new accounts, as well as ease the transition from Kin 3, Agora provides a mechanism whereby the service can be configured to fund transactions by being a signer (called a subsidizer). Since the subsidizer account must be present inside the transaction payload, clients must be aware of the account subsidizing their transactions. This is available via the `GetServiceConfig` RPC. SDKs pull this information automatically.
 
 Agora may wish to rate limit the subsidization of transactions, notably in the case of bad actors. In this case, the service will refuse to subsidize a specific transaction. The submitter may then choose to subsidize the transaction themselves, or back off to respect the rate limit.
 
 In addition to subsidizing transaction fees, the subsidizer also provides [rent](https://docs.solana.com/implemented-proposals/rent) for each account, in order to prevent them from being garbage collected. In order to avoid malicious actors attempting to farm Sol from these accounts, Agora requires that the Close Authority of accounts being subsidized to be the subsidizer account. When an account is closed, the Sol left in the account is returned to the Close Authority. It also permits the Close Authority to close the account, only if the token balance is zero.
 
 Apps using the [sign transaction webhook](/docs/how-it-works/#sign-transaction) should not sign transactions sent to their webhook (calling `SignTransactionResponse.sign` in the server SDKs as it is currently a no-op). Although signing by the app’s wallet is no longer a required step for fee subsidization, the webhook can still be used by an app to approve or reject a transaction submitted using their app index. As before, if the webhook responds with a 403, Agora will respond to the client that submitted the transaction with a `REJECTED` response (or `INVOICE_ERROR` if invoice errors are present). If the webhook responds with a 200, Agora will sign and submit the transaction.
+
+For more information on Subsidization, see [here](/docs/subsidization).
 
 ## Token Accounts
 
