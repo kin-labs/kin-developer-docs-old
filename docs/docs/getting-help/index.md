@@ -1,4 +1,4 @@
-# Getting Help or Updating Your App ||120
+# Getting Help or Updating Your App ||130
 
 ## Kin Developer Discord
 Our [Kin Developer Discord](https://discord.gg/kdRyUNmHDn) is a vibrant community of active Kin App developers, supported by members of the Kin Foundation as well as a host of Kin specialists and enthusiasts. It's a great place to come and get support for your app, whether you want help with integrating SDKs, to discuss the KRE, get feedback on your App or anything really!
