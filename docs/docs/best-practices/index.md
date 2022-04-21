@@ -29,3 +29,20 @@ As such, developers should be aware that custodial wallet solutions carry additi
 
 Note: The above is general information only and is not a full explanation of the law.  The Kin Foundation does not offer legal advice and takes no responsibility for the proper implementation of cryptocurrency user experiences by apps in the Kin Ecosystem; refer to our [Terms of Use](https://kin.org/terms-and-conditions/) for details. Should you have any queries or concerns,  we recommend that you seek independent legal advice specific to your business needs.
 
+## Withdrawing Kin From Apps
+
+Several apps in the Kin community have given users the option to withdraw their funds to an external wallet. This is strongly supported by the Kin Foundation as we believe it helps Kin come closer to the vision of an interconnected ecosystem.
+
+However, due to changes in the Solana infrastructure that have occurred since the publishing of the latest Kin SDKs, we have found that some exchanges have deposit addresses which are incompatible with the current version of Agora. 
+
+In practice, what this means is that some end users may attempt to withdraw to one of these incompatible exchanges, and find that their funds get held up. We have engaged with these exchanges and they have assured us that users can simply file a support ticket to retrieve their funds. However, this is not an ideal user experience and one that can cause frustration for users and app developers alike.
+
+It should be noted that these incompatibilities only exist with some exchanges, while most of the latest Solana-compliant exchanges and wallets are operating without issue. We are also working with these exchanges along with updates to Kin tooling to resolve these issues permanently.
+
+### User Warning
+In the meantime, we recommend that if you support user withdrawals, that you implement a quick warning to users along the following lines:
+
+>“To ensure compatibility, it is recommended that you do not withdraw from this app directly to an exchange, and instead use a dedicated Solana-compatible wallet, such as Phantom or Solflare.”
+
+A list of compatible wallets can be found [here](https://kin.org/kin-supported-wallets/).
+
