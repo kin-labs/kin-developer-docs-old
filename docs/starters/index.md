@@ -19,3 +19,20 @@ If you're completely new to the ecosystem, we suggest [starting with one of the 
 - [Python](/starters/python/)
 - [React Native](/starters/react-native/)
 - [Web (React / Vue / Angular)](/starters/web/)
+
+# DApp Playground / Demos
+
+Our DApp Playground is a great place for you start playing with Kin as quickly and easily as possible.
+
+A fully functional front-end, the Kin DApp Playground is split into three sections, one each for a different way of using Kin in applications: 
+
+![Kin DApp Playground](./images/3Methods.png)
+
+- Backend Server via Kin Server SDK (Node, Go, Python)
+- Web DApp via Kin Web SDK
+- Web DApp via SDK-less
+
+## Repos
+- [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground)
+- [Kin Node Demo](https://github.com/kin-starters/kin-demo-node-sdk)
+- [Kin Python Demo](https://github.com/kin-starters/kin-demo-python-sdk)
