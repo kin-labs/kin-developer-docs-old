@@ -1,4 +1,4 @@
-# Web ||70
+# Web ||60
 
 ### Redirecting To Github...
 

@@ -17,8 +17,8 @@ If you're completely new to the ecosystem, we suggest [starting with one of the 
 - [Node](/starters/node/)
 - [Go](/starters/go/)
 - [Python](/starters/python/)
-- [React Native](/starters/react-native/)
 - [Web (React / Vue / Angular)](/starters/web/)
+- [React Native](/starters/react-native/)
 
 # DApp Playground / Demos
 

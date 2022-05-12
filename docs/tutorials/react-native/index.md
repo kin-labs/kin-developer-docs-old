@@ -1,4 +1,4 @@
-# React Native ||70
+# React Native ||72
 
 ## Introduction
 

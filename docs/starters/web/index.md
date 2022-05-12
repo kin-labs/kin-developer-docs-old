@@ -1,4 +1,4 @@
-# Web ||80
+# Web ||70
 
 Few development platforms are as versatile as the web. While we try to support as many targets as possible, it's currently hard to support _everything_.
 

@@ -25,6 +25,7 @@ Kin has a range of official and community driven SDKs for both the client and se
 ### Community Driven SDKs
 
 - <a href="https://github.com/kin-sdk/kin-sdk-web" target="_blank">Web</a>
+- <a href="https://docs.thekinplugin.com/" target="_blank">No Code / bubble.io</a>
 - <a href="https://github.com/kin-sdk/kin-sdk-react-native" target="_blank">React Native</a>
-- Flutter — in private beta as of 2021-08-26
-- Unity — in private beta as of 2021-08-26
+<!-- - Flutter — in private beta as of 2021-08-26
+- Unity — in private beta as of 2021-08-26 -->
