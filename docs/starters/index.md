@@ -32,7 +32,12 @@ A fully functional front-end, the Kin DApp Playground is split into three sectio
 - Web DApp via Kin Web SDK
 - Web DApp via SDK-less
 
-## Repos
+## Repo
 - [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground)
+## Server SDK Demos
 - [Kin Node Demo](https://github.com/kin-starters/kin-demo-node-sdk)
 - [Kin Python Demo](https://github.com/kin-starters/kin-demo-python-sdk)
+
+## See it in action
+
+![Kin DApp Playground](./images/Kin-DApp-Playground-1.gif)
