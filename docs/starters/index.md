@@ -37,6 +37,7 @@ A fully functional front-end, the Kin DApp Playground is split into three sectio
 ## Server SDK Demos
 - [Kin Node Demo](https://github.com/kin-starters/kin-demo-node-sdk)
 - [Kin Python Demo](https://github.com/kin-starters/kin-demo-python-sdk)
+- [Kin Go Demo](https://github.com/kin-starters/kin-demo-go-sdk)
 
 ## See it in action
 
