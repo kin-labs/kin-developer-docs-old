@@ -3,13 +3,49 @@ title: Kin
 layout: layout-home-background
 mainHeader: Easy. Quick. Intuitive.
 mainSubheader: Integrate cryptocurrency into your app’s experience.
-callToActionItems:
-  - text: Docs
-    href: /docs/
-  - text: Tutorials
-    href: /tutorials/
-  - text: SDKs
-    href: /sdks/
+# callToActionItems:
+#   - text: Why Kin?
+#     href: /docs/
+#   - text: Use Cases
+#     href: /tutorials/
+# devHeader: Build with Kin
+# devSubheader: Developers and Non-developers supported
+# callToActionItemsDev:
+#   - text: NoCode Apps
+#     href: /sdks/
+#   - text: SDK Apps
+#     href: /docs/
+#   - text: Integrations
+#     href: /tutorials/
+
+whyKin:
+- header: Why Kin?
+  text: Earn via the Kin Rewards Engine. Build with best in class NoCode and SDK tools.
+  graphicUrl: "/_assets/kin-get-started.svg"
+  link: /why_kin/
+
+useCases:
+- header: How is Kin Used?
+  text: See how our top earning apps use Kin to their advantage
+  graphicUrl: "/_assets/kin-get-started.svg"
+  link: /use_cases/
+
+codeNoCode:
+- header: Not a Dev? No Problem.
+  text: Build powerful Kin Apps with no coding experience necessary.
+  graphicUrl: "/_assets/kin-get-started.svg"
+  link: /no_code/
+- header: Love Coding? Use our SDKs.
+  text: Harness the power of Kin with our range of SDKs.
+  graphicUrl: "/_assets/kin-get-started.svg"
+  link: /code/
+
+integrations:
+- header: Kin Integrations
+  text: Easily power-up your app with these amazing integrations
+  graphicUrl: "/_assets/kin-get-started.svg"
+  link: /integrations/
+  
 reasonHeader: Join a growing ecosystem of developers who are choosing the Kin monetization model
 reasons:
   - header: Quick Wins

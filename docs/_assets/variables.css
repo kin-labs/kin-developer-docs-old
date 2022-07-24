@@ -34,6 +34,7 @@ html {
     "Menlo", "Courier", monospace;
 
   /* Common Margins, Paddings, Spacings, and Widths */
+  --content-max-width: 1024px;
   --content-area: 80%;
   --line-height: 1.4;
   --section-margin: 4rem;

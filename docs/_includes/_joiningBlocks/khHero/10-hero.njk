@@ -8,11 +8,19 @@
       <h1 class="kh-hero__header">{{mainHeader}}</h1>
       <h2 class="kh-hero__subheader">{{mainSubheader}}</h2>
 
-      <div class="kh-hero__cta-wrapper" role="list">
+      {# <div class="kh-hero__cta-wrapper" role="list">
         {% for callToAction in callToActionItems %}
           <a class="kh-hero__cta" href="{{ callToAction.href | url }}" role="listitem">{{ callToAction.text | safe }}</a>
         {% endfor %}
-      </div>
+      </div> #}
+      {# <h1 class="kh-hero__header">{{devHeader}}</h1> #}
+      {# <h2 class="kh-hero__subheader">{{devSubheader}}</h2>
+
+      <div class="kh-hero__cta-wrapper" role="list">
+        {% for callToAction in callToActionItemsDev %}
+          <a class="kh-hero__cta" href="{{ callToAction.href | url }}" role="listitem">{{ callToAction.text | safe }}</a>
+        {% endfor %}
+      </div> #}
     </div>
 
     <div class="kh-hero__graphic-section-wrapper">

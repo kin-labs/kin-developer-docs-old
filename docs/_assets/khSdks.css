@@ -1,5 +1,6 @@
 .kh-sdks__wrapper {
   width: var(--content-area);
+  max-width: var(--content-max-width);
   margin: 0 auto var(--section-margin) auto;
 }
 

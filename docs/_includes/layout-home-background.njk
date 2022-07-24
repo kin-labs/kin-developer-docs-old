@@ -19,21 +19,21 @@
     {% include 'partials/kh-hero.njk' %}
   {% endblock hero %}
 
-  {% block valueProps %} 
+  {# {% block valueProps %} 
     {% include 'partials/kh-value-props.njk' %}
-  {% endblock valueProps %}
+  {% endblock valueProps %} #}
 
-  {% block gettingStarted %}
+  {% block content %}
     <section class="kh-start__wrapper">
-      {% include 'partials/kh-getting-started.njk' %}
+      {% include 'partials/kh-content.njk' %}
     </section>
-  {% endblock gettingStarted%}
+  {% endblock content%}
 
-   {% block sdks %}
+   {# {% block sdks %}
     <section class="kh-sdks__wrapper">
       {% include 'partials/kh-sdks.njk' %}
     </section>
-  {% endblock sdks %}
+  {% endblock sdks %} #}
 
   {% block connect %}
       {% include 'partials/kh-connect.njk' %}

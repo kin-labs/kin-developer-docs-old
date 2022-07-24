@@ -7,12 +7,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: var(--section-margin);
+  padding-bottom: calc(var(--section-margin) / 2);
+  margin-bottom: calc(var(--section-margin) / 2);
   position: relative;
 }
 
 .kh-hero__content-wrapper {
   width: var(--content-area);
+  max-width: var(--content-max-width);
   display: flex;
 }
 
@@ -61,6 +63,7 @@
   text-decoration: none;
   background-color: var(--primary-color);
   margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .kh-hero__cta:last-of-type {

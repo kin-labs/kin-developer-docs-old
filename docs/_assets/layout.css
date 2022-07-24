@@ -5,6 +5,11 @@
   }
 }
 
+/* html {
+  margin:    0 auto;
+  max-width: 1024px;
+} */
+
 body {
   margin: 0;
   font-family: var(--primary-font-family);
@@ -16,7 +21,7 @@ body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
-  max-width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
 }
 

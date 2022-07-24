@@ -13,6 +13,7 @@
 .kh-footer-menu__wrapper {
   display: flex;
   width: var(--content-area);
+  max-width: var(--content-max-width);
   padding: var(--content-area-padding);
 }
 
