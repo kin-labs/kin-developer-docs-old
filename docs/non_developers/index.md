@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 29
 ---
 
-# Kin No-Code Plugin
+## Kin No-Code Plugin
 
 Got a great idea for using Kin in an Application? Not a Coder? No Problem!
 
@@ -24,8 +24,8 @@ The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin p
 Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerful ecommerce app built by Uproll with the No-Code plugin.
 
 
-<img src="./images/Giftery1.png" alt="drawing" style="width:75%"/>
-<img src="./images/Giftery2.png" alt="drawing" style="width:75%"/>
+<img src="./images/Giftery1.png" alt="drawing" class='docImage'/>
+<img src="./images/Giftery2.png" alt="drawing" class='docImage'/>
 <br/>
 <br/>
 
@@ -46,9 +46,12 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 
 - Check out the [Docs](https://docs.thekinplugin.com/) to sign up and see how to get started.
 - Check out this fantastic video tutorial to see a detailed 'How To' guide:
-[![Tutorial](./images/no-code-tutorial.png)](https://www.youtube.com/watch?v=JrQ6MGQaiv4)
+<a href='https://www.youtube.com/watch?v=JrQ6MGQaiv4' target='_blank'>
+  <img src="./images/no-code-tutorial.png" alt="No-Code Tutorial" class='docImage'/>
+</a>
 
 ## Demo Apps
 - Here's a lovely Demo App, [The Kin Wallet](https://thekinwallet.com/), created by Uproll, that you can use as a starting point for your own projects.
+- Here's that link to [Giftery](https://giftery.io/), again, just because it's awesome.
 - Here's another simple [Demo App](https://kin-nocode-demo.bubbleapps.io/version-test?debug_mode=true) showing some of the ways you can use Kin in your apps.
 

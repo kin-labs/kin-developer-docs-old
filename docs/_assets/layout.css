@@ -152,12 +152,26 @@ body[layout^='layout-home'] #main-header {
   min-height: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  #main-header .content-area {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
 #main-header a {
   text-decoration: none;
   color: var(--primary-text-color);
   transition: color 0.3s ease-in-out;
   font-weight: bold;
   order: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #main-header a {
+    line-height: 20px;
+    margin: auto 0 auto 10px  
+  }
 }
 
 #main-header a:hover {
@@ -176,6 +190,7 @@ body[layout^='layout-home'] #main-header a:hover {
   box-sizing: content-box;
   background: none;
   padding: 0;
+  margin-bottom: 10px;
 }
 
 .social-link {
@@ -724,4 +739,14 @@ body[layout='layout-home-background'] .page-background {
 
 #footer-menu li > a:hover {
   text-decoration: underline;
+}
+
+.markdown-body img.docImage {
+  width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown-body img.docImage {
+    width: 100%;
+  }
 }
