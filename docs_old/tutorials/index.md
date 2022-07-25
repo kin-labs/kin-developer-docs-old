@@ -18,7 +18,7 @@ To get started with Kin:
    - [Go](/tutorials/go/)
    - [Python](/tutorials/python/)
    - [Web](/tutorials/web/)
-   - [No Code / bubble.io](https://www.youtube.com/watch?v=JrQ6MGQaiv4)
+   - [No-Code / bubble.io](https://www.youtube.com/watch?v=JrQ6MGQaiv4)
    - [React Native](/tutorials/react-native/)
 3. When you're ready to register your app, create an account on the [Developer Portal]()
 4. If you have questions or just want to connect, join the [Kin Developer Discord](https://discord.gg/kdRyUNmHDn)

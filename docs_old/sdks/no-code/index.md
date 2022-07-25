@@ -1,4 +1,4 @@
-# No Code / bubble.io ||70
+# No-Code / bubble.io ||70
 
 ### Redirecting To Bubble Kin Plugin Docs...
 

@@ -5,8 +5,8 @@
   "author": "Bram Borggreve",
   "license": "MIT",
   "devDependencies": {
-    "@rocket/cli": "^0.9.10",
-    "@rocket/launch": "^0.5.5"
+    "@rocket/cli": "^0.10.2",
+    "@rocket/launch": "^0.6.0"
   },
   "type": "module",
   "scripts": {

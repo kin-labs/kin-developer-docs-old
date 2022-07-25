@@ -11,7 +11,7 @@ mainSubheader: Integrate cryptocurrency into your app’s experience.
 # devHeader: Build with Kin
 # devSubheader: Developers and Non-developers supported
 # callToActionItemsDev:
-#   - text: NoCode Apps
+#   - text: No-Code Apps
 #     href: /sdks/
 #   - text: SDK Apps
 #     href: /docs/
@@ -20,7 +20,7 @@ mainSubheader: Integrate cryptocurrency into your app’s experience.
 
 whyKin:
 - header: Why Kin?
-  text: Earn via the Kin Rewards Engine. Build with best in class NoCode and SDK tools.
+  text: Earn via the Kin Rewards Engine. Build with best in class No-Code and SDK tools.
   graphicUrl: "/_assets/kin-get-started.svg"
   link: /why_kin/
 
@@ -34,11 +34,11 @@ codeNoCode:
 - header: Not a Dev? No Problem.
   text: Build powerful Kin Apps with no coding experience necessary.
   graphicUrl: "/_assets/kin-get-started.svg"
-  link: /no_code/
+  link: /non_developers/
 - header: Love Coding? Use our SDKs.
   text: Harness the power of Kin with our range of SDKs.
   graphicUrl: "/_assets/kin-get-started.svg"
-  link: /code/
+  link: /developers/
 
 integrations:
 - header: Kin Integrations

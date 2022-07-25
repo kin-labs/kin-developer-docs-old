@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Integrations
 
-Welcome to the Kin Developer's Documentation. It contains everything required for developers to get started with integrating their apps with Kin.
+Kin is proud to work with partners to bring amazing integrations that can power up your App.
 
 ### What is Kin?
 

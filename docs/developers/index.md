@@ -1,11 +1,11 @@
 ---
-title: No Code
+title: Developers
 eleventyNavigation:
-  key: No Code
-  order: 29
+  key: Developers
+  order: 39
 ---
 
-# No Code
+# Kin Docs IntroductionCi
 
 Welcome to the Kin Developer's Documentation. It contains everything required for developers to get started with integrating their apps with Kin.
 
