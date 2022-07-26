@@ -750,3 +750,40 @@ body[layout='layout-home-background'] .page-background {
     width: 100%;
   }
 }
+
+.developers-languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.developers-languages a {
+  width: 23%;
+  margin-bottom: 10px;
+  margin-right: 2%;
+}
+
+.developers-language {
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--primary-color-lightest);
+  transition: all 0.3s ease-in;
+}
+
+.developers-language:hover {
+  background-color: var(--primary-color-darker);
+}
+
+.developers-language span {
+  margin: auto;
+}
+
+/* .developers-language-icon {
+  height: 30px;
+  width: auto;
+} */
