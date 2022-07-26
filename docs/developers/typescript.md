@@ -86,3 +86,6 @@ Once you've got your lovely App working on the Solana Devnet, you'll want to thi
 
 ## Contribute
 Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/kinecosystem/kin-node).
+
+## Upgrading from Agora to Kinetic?
+Do the thingz
