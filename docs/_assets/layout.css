@@ -770,13 +770,15 @@ body[layout='layout-home-background'] .page-background {
   min-width: 200px;
   padding: 30px;
   border-radius: 5px;
-  background-color: var(--primary-color);
-  color: var(--primary-color-lightest);
-  transition: all 0.3s ease-in;
+  background-color: white;
+  border: 10px solid white;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in;
 }
 
 .developers-language:hover {
-  background-color: var(--primary-color-darker);
+  border: 1px solid white;
+  /* background-color: var(--primary-color-darker); */
 }
 
 .developers-language span {

@@ -9,11 +9,11 @@ eleventyNavigation:
 ## Select your preferred language:
 
 <div class='developers-languages'>
-  <a href='/developers/javascript'><div class='developers-language'>
-    <img class='developers-language-icon' alt='javascript' src='./images/javascript.png'>
+  <a href='/developers/typescript'><div class='developers-language'>
+    <img class='developers-language-icon' alt='javascript' src='./images/typescript.svg'>
   </div></a>
   <a href='/developers/python'><div class='developers-language'>
-    <img class='developers-language-icon' alt='python' src='./images/python.png'>
+    <img class='developers-language-icon' alt='python' src='./images/python2.png'>
   </div></a>
 </div>
 
