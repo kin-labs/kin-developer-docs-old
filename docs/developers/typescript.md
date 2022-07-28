@@ -8,7 +8,7 @@ eleventyNavigation:
 # TypeScript
 
 ## Register Your App
-Before getting started, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin via the KRE once you've successfully applied for access.
+If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
 
 ## Get Started or Add to an Existing Project
 
@@ -26,7 +26,7 @@ import { TransactionType } from '@kin-tools/kin-memo';
 The Kinetic Client will give you access to all the methods you need to work with Kin on the blockchain.
 ```JS
 const clientOptions = {
-    environment : 'mainnet', // mainnet or devnet
+    environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
 };
 

@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 29
 ---
 
-## Kin No-Code Plugin
+## Not A Developer?
 
 Got a great idea for using Kin in an Application? Not a Coder? No Problem!
 
@@ -15,7 +15,7 @@ We think everyone should be able to build with Kin.
 If you think so too, check out our Kin No-Code Plugin!
 
 
-## What is it? 
+## The Kin No-Code Plugin 
 
 The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin plugin](https://thekinplugin.com/) for Bubble. 
 
@@ -30,7 +30,7 @@ Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerf
 <br/>
 
 
-The Uproll team has launched the Kin plugin for Bubble to make it even easier for developers to build innovative cryptocurrency based digital experiences that utilize Kin. If you’re interested in building within the Kin ecosystem but don’t have much coding experience, this Kin plugin is the perfect entry point!
+The Uproll team created the Kin plugin for Bubble to make it even easier for developers to build innovative cryptocurrency based digital experiences that utilize Kin. If you’re interested in building within the Kin ecosystem but don’t have much coding experience, this Kin plugin is the perfect entry point!
 
 Apps built with the Kin No-Code Plugin are also automatically compatible with the KRE! This is thanks to a customized version of the open source Kin SDK, created by the Uproll team.
 

@@ -935,6 +935,11 @@
     "@babel/helper-validator-identifier" "^7.14.8"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-free@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.1.2.tgz#d18880eddeadd42b1c64cb559f2f3d13d47a4a64"
+  integrity sha512-XwWADtfdSN73/udaFm+1mnGIj/ShDZNFMe/PRoqv3FhQ4GNI2PUN70yFTPsjq65Lw2C9i4TG5/hTbxXIXVCiqQ==
+
 "@lion/accordion@^0.7.2":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@lion/accordion/-/accordion-0.7.3.tgz#d0e498b4efa1f79e569208798b69d17d4435705a"
@@ -3904,13 +3909,6 @@ map-cache@^0.2.0:
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
   integrity sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8=
 
-markdown-include@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/markdown-include/-/markdown-include-0.4.3.tgz#bac6555402c6da93a0f52952225dfb9a6ccc731b"
-  integrity sha512-kw1f+iJ8jAH9SYljv2RXmhRQFr2oMPPVdyoKaZIH+uA1rrQqDjLk6EQZW65oVz1Y+BkC3V//9lEvKKjRZNb1Jg==
-  dependencies:
-    q "^1.2.0"
-
 markdown-it@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-10.0.0.tgz#abfc64f141b1722d663402044e43927f1f50a8dc"
@@ -4730,11 +4728,6 @@ punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-q@^1.2.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-  integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
 qs@6.2.3:
   version "6.2.3"

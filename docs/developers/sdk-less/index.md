@@ -1,4 +1,10 @@
-# SDK-less ||90
+---
+title: SDK-less
+layout: layout-index
+eleventyNavigation:
+  key: 'SDK-less'
+  order: 99
+---
 
 So, as a Web3 developer who loves Kin as much as we do, you'd like to create a DApp that allows users to sign transactions with their own Solana wallet (E.g. Phantom, Solflare, etc) while still taking advantage of the lovely Kin KRE?
 
@@ -61,3 +67,12 @@ You should also be able to see the transaction when you log in to the [Kin Devel
 And that's it! The specific implementation will be different depending on how you are interacting with Solana, but the basic principle applies, and as long as you've created your transaction correctly, you should be good to go!
 
 If you have any issues, please drop us a line in our [Developer Discord](https://discord.gg/kdRyUNmHDn) and jump into our `sdk-less` [channel](https://discord.com/channels/808859554997469244/946095829205266533)
+
+## Demos and Starter Kits
+Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
+
+### [Kin SDK-less DApp Demo](https://github.com/kin-starters/kin-dapp-sdk-less)
+A lightweight web-based implementation of Kin SDK-less with a fully functional Next.js based interface.
+
+### [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground)
+A multi-functional Kin Front-End that allows you to connect to a Kin Server or carry out Web-based transactions via our Web-SDK or SDK-less.

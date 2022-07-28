@@ -3,20 +3,6 @@ title: Kin
 layout: layout-home-background
 mainHeader: Easy. Quick. Intuitive.
 mainSubheader: Integrate cryptocurrency into your app’s experience.
-# callToActionItems:
-#   - text: Why Kin?
-#     href: /docs/
-#   - text: Use Cases
-#     href: /tutorials/
-# devHeader: Build with Kin
-# devSubheader: Developers and Non-developers supported
-# callToActionItemsDev:
-#   - text: No-Code Apps
-#     href: /sdks/
-#   - text: SDK Apps
-#     href: /docs/
-#   - text: Integrations
-#     href: /tutorials/
 
 whyKin:
 - header: Why Kin?

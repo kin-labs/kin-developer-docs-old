@@ -12,5 +12,8 @@
   "scripts": {
     "start": "rocket start",
     "docs": "rocket build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2"
   }
 }

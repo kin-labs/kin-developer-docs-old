@@ -7,7 +7,9 @@ eleventyNavigation:
 ---
 # Production
 
-Make sure you can transact on Devnet before moving to Mainnet.
+## Are you ready?
+Before moving your application onto the Mainnet, it's good practice to make sure you're able to transact on the Devnet. If it's all working how you want, then let's get going!
+
 
 Need to have access to an instance of the Kinetic API.
 2 Options:
