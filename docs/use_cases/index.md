@@ -56,7 +56,7 @@ Check out [Coinkit](https://app.coinkit.de/login) and [PIP](https://www.getpip.c
 ## User Rewards
 Directly reward your users for completing tasks, activities, etc. Turn your gamification into something tangible. 
 
-[Kreechures](https://www.kreechures.com/) offers a fantastic game experience, but this is a very common use case across our ecosystem apps.
+[Kreechures](https://www.kreechures.com/) offers a fantastic game experience, but this is only one example of a very common use case across our ecosystem apps.
 ## Pay for Access
 Put your content behind a Kin-powered paywall.
 ## Hold for Access
