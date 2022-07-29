@@ -4,11 +4,11 @@ layout: layout-home-background
 mainHeader: Easy. Quick. Intuitive.
 mainSubheader: Integrate cryptocurrency into your app’s experience.
 
-whyKin:
-- header: Why Kin?
+essentials:
+- header: Kin Essentials
   text: Earn via the Kin Rewards Engine. Build with best in class No-Code and SDK tools.
   graphicUrl: "/_assets/kin-get-started.svg"
-  link: /why_kin/
+  link: /essentials/
 
 useCases:
 - header: How is Kin Used?

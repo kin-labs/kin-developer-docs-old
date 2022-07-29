@@ -751,6 +751,8 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
+.essentials,
+.integrations,
 .use-cases,
 .developers-languages {
   display: flex;
@@ -765,6 +767,8 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
+.essentials a,
+.integrations a,
 .use-cases a,
 .developers-languages a {
   width: 23%;
@@ -772,12 +776,22 @@ body[layout='layout-home-background'] .page-background {
   margin-right: 2%;
 }
 
+.essentials a {
+  width: 31.3%
+}
+
+.markdown-body .essentials a:hover,
+.markdown-body .essentials a,
+.markdown-body .integrations a:hover,
+.markdown-body .integrations a,
 .markdown-body .use-cases a:hover,
 .markdown-body .use-cases a {
   color: var(--text-color);
   text-decoration: none;
 }
 
+.essential,
+.integration,
 .use-case,
 .developers-language {
   display: flex;
@@ -790,34 +804,64 @@ body[layout='layout-home-background'] .page-background {
   transition: all 0.2s ease-in;
 }
 
+.essential,
+.integration,
 .use-case {
   height: 120px;
   text-decoration: none;
-  border: 1px solid var(--text-color);
 }
 
 
-
+.essential:hover,
+.integration:hover,
 .use-case:hover,
 .developers-language:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  /* background-color: var(--primary-color-accent); */
+  background-color: var(--primary-color-accent);
 }
 
+.developers-language:hover {
+  background-color: unset;
+}
+
+.essential span,
+.integration span,
 .use-case span,
 .developers-language span {
   margin: auto;
 }
 
+
+
 @media screen and (min-width: 1024px) {
+  .essential span,
+  .integration span,
   .use-case span {
     margin-left: -20px
   }
+
+  .integration span.giftery-text {
+    margin-left: auto;
+  }
 }
 
+.markdown-body img.essential-icon,
+.markdown-body img.integration-icon,
 .markdown-body img.use-case-icon {
   color: white;
   margin-left: -40px;
+}
+
+.markdown-body img.integration-icon.giftery-logo {
+  color: white;
+  height: calc(100% - 10px);
+  width: auto;
+  background-color: rgb(41, 41, 41);
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 

@@ -24,8 +24,8 @@ The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin p
 Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerful ecommerce app built by Uproll with the No-Code plugin.
 
 
-<img src="./images/Giftery1.png" alt="drawing" class='docImage'/>
-<img src="./images/Giftery2.png" alt="drawing" class='docImage'/>
+<img src="../integrations/giftery/images/Giftery1.png" alt="drawing" class='docImage'/>
+<img src="../integrations/giftery/images/Giftery2.png" alt="drawing" class='docImage'/>
 <br/>
 <br/>
 

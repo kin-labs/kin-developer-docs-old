@@ -7,12 +7,13 @@ eleventyNavigation:
 ---
 # Python
 
-# TypeScript
-
-## Register Your App
-If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
-
 ## Get Started or Add to an Existing Project
+
+Getting started with Kin is incredibly straightforward. Just follow the steps below to start transacting with Kin in your App.
+
+We recommend starting with Devnet before moving on to Mainnet. Remember, if you want to earn Kin via the KRE, you'll have to register your App on our Dev Portal and apply for access. 
+
+But, this doesn't stop you from building and running your app in the meantime.
 
 #### Installation
 ```
@@ -28,7 +29,7 @@ import { TransactionType } from '@kin-tools/kin-memo';
 The Kinetic Client will give you access to all the methods you need to work with Kin on the blockchain.
 ```JS
 const clientOptions = {
-    environment : 'mainnet', // mainnet or devnet
+    environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
 };
 
@@ -79,9 +80,10 @@ This server is compatible with the [Kin DApp Playground](https://github.com/kin-
 ## Production
 Once you've got your lovely App working on the Solana Devnet, you'll want to think about the next step.
 
-### Ready for Production?
-
 [Learn more](/developers/production)
+
+## Earn Kin via the KRE
+If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
 
 ## Contribute
 Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/kinecosystem/kin-node).
