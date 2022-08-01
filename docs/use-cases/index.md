@@ -10,31 +10,31 @@ Got a great App, but not sure how you could incorporate Kin into the experience?
 # Common Kin Use Cases
 
 <div class='use-cases'>
-  <a href='/use_cases/#real-world-purchases'><div class='use-case'>
+  <a href='/use-cases/#real-world-purchases'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/cart-shopping-solid.svg'>
     <span class='use-case-text'>Real World Purchases</span>
   </div></a>
-  <a href='/use_cases/#digital-purchases'><div class='use-case'>
+  <a href='/use-cases/#digital-purchases'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/icons-solid.svg'>
     <span class='use-case-text'>Digital Purchases</span>
   </div></a>
-  <a href='/use_cases/#in-app-scoring'><div class='use-case'>
+  <a href='/use-cases/#in-app-scoring'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/ghost-solid.svg'>
     <span class='use-case-text'>In-App Scoring</span>
   </div></a>
-  <a href='/use_cases/#p2p-tipping'><div class='use-case'>
+  <a href='/use-cases/#p2p-tipping'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/gratipay-brands.svg'>
     <span class='use-case-text'>P2P Tipping</span>
   </div></a>
-  <a href='/use_cases/#user-rewards'><div class='use-case'>
+  <a href='/use-cases/#user-rewards'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/gem-solid.svg'>
     <span class='use-case-text'>User Rewards</span>
   </div></a>
-  <a href='/use_cases/#pay-for-access'><div class='use-case'>
+  <a href='/use-cases/#pay-for-access'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/person-through-window-solid.svg'>
     <span class='use-case-text'>Pay for Access</span>
   </div></a>
-  <a href='/use_cases/#hold-for-access'><div class='use-case'>
+  <a href='/use-cases/#hold-for-access'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/hand-holding-dollar-solid.svg'>
     <span class='use-case-text'>Hold for Access</span>
   </div></a>
@@ -74,3 +74,13 @@ Great question! You can give them some to get started (this is something the KRE
 Or...
 
 Why not add a [Buy Module](/integrations/buy_modules) so Users can buy Kin directly in your App!
+
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>

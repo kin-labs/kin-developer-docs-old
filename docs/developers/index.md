@@ -3,7 +3,7 @@ title: Developers
 layout: layout-default
 eleventyNavigation:
   key: Developers
-  order: 39
+  order: 29
 ---
 
 # Kinetic SDKs
@@ -37,6 +37,16 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 
 # SDK-less
 Alternatively, go [SDK-less](/developers/sdk-less/). It's a bit trickier to set-up, but you can still use Kin and earn via the KRE.
+
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
 
 
 

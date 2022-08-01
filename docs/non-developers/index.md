@@ -3,10 +3,10 @@ title: Non-Developers
 layout: layout-default
 eleventyNavigation:
   key: Non-Developers
-  order: 29
+  order: 39
 ---
 
-## Not A Developer?
+# Not A Developer?
 
 Got a great idea for using Kin in an Application? Not a Coder? No Problem!
 
@@ -15,7 +15,7 @@ We think everyone should be able to build with Kin.
 If you think so too, check out our Kin No-Code Plugin!
 
 
-## The Kin No-Code Plugin 
+# The Kin No-Code Plugin 
 
 The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin plugin](https://thekinplugin.com/) for Bubble. 
 
@@ -54,4 +54,14 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 - Here's a lovely Demo App, [The Kin Wallet](https://thekinwallet.com/), created by Uproll, that you can use as a starting point for your own projects.
 - Here's that link to [Giftery](https://giftery.io/), again, just because it's awesome.
 - Here's another simple [Demo App](https://kin-nocode-demo.bubbleapps.io/version-test?debug_mode=true) showing some of the ways you can use Kin in your apps.
+
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
 

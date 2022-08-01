@@ -91,3 +91,12 @@ Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/k
 ## Upgrading from Agora to Kinetic?
 Do the thingz
 
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>

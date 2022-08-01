@@ -14,13 +14,13 @@ useCases:
 - header: How is Kin Used?
   text: See how our top earning apps use Kin to their advantage
   graphicUrl: "/_assets/kin-get-started.svg"
-  link: /use_cases/
+  link: /use-cases/
 
 codeNoCode:
 - header: Not a Dev? No Problem.
   text: Build powerful Kin Apps with no coding experience necessary.
   graphicUrl: "/_assets/kin-get-started.svg"
-  link: /non_developers/
+  link: /non-developers/
 - header: Love Coding? Use our SDKs.
   text: Harness the power of Kin with our range of SDKs.
   graphicUrl: "/_assets/kin-get-started.svg"

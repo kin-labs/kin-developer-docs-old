@@ -19,7 +19,16 @@ Best of all, [Giftery Vendor](https://giftery.io/vendor) enables developers to e
 
 If you are a developer, integrating Giftery into your app is as easy as signing up, embedding Giftery or connecting via the API, loading your account with USD/USDC and accepting payments with Kin.  The Giftery dashboard allows you to track and query orders, analyze transaction data, add USD funds to your vendor account, and more! 
 
-To get started, visit [Giftery Vendor](https://giftery.io/vendor), access the [Giftery Vendor Docs](https://giftery.snazzydocs.com/1.0/how-it-works) for a full introduction and functionality breakdown. 
+To get started, visit [Giftery Vendor](https://giftery.io/vendor), access the [Giftery Vendor Docs](https://giftery.snazzydocs.com/1.0/how-it-works) for a full introduction and functionality breakdown.
 
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
 
 

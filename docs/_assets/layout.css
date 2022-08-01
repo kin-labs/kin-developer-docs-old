@@ -767,6 +767,7 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
+.contacts,
 .essentials a,
 .integrations a,
 .use-cases a,
@@ -780,6 +781,8 @@ body[layout='layout-home-background'] .page-background {
   width: 31.3%
 }
 
+.markdown-body .contacts a:hover,
+.markdown-body .contacts a,
 .markdown-body .essentials a:hover,
 .markdown-body .essentials a,
 .markdown-body .integrations a:hover,
@@ -790,6 +793,7 @@ body[layout='layout-home-background'] .page-background {
   text-decoration: none;
 }
 
+.contact,
 .essential,
 .integration,
 .use-case,
@@ -804,6 +808,7 @@ body[layout='layout-home-background'] .page-background {
   transition: all 0.2s ease-in;
 }
 
+.contact,
 .essential,
 .integration,
 .use-case {
@@ -812,6 +817,7 @@ body[layout='layout-home-background'] .page-background {
 }
 
 
+.contact:hover,
 .essential:hover,
 .integration:hover,
 .use-case:hover,
@@ -826,6 +832,7 @@ body[layout='layout-home-background'] .page-background {
   background-color: unset;
 }
 
+.contact span,
 .essential span,
 .integration span,
 .use-case span,
@@ -836,6 +843,7 @@ body[layout='layout-home-background'] .page-background {
 
 
 @media screen and (min-width: 1024px) {
+  .contact span,
   .essential span,
   .integration span,
   .use-case span {
@@ -847,6 +855,7 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
+.markdown-body img.contact-icon,
 .markdown-body img.essential-icon,
 .markdown-body img.integration-icon,
 .markdown-body img.use-case-icon {

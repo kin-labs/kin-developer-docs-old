@@ -12,7 +12,7 @@ eleventyNavigation:
 Kin is proud to work with partners to bring amazing integrations that can power up your App.
 
 <div class='integrations'>
-  <a href='/integrations/giftery'><div class='integration'>
+  <a href='/integrations/giftery/'><div class='integration'>
     <img class='integration-icon giftery-logo' alt='Giftery' src='./images/GifteryLogo.png'>
     <span class='integration-text giftery-text'>Giftery</span>
   </div></a>
@@ -22,3 +22,12 @@ Kin is proud to work with partners to bring amazing integrations that can power 
   </div></a>
 </div>
 
+## Was this page helpful?
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
