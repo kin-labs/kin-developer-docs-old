@@ -29,14 +29,14 @@ For more information about Kin, see here:
 
 
 
-## Why Develop with Kin?
+## Why should I develop with Kin?
 
 The value proposition for building a Kin App is a simple one:
 1) You can become part of a [thriving digitial economy](https://kin.org/kin-apps)
 2) We provide financial support to qualifying apps via the Kin Rewards Engine (KRE) as well as grants. That's right, you can earn Kin by using Kin in your app.
 3) We provide best-in-class developer tools to make building compelling blockchain apps as simple as possible, both for non-developers and developers alike.
 
-### So I can earn Kin just by transacting with Kin?
+## So I can earn Kin just by transacting with Kin?
 That's exactly right! The [Kin Rewards Engine](/essentials/kin-rewards-engine) (KRE for short) is a way for Kin to support the amazing apps in our ecosystem. You should definitely read about how it works and how you can make sure your App qualifies.
 
 <div class='essentials'>
@@ -101,4 +101,5 @@ If you'd like to tell us how we can make these docs better, let us know here:
     <span class='essential-text'>Feedback</span>
   </div></a>
 </div>
+
 

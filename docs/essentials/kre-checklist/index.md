@@ -54,3 +54,17 @@ The initial payment of a `Subscription` is a `Spend` Transaction, however subseq
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
   <label for="terms">Developer is in compliance with the Kin Foundation <a href="https://kin.org/terms-and-conditions/">Terms of Use</a> and <a href="https://kin.org/kin-developer-terms/">Developer Terms</a></label>
 </div>
+
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>

@@ -28,15 +28,24 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 
 <div class='developers-languages'>
   <a href='/developers/typescript'><div class='developers-language'>
-    <img alt='javascript' src='./images/typescript.svg'>
+    <img class='developers-language-icon image-logo' alt='typescript' src='./images/typescript.svg'>
+    <span class='developers-language-text image-logo-text'>TypeScript</span>
   </div></a>
   <a href='/developers/python'><div class='developers-language'>
-    <img alt='python' src='./images/python2.png'>
+    <img class='developers-language-icon image-logo' alt='python' src='./images/python2.png'>
+    <span class='developers-language-text image-logo-text'>Python</span>
   </div></a>
 </div>
 
 # SDK-less
-Alternatively, go [SDK-less](/developers/sdk-less/). It's a bit trickier to set-up, but you can still use Kin and earn via the KRE.
+Alternatively, go [SDK-less](/developers/sdk-less/) and transact directly on Solana. It's a bit trickier to set-up, but you can still use Kin and earn via the KRE.
+
+<div class='developers-languages'>
+  <a href='/developers/sdk-less/'><div class='developers-language'>
+    <img class='developers-language-icon image-logo' alt='solana' src='./images/solana.png'>
+    <span class='developers-language-text image-logo-text'>Solana</span>
+  </div></a>
+</div>
 
 <br/>
 <br/>

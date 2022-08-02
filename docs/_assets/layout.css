@@ -767,6 +767,7 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
+
 .contacts,
 .essentials a,
 .integrations a,
@@ -781,6 +782,8 @@ body[layout='layout-home-background'] .page-background {
   width: 31.3%
 }
 
+.markdown-body .developers-languages a:hover,
+.markdown-body .developers-languages a,
 .markdown-body .contacts a:hover,
 .markdown-body .contacts a,
 .markdown-body .essentials a:hover,
@@ -808,6 +811,10 @@ body[layout='layout-home-background'] .page-background {
   transition: all 0.2s ease-in;
 }
 
+.developers-language {
+  /* padding: 10px 30px; */
+}
+
 .contact,
 .essential,
 .integration,
@@ -815,7 +822,6 @@ body[layout='layout-home-background'] .page-background {
   height: 120px;
   text-decoration: none;
 }
-
 
 .contact:hover,
 .essential:hover,
@@ -827,10 +833,7 @@ body[layout='layout-home-background'] .page-background {
   background-color: var(--primary-color-accent);
 }
 
-.developers-language:hover {
-  background-color: unset;
-}
-
+.developers-language span,
 .contact span,
 .essential span,
 .integration span,
@@ -839,9 +842,8 @@ body[layout='layout-home-background'] .page-background {
   margin: auto;
 }
 
-
-
 @media screen and (min-width: 1024px) {
+  .developers-language span,
   .contact span,
   .essential span,
   .integration span,
@@ -850,11 +852,13 @@ body[layout='layout-home-background'] .page-background {
   }
 
   .essential span.image-logo-text,
+  .developers-language span.image-logo-text,
   .integration span.image-logo-text {
     margin-left: auto;
   }
 }
 
+.markdown-body img.developers-language-icon,
 .markdown-body img.contact-icon,
 .markdown-body img.essential-icon,
 .markdown-body img.integration-icon,
@@ -863,6 +867,7 @@ body[layout='layout-home-background'] .page-background {
   margin-left: -40px;
 }
 
+.markdown-body img.developers-language-icon.image-logo,
 .markdown-body img.essential-icon.image-logo,
 .markdown-body img.integration-icon.image-logo {
   color: white;
@@ -874,12 +879,21 @@ body[layout='layout-home-background'] .page-background {
   padding: 5px;
 }
 
+.markdown-body img.developers-language-icon.image-logo,
 .markdown-body img.essential-icon.image-logo {
   background-color: rgb(255, 255, 255);
   padding: 5px 10px;
   height: auto;
   width: 90px;
   border: 1px solid gray;
+}
+
+.markdown-body img.developers-language-icon.image-logo {
+  border: none;
+  background-color: unset;
+  padding: none;
+  height: 60px;
+  width: auto;
 }
 
 

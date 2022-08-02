@@ -134,3 +134,18 @@ At anytime, you can navigate back to the [Apps section](https://portal.kin.org/a
 - Your [App settings](https://portal.kin.org/apps)
 - Your environments (production and testing)
 
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
+
+

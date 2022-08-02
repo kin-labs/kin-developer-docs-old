@@ -73,3 +73,17 @@ These are the fees (in SOL) charged by Solana the blockchain for every transacti
 - and provide potential long-term economic stability of the network through a protocol-captured minimum fee amount per transaction, as described below.
 
 Registered Kin apps currently have their fees subsidized by the Kin Foundation when approving transactions via the Sign Transaction webhook. At some point in the future the apps will be responsible for these fees but will be notified well in advance.
+
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
+  </div></a>
+</div>
