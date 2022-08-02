@@ -77,7 +77,12 @@ A lightweight web-based implementation of Kin SDK-less with a fully functional N
 ### [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground)
 A multi-functional Kin Front-End that allows you to connect to a Kin Server or carry out Web-based transactions via our Web-SDK or SDK-less.
 
-## Was this page helpful?
+
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

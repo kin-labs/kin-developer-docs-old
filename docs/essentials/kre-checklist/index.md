@@ -1,6 +1,6 @@
-# KRE Valid Transaction Checklist ||110
+# KRE Checklist ||20
 
-The Kin Rewards Engine [KRE](/docs/the-kre-explained/) rewards developers for creating awesome experiences that utilize Kin. In order to maintain a fair playing field amongst Kin developers and a safe experience for users, applications must satisfy these requirements to be eligible for rewards from the [KRE](/docs/the-kre-explained/).
+The Kin Rewards Engine [KRE](/essentials/kin-rewards-engine/) rewards developers for creating awesome experiences that utilize Kin. In order to maintain a fair playing field amongst Kin developers and a safe experience for users, applications must satisfy these requirements to be eligible for rewards from the [KRE](/essentials/kin-rewards-engine/).
 
 ## Spend Checklist
 
@@ -48,9 +48,9 @@ The initial payment of a `Subscription` is a `Spend` Transaction, however subseq
 
 <div>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
-  <label for="accessible">The app is accessible by the Kin Foundation.</label></br>
+  <label for="accessible">The App is accessible by the Kin Foundation.</label></br>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
-  <label for="compliant">Developer is in compliance with the app store rules that host the app (if applicable).</label></br>
+  <label for="compliant">Developer is in compliance with the App Store rules that host the App (if applicable).</label></br>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">
   <label for="terms">Developer is in compliance with the Kin Foundation <a href="https://kin.org/terms-and-conditions/">Terms of Use</a> and <a href="https://kin.org/kin-developer-terms/">Developer Terms</a></label>
 </div>

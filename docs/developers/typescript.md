@@ -14,7 +14,7 @@ Getting started with Kin is incredibly straightforward. Just follow the steps be
 
 We recommend starting with Devnet before moving on to Mainnet. Remember, if you want to earn Kin via the KRE, you'll have to register your App on our Dev Portal and apply for access. 
 
-But, this doesn't stop you from building and running your app in the meantime.
+But, this doesn't stop you from building and running your App in the meantime.
 
 #### Installation
 ```
@@ -95,7 +95,22 @@ Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/k
 ## Upgrading from Agora to Kinetic?
 Do the thingz
 
-## Was this page helpful?
+## Developer Best Practices
+
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+
+<div class='essentials'>
+  <a href='/essentials/best-practices/'><div class='essential'>
+    <img class='essential-icon' alt='Developer' src='../essentials/images/circle-info-solid.svg'>
+    <span class='essential-text'>Developer Best Practices</span>
+  </div></a>
+</div>
+
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

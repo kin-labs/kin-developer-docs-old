@@ -21,7 +21,7 @@ The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin p
 
 [Bubble](https://bubble.io/) lets you create interactive, multi-user apps for desktop and mobile web browsers, including all the features you need to build a site like Facebook or Airbnb — all without writing a single line of code.
 
-Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerful ecommerce app built by Uproll with the No-Code plugin.
+Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerful ecommerce App built by Uproll with the No-Code plugin.
 
 
 <img src="../integrations/giftery/images/Giftery1.png" alt="drawing" class='docImage'/>
@@ -34,13 +34,13 @@ The Uproll team created the Kin plugin for Bubble to make it even easier for dev
 
 Apps built with the Kin No-Code Plugin are also automatically compatible with the KRE! This is thanks to a customized version of the open source Kin SDK, created by the Uproll team.
 
-With the Kin No-Code Plugin, developers have all the tools and resources at their disposal to build the innovative app they’ve always dreamed of, utilizing Kin, without the hurdles and barriers related to blockchain coding knowledge. 
+With the Kin No-Code Plugin, developers have all the tools and resources at their disposal to build the innovative App they’ve always dreamed of, utilizing Kin, without the hurdles and barriers related to blockchain coding knowledge. 
 
 ## Kin Plugin Features:
 
 - Zero Costs: The Kin No-Code Plugin is 100% free. Bubble also has a free tier to test out ideas.
 - Hundreds of Templates: Free and Premium templates can give you a jumpstart on development.
-- Thousand of Tools: From Airtable to Zapier, there are thousands of prebuilt tools that you can integrate into your bubble app with a click of a button.
+- Thousand of Tools: From Airtable to Zapier, there are thousands of prebuilt tools that you can integrate into your bubble App with a click of a button.
 
 ## Docs and Tutorials
 
@@ -55,7 +55,22 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 - Here's that link to [Giftery](https://giftery.io/), again, just because it's awesome.
 - Here's another simple [Demo App](https://kin-nocode-demo.bubbleapps.io/version-test?debug_mode=true) showing some of the ways you can use Kin in your apps.
 
-## Was this page helpful?
+## Developer Best Practices
+
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+
+<div class='contacts'>
+  <a href='/essentials/best-practices/'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='../essentials/images/circle-info-solid.svg'>
+    <span class='contact-text'>Developer Best Practices</span>
+  </div></a>
+</div>
+
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

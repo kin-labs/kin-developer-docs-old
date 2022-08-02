@@ -24,7 +24,7 @@ A swagger specification of all available webhooks can be found [here](https://gi
 
 ## Events Webhook
 
-The events webhook is used by Agora to deliver blockchain events related to an app to the app's backend server. When a transaction containing an app index in the memo on the blockchain occurs and the related app has their [Events URL configured](/docs/app-registration/#configurable-options), the URL will be called with a JSON array of events with this structure:
+The events webhook is used by Agora to deliver blockchain events related to an app to the pp's backend server. When a transaction containing an app index in the memo on the blockchain occurs and the related app has their [Events URL configured](/docs/app-registration/#configurable-options), the URL will be called with a JSON array of events with this structure:
 
 ```jsx
 [

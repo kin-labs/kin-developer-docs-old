@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # Kinetic SDKs
 
-Kin offers a range of SDKs to make connecting your app to the blockchain as seamless as possible. 
+Kin offers a range of SDKs to make connecting your App to the blockchain as seamless as possible. 
 
 These SDKs are powered by Kinetic.
 
@@ -38,7 +38,11 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 # SDK-less
 Alternatively, go [SDK-less](/developers/sdk-less/). It's a bit trickier to set-up, but you can still use Kin and earn via the KRE.
 
-## Was this page helpful?
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

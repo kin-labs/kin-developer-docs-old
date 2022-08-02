@@ -13,8 +13,8 @@ Kin is proud to work with partners to bring amazing integrations that can power 
 
 <div class='integrations'>
   <a href='/integrations/giftery/'><div class='integration'>
-    <img class='integration-icon giftery-logo' alt='Giftery' src='./images/GifteryLogo.png'>
-    <span class='integration-text giftery-text'>Giftery</span>
+    <img class='integration-icon image-logo' alt='Giftery' src='./images/GifteryLogo.png'>
+    <span class='integration-text image-logo-text'>Giftery</span>
   </div></a>
   <a href='/integrations/buy_modules'><div class='integration'>
     <img class='integration-icon' alt='Buy Modules' src='./images/credit-card-solid.svg'>
@@ -22,7 +22,11 @@ Kin is proud to work with partners to bring amazing integrations that can power 
   </div></a>
 </div>
 
-## Was this page helpful?
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

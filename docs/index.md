@@ -28,7 +28,7 @@ codeNoCode:
 
 integrations:
 - header: Kin Integrations
-  text: Easily power-up your app with these amazing integrations
+  text: Easily power-up your App with these amazing integrations
   graphicUrl: "/_assets/kin-get-started.svg"
   link: /integrations/
   

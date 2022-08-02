@@ -40,7 +40,11 @@ How To
 
 Finally, make sure you've applied to the KRE so you can earn for your transactions. Also apply for a grant!
 
-## Was this page helpful?
+<br/>
+<br/>
+
+***
+**Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='contacts'>

@@ -824,7 +824,6 @@ body[layout='layout-home-background'] .page-background {
 .developers-language:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  /* background-color: var(--primary-color-accent); */
   background-color: var(--primary-color-accent);
 }
 
@@ -850,7 +849,8 @@ body[layout='layout-home-background'] .page-background {
     margin-left: -20px
   }
 
-  .integration span.giftery-text {
+  .essential span.image-logo-text,
+  .integration span.image-logo-text {
     margin-left: auto;
   }
 }
@@ -863,7 +863,8 @@ body[layout='layout-home-background'] .page-background {
   margin-left: -40px;
 }
 
-.markdown-body img.integration-icon.giftery-logo {
+.markdown-body img.essential-icon.image-logo,
+.markdown-body img.integration-icon.image-logo {
   color: white;
   height: calc(100% - 10px);
   width: auto;
@@ -872,6 +873,15 @@ body[layout='layout-home-background'] .page-background {
   border-radius: 5px;
   padding: 5px;
 }
+
+.markdown-body img.essential-icon.image-logo {
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  height: auto;
+  width: 90px;
+  border: 1px solid gray;
+}
+
 
 
 
