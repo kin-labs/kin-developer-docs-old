@@ -13,23 +13,23 @@ essentials:
 useCases:
 - header: How is Kin Used?
   text: See how our top earning apps use Kin to their advantage
-  graphicUrl: "/_assets/kin-get-started.svg"
+  graphicUrl: "/_assets/kin-dev-portal.svg"
   link: /use-cases/
 
 codeNoCode:
-- header: Not a Dev? No Problem.
-  text: Build powerful Kin Apps with no coding experience necessary.
-  graphicUrl: "/_assets/kin-get-started.svg"
-  link: /non-developers/
 - header: Love Coding? Use our SDKs.
   text: Harness the power of Kin with our range of SDKs.
-  graphicUrl: "/_assets/kin-get-started.svg"
+  graphicUrl: "/_assets/kin-tutorial.svg"
   link: /developers/
+- header: Not a Dev? No Problem.
+  text: Build powerful Kin Apps with no coding experience necessary.
+  graphicUrl: "/_assets/kin-tutorial.svg"
+  link: /non-developers/
 
 integrations:
 - header: Kin Integrations
   text: Easily power-up your App with these amazing integrations
-  graphicUrl: "/_assets/kin-get-started.svg"
+  graphicUrl: "/_assets/kin-sdks.svg"
   link: /integrations/
   
 reasonHeader: Join a growing ecosystem of developers who are choosing the Kin monetization model
