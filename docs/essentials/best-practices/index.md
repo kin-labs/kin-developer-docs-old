@@ -100,14 +100,11 @@ In general, some of the things that developers should look for prior to fulfilli
 
 The options listed above are just a few examples of ways to add validation, and don't result in a 100% secure spend flow. Each app may have different spend flows for their users, so there are many ways validation can be added to an app. -->
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>

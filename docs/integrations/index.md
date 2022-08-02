@@ -22,9 +22,6 @@ Kin is proud to work with partners to bring amazing integrations that can power 
   </div></a>
 </div>
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:

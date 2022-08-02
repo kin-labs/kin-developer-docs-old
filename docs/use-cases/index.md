@@ -5,6 +5,7 @@ eleventyNavigation:
   key: Use Cases
   order: 19
 ---
+
 # Use Cases
 Got a great App, but not sure how you could incorporate Kin into the experience? No, worries! Here's some examples of the ways Kin is used in our ecosystem that might help you get started.
 
@@ -79,12 +80,12 @@ Only allow users who hold enough Kin to enter specific spaces.
 If you need even more inspiration, why not check out some of our ecosystem partner apps:
 <div class='use-cases'>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='use-case'>
-    <img class='use-case-icon' alt='Developer' src='../essentials/images/users-between-lines-solid.svg'>
+    <img class='use-case-icon' alt='Developer' src='../essentials/images/cubes-solid.svg'>
     <span class='use-case-text'>Kin Ecosystem Apps</span>
   </div></a>
 </div>
 
-# What if my Users don't have any Kin?
+# What if my users don't have any Kin?
 
 Great question! You can give them some to get started. Don't have any Kin yourself?<br/>
 Apply to join the KRE or for a grant via our Catalyst Fund!
@@ -102,16 +103,13 @@ Apply to join the KRE or for a grant via our Catalyst Fund!
 
 Or...
 
-Why not add a Buy Module so Users can purchase Kin directly in your App!
+Why not add a Buy Module so users can purchase Kin directly in your App!
 <div class='use-cases'>
   <a href='/integrations/buy_modules'><div class='use-case'>
     <img class='use-case-icon' alt='Buy Modules' src='../integrations/images/credit-card-solid.svg'>
     <span class='use-case-text'>Buy Modules</span>
   </div></a>
 </div>
-
-<br/>
-<br/>
 
 ***
 **Was this page helpful?**<br/>

@@ -60,14 +60,11 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
 <div class='contacts'>
-  <a href='/essentials/best-practices/'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/circle-info-solid.svg'>
-    <span class='contact-text'>Developer Best Practices</span>
+  <a href='/essentials/best-practices/'><div class='essential'>
+    <img class='contact-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <span class='contact-text'>Best Practices</span>
   </div></a>
 </div>
-
-<br/>
-<br/>
 
 ***
 **Was this page helpful?**<br/>

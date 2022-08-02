@@ -52,14 +52,11 @@ The following options are configurable for developers interested in using [webho
 - **Sign Transaction URL**: The URL for Agora to send [Sign Transaction](/docs/how-it-works/#sign-transaction) webhook requests. Required to make use of the sign transaction webhook.
 - **Events URL**: the URL for Agora to send [Events](/docs/how-it-works/#events) webhook requests. Required to make use of the events webhook.
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>

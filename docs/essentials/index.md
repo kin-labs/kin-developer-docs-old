@@ -19,10 +19,10 @@ For more information about Kin, see here:
 <div class='essentials'>
   <a href='https://kin.org' target='_blank'><div class='essential'>
     <img class='essential-icon image-logo' alt='Kin' src='./images/kin_logo.svg'>
-    <span class='essential-text image-logo-text'>kin.org</span>
+    <span class='essential-text image-logo-text'>KIN.ORG</span>
   </div></a>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Developer' src='./images/users-between-lines-solid.svg'>
+    <img class='essential-icon' alt='Developer' src='./images/cubes-solid.svg'>
     <span class='essential-text'>Kin Ecosystem Apps</span>
   </div></a>
 </div>
@@ -64,7 +64,8 @@ Great question! Why not check out some common use cases?
 
 
 
-## Start Building
+## How can I start buildling my app?
+Devs to the left, non-devs to the right!
 
 <div class='essentials'>
   <a href='/developers/'><div class='essential'>
@@ -77,28 +78,51 @@ Great question! Why not check out some common use cases?
   </div></a>
 </div>
 
-## Developer Best Practices
+## What are some best practices I should be aware of?
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
 <div class='essentials'>
   <a href='/essentials/best-practices/'><div class='essential'>
-    <img class='essential-icon' alt='Developer' src='./images/circle-info-solid.svg'>
-    <span class='essential-text'>Developer Best Practices</span>
+    <img class='essential-icon' alt='Best Practices' src='./images/rainbow-solid.svg'>
+    <span class='essential-text'>Best Practices</span>
   </div></a>
 </div>
 
-<br/>
-<br/>
+## What if I get stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='essentials'>
+<a href='/essentials/getting-help/'><div class='essential'>
+    <img class='essential-icon' alt='Getting Help' src='./images/circle-question-regular.svg'>
+    <span class='essential-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
+    <img class='essential-icon' alt='Discord' src='./images/discord-brands.svg'>
+    <span class='essential-text'>Kin Developer Discord</span>
+  </div></a>
+</div>
+
+## What if there are terms I don't understand?
+
+We've got you covered!
+
+<div class='essentials'>
+  <a href='/essentials/terms-and-concepts/'><div class='essential'>
+    <img class='essential-icon' alt='Terms and Concepts' src='./images/circle-info-solid.svg'>
+    <span class='essential-text'>Terms and Concepts</span>
+  </div></a>
+</div>
 
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='essentials'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Developer' src='./images/comment-dots-solid.svg'>
-    <span class='essential-text'>Feedback</span>
+<div class='contacts-index'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
+    <img class='contact-icon' alt='Developer' src='./images/comment-dots-solid.svg'>
+    <span class='contact-text'>Feedback</span>
   </div></a>
 </div>
 

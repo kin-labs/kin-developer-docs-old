@@ -767,7 +767,7 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
-
+.contacts-index,
 .contacts,
 .essentials a,
 .integrations a,
@@ -778,6 +778,7 @@ body[layout='layout-home-background'] .page-background {
   margin-right: 2%;
 }
 
+.contacts-index,
 .essentials a {
   width: 31.3%
 }
@@ -809,6 +810,10 @@ body[layout='layout-home-background'] .page-background {
   background-color: white;
   box-sizing: border-box;
   transition: all 0.2s ease-in;
+}
+
+.developers-language {
+  padding: 20px 30px
 }
 
 .contact,
@@ -887,7 +892,11 @@ body[layout='layout-home-background'] .page-background {
   transition: all 0.2s ease-in;
 }
 
-.essential:hover img.essential-icon.image-logo {
+.markdown-body img.essential-icon.image-logo {
+    width: 60px;
+}
+
+.markdown-body .essential:hover img.essential-icon.image-logo {
     background-color: var(--primary-color-accent);
 }
 

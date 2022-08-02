@@ -21,14 +21,11 @@ If you are a developer, integrating Giftery into your own App is as easy as sign
 
 To get started, visit [Giftery Vendor](https://giftery.io/vendor), access the [Giftery Vendor Docs](https://giftery.snazzydocs.com/1.0/how-it-works) for a full introduction and functionality breakdown.
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../../essentials/images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>

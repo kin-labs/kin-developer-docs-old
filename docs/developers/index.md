@@ -47,9 +47,6 @@ Alternatively, go [SDK-less](/developers/sdk-less/) and transact directly on Sol
   </div></a>
 </div>
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:

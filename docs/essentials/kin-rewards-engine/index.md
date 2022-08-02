@@ -116,14 +116,11 @@ Payout shares after clause: `{0.486, 0.414, 0.06, 0.10}`
 | `95%`                       | `65%`                      |
 
 
-<br/>
-<br/>
-
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>

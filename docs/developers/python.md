@@ -97,19 +97,16 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
 
 <div class='essentials'>
   <a href='/essentials/best-practices/'><div class='essential'>
-    <img class='essential-icon' alt='Developer' src='../essentials/images/circle-info-solid.svg'>
-    <span class='essential-text'>Developer Best Practices</span>
+    <img class='essential-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <span class='essential-text'>Best Practices</span>
   </div></a>
 </div>
-
-<br/>
-<br/>
 
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>

@@ -27,7 +27,11 @@ Here's a lovely [Ramp Android Demo](https://github.com/kin-labs/kin-android-ramp
 
 And here's an equally lovely [Ramp iOS Demo](https://github.com/kin-labs/kin-ios-ramp-demo).
 
-<div class='contacts'>
+***
+**Was this page helpful?**<br/>
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='contacts-index'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
     <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='contact-text'>Feedback</span>
