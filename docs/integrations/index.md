@@ -1,6 +1,6 @@
 ---
 title: Integrations
-layout: layout-default
+layout: layout-index
 eleventyNavigation:
   key: Integrations
   order: 49

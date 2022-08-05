@@ -1,6 +1,6 @@
 ---
 title: Use Cases
-layout: layout-default
+layout: layout-index
 eleventyNavigation:
   key: Use Cases
   order: 19
@@ -49,34 +49,34 @@ Kin Use Cases are arranged around three types of transactions:<br/>
 </div>
 
 
-## Real World Purchases
+### Real World Purchases
 **Spend Transaction**<br/>
 Buy real stuff! Allow your users to purchase products with Kin in your app. 
 <br/>To see this in action, check out [giftery.io](https://giftery.io).
 
-## Digital Purchases
+### Digital Purchases
 **Spend Transaction**<br/>
 Who doesn't love NFTs? Use Kin for purchasing NFTs or other digital products.
-## In-App Scoring
+### In-App Scoring
 **Earn Transaction**<br/>
 Use Kin as an in-app scoring system.
 <br/>A great example of this can be seen in the excellent [Perfect365](https://play.google.com/store/apps/details?id=com.arcsoft.perfect365&hl=en).
-## P2P Tipping
+### P2P Tipping
 **P2P Transaction**<br/>
 Give users the ability to tip each other for producing great content. A rising tide lifts all boats! 
 <br/>Check out [Coinkit](https://app.coinkit.de/login) and [PIP](https://www.getpip.com/) if this tickles your fancy.
-## User Rewards
+### User Rewards
 **Earn Transaction**<br/>
 Directly reward your users for completing tasks, activities, etc. Turn your gamification into something tangible. 
 <br/>[Kreechures](https://www.kreechures.com/) offers a fantastic game experience, but this is only one example of a very common use case across our ecosystem apps.
-## Pay for Access
+### Pay for Access
 **Spend Transaction**<br/>
 Put your content behind a Kin-powered paywall.
-## Hold for Access
+### Hold for Access
 Only allow users who hold enough Kin to enter specific spaces.
 <br/>Check out [Cafeteria](https://cafeteria.gg/) for examples of this in the wild.
 
-# Kin Ecosystem
+## Kin Ecosystem Apps
 If you need even more inspiration, why not check out some of our ecosystem partner apps:
 <div class='use-cases'>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='use-case'>
@@ -85,7 +85,7 @@ If you need even more inspiration, why not check out some of our ecosystem partn
   </div></a>
 </div>
 
-# What if my users don't have any Kin?
+## What if my users don't have any Kin?
 
 Great question! You can give them some to get started. Don't have any Kin yourself?<br/>
 Apply to join the KRE or for a grant via our Catalyst Fund!

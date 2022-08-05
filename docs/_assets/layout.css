@@ -773,14 +773,9 @@ body[layout='layout-home-background'] .page-background {
 .integrations a,
 .use-cases a,
 .developers-languages a {
-  width: 23%;
+  width: 31.3%;
   margin-bottom: 20px;
   margin-right: 2%;
-}
-
-.contacts-index,
-.essentials a {
-  width: 31.3%
 }
 
 .markdown-body .developers-languages a:hover,

@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 09
 ---
 
-# Kin Essentials
+# Essentials
 
 Welcome to the Kin Developer's Documentation. It contains everything required for App builders to understand the benefits of working with Kin and helps you get started with the process of building a Kin App, whether you're a developer or not.
 ## What is Kin?
@@ -78,6 +78,16 @@ Devs to the left, non-devs to the right!
   </div></a>
 </div>
 
+## What about NFTs?
+We've got that covered too!
+
+<div class='essentials'>
+  <a href='/essentials/nfts-with-kin/'><div class='essential'>
+    <img class='essential-icon' alt='Best Practices' src='./images/nft-token.svg'>
+    <span class='essential-text'>NFTs with Kin</span>
+  </div></a>
+</div>
+
 ## What are some best practices I should be aware of?
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
@@ -106,7 +116,7 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 
 ## What if there are terms I don't understand?
 
-We've got you covered!
+Here's your one-stop-shop!
 
 <div class='essentials'>
   <a href='/essentials/terms-and-concepts/'><div class='essential'>

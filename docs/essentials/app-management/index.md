@@ -52,6 +52,12 @@ The following options are configurable for developers interested in using [webho
 - **Sign Transaction URL**: The URL for Agora to send [Sign Transaction](/docs/how-it-works/#sign-transaction) webhook requests. Required to make use of the sign transaction webhook.
 - **Events URL**: the URL for Agora to send [Events](/docs/how-it-works/#events) webhook requests. Required to make use of the events webhook.
 
+## Updating Your Apps
+
+If you update your App details (either Settings or Environments) in the [Kin Developer Portal](https://portal.kin.org/), make sure you let us know in the [dev-portal-support](https://discord.com/channels/808859554997469244/866647819913396224) channel on Discord so that we can update your App on our backend. If you don't, you might be missing out on your KRE rewards or not have your webhooks firing, etc.
+
+![Kin Developer Portal](./images/kin_developer_portal.png)
+
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:

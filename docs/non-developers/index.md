@@ -1,12 +1,12 @@
 ---
 title: Non-Developers
-layout: layout-default
+layout: layout-index
 eleventyNavigation:
   key: Non-Developers
   order: 39
 ---
 
-# Not A Developer?
+# Non Developers
 
 Got a great idea for using Kin in an Application? Not a Coder? No Problem!
 
@@ -15,7 +15,7 @@ We think everyone should be able to build with Kin.
 If you think so too, check out our Kin No-Code Plugin!
 
 
-# The Kin No-Code Plugin 
+## The Kin No-Code Plugin 
 
 The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin plugin](https://thekinplugin.com/) for Bubble. 
 
