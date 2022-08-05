@@ -3,7 +3,7 @@ title: SDK-less
 layout: layout-index
 eleventyNavigation:
   key: 'SDK-less'
-  order: 99
+  order: 30
 ---
 
 So, as a Web3 developer who loves Kin as much as we do, you'd like to create a DApp that allows users to sign transactions with their own Solana wallet (E.g. Phantom, Solflare, etc) while still taking advantage of the lovely Kin KRE?

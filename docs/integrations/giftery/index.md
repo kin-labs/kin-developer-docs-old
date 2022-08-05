@@ -5,13 +5,16 @@ eleventyNavigation:
   key: Giftery
   order: 09
 ---
+
 # Giftery
+## Giftery.io
 
 [Giftery](https://giftery.io) is an amazing ecommerce App built by the lovely folks at [Uproll](https://uproll.app/). It allows users to spend Kin to purchse virtual gift cards from from over 250 + major retailers, including: Airbnb, Amazon, Best Buy, Chipotle, Disney, DoorDash, Ebay, Gamestop, Hulu, Nike, Sephora, Starbucks, Uber, Walmart. Whole Foods, XBOX, and much more…
 
 <img src="./images/Giftery1.png" alt="Giftery Brands" class='docImage'/>
 <br/>
 
+## Giftery Vendor
 Best of all, [Giftery Vendor](https://giftery.io/vendor) enables developers to easily integrate Giftery into their own App's experience and add a new array of options for their users to spend their Kin in-app. For Kin apps which participate in the KRE, in-app Giftery transactions will natively count towards your KRE metrics!
 
 <img src="./images/Giftery2.png" alt="Giftery Vendor" class='docImage'/>

@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 39
 ---
 
-# Non Developers
+# Not a Developer?
 
 Got a great idea for using Kin in an Application? Not a Coder? No Problem!
 
