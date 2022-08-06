@@ -28,11 +28,11 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 ### Select your preferred language:
 
 <div class='developers-languages'>
-  <a href='/developers/typescript'><div class='developers-language'>
+  <a href='/developers/typescript/'><div class='developers-language'>
     <img class='developers-language-icon image-logo' alt='typescript' src='./images/typescript.svg'>
     <span class='developers-language-text image-logo-text'>TypeScript</span>
   </div></a>
-  <a href='/developers/python'><div class='developers-language'>
+  <a href='/developers/python/'><div class='developers-language'>
     <img class='developers-language-icon image-logo' alt='python' src='./images/python2.png'>
     <span class='developers-language-text image-logo-text'>Python</span>
   </div></a>

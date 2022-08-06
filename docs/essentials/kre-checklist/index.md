@@ -27,7 +27,7 @@ The initial payment of a `Subscription` is a `Spend` Transaction, however subseq
 
 <div>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="accessible" name="accessible" value="accessible">
-  <label for="accessible">Initial Subscription signup conforms to the <a href="/docs/transaction-guide/#spend-checklist">Spend checklist</a> above.</label></br>
+  <label for="accessible">Initial Subscription signup conforms to the <a href="/essentials/kre-checklist/#spend-checklist">Spend checklist</a> above.</label></br>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="compliant" name="compliant" value="compliant">
   <label for="compliant">Users are aware of what they are subscribing to.</label></br>
   <input style="margin-right: 0.5rem; margin-bottom: 1rem;" type="checkbox" id="terms" name="terms" value="terms">

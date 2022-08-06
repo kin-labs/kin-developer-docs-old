@@ -16,7 +16,7 @@ Kin is proud to work with partners to bring amazing integrations that can power 
     <img class='integration-icon image-logo' alt='Giftery' src='./images/GifteryLogo.png'>
     <span class='integration-text image-logo-text'>Giftery</span>
   </div></a>
-  <a href='/integrations/buy_modules'><div class='integration'>
+  <a href='/integrations/buy-modules/'><div class='integration'>
     <img class='integration-icon' alt='Buy Modules' src='./images/credit-card-solid.svg'>
     <span class='integration-text'>Buy Modules</span>
   </div></a>

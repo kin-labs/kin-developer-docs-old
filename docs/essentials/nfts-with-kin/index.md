@@ -304,7 +304,7 @@ Royalties allow creators to enjoy a predetermined share of all future aftermarke
 
 ![Creator Splits](./images/creating_the_nfts_6.gif)
 
-In order to add Creator Splits, you must first add additional creators. As of the time we wrote this, you can not add creators in the middle of the minting process. If you want to add creators to this mint, stop, go up to "[Adding Creators](/#adding-creators)", complete that process, and then repeat the creation steps above.
+In order to add Creator Splits, you must first add additional creators. As of the time we wrote this, you can not add creators in the middle of the minting process. If you want to add creators to this mint, stop, go up to "[Adding Creators](/essentials/nfts-with-kin/#adding-creators)", complete that process, and then repeat the creation steps above.
 
 ### IMPORTANT ASIDE _(Skip if You're Not Adding Creators)_
 
@@ -312,7 +312,7 @@ Metaplex enforces verification — as they should — before sales can happen. H
 
 If you add a creator split, you **CAN NOT** list your item for sale — using Metaplex — until **ALL** creators verify their participation. This means that you can complete the minting process **and pay the associated costs** (rent) using unverified creators but then be **unable** to sell your NFT if one of the creators you added doesn't have access to their Solana Wallet.
 
-Ensure that any creator you add in the [Creator Split](/#creator-splits) section — if using real SOL — has access to the wallet associated to the public key you entered when adding them as a creator.
+Ensure that any creator you add in the [Creator Split](/essentials/nfts-with-kin/#creator-splits) section — if using real SOL — has access to the wallet associated to the public key you entered when adding them as a creator.
 
 Creators verify themselves by connecting their wallet and signing a transaction that validates their Keypair and associates it to your store. The connecting wallet must contain the same public key that was used to register them as a creator.
 

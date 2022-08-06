@@ -37,7 +37,7 @@ The value proposition for building a Kin App is a simple one:
 3) We provide best-in-class developer tools to make building compelling blockchain apps as simple as possible, both for non-developers and developers alike.
 
 ## So I can earn Kin just by transacting with Kin?
-That's exactly right! The [Kin Rewards Engine](/essentials/kin-rewards-engine) (KRE for short) is a way for Kin to support the amazing apps in our ecosystem. You should definitely read about how it works and how you can make sure your App qualifies.
+That's exactly right! The [Kin Rewards Engine](/essentials/kin-rewards-engine/) (KRE for short) is a way for Kin to support the amazing apps in our ecosystem. You should definitely read about how it works and how you can make sure your App qualifies.
 
 <div class='essentials'>
   <a href='/essentials/kin-rewards-engine/'><div class='essential'>
@@ -90,7 +90,7 @@ We've got that covered too!
 
 ## What are some best practices I should be aware of?
 
-Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
 <div class='essentials'>
   <a href='/essentials/best-practices/'><div class='essential'>

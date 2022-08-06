@@ -57,7 +57,7 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 
 ## Developer Best Practices
 
-Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
 <div class='contacts'>
   <a href='/essentials/best-practices/'><div class='essential'>

@@ -105,7 +105,7 @@ Or...
 
 Why not add a Buy Module so users can purchase Kin directly in your App!
 <div class='use-cases'>
-  <a href='/integrations/buy_modules'><div class='use-case'>
+  <a href='/integrations/buy-modules/'><div class='use-case'>
     <img class='use-case-icon' alt='Buy Modules' src='../integrations/images/credit-card-solid.svg'>
     <span class='use-case-text'>Buy Modules</span>
   </div></a>

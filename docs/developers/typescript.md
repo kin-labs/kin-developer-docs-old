@@ -84,7 +84,7 @@ This server is compatible with the [Kin DApp Playground](https://github.com/kin-
 ## Production
 Once you've got your lovely App working on the Solana Devnet, you'll want to think about the next step.
 
-[Learn more](/developers/production)
+[Learn more](/developers/production/)
 
 ## Earn Kin via the KRE
 If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
@@ -102,7 +102,7 @@ Environments are now
 
 ## Developer Best Practices
 
-Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
 <div class='essentials'>
   <a href='/essentials/best-practices/'><div class='essential'>
