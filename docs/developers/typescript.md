@@ -93,7 +93,12 @@ If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer
 Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/kinecosystem/kin-node).
 
 ## Upgrading from Agora to Kinetic?
-Do the thingz
+Here we will go over the key changes that will allow you to upgrade to the new version of the Kin SDK as powered by Kinetic.
+
+### Environments
+Environments are now
+
+
 
 ## Developer Best Practices
 
