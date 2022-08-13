@@ -19,31 +19,35 @@ Kin Use Cases are arranged around three types of transactions:<br/>
 
 <div class='use-cases'>
   <a href='/use-cases/#real-world-purchases'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/cart-shopping-solid.svg'>
+    <img class='use-case-icon' alt='Real World Purchases' src='./images/cart-shopping-solid.svg'>
     <span class='use-case-text'>Real World Purchases</span>
   </div></a>
   <a href='/use-cases/#digital-purchases'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/icons-solid.svg'>
+    <img class='use-case-icon' alt='Digital Purchases' src='./images/icons-solid.svg'>
     <span class='use-case-text'>Digital Purchases</span>
+  </div></a>
+  <a href='/use-cases/#staking'><div class='use-case'>
+    <img class='use-case-icon' alt='Staking' src='./images/money-bill-transfer-solid.svg'>
+    <span class='use-case-text'>Staking</span>
   </div></a>
   <a href='/use-cases/#in-app-scoring'><div class='use-case'>
     <img class='use-case-icon' alt='In-App Scoring' src='./images/ghost-solid.svg'>
     <span class='use-case-text'>In-App Scoring</span>
   </div></a>
   <a href='/use-cases/#p2p-tipping'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/gratipay-brands.svg'>
+    <img class='use-case-icon' alt='P2P Tipping' src='./images/gratipay-brands.svg'>
     <span class='use-case-text'>P2P Tipping</span>
   </div></a>
   <a href='/use-cases/#user-rewards'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/gem-solid.svg'>
+    <img class='use-case-icon' alt='User Rewards' src='./images/gem-solid.svg'>
     <span class='use-case-text'>User Rewards</span>
   </div></a>
   <a href='/use-cases/#pay-for-access'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/person-through-window-solid.svg'>
+    <img class='use-case-icon' alt='Pay for Access' src='./images/person-through-window-solid.svg'>
     <span class='use-case-text'>Pay for Access</span>
   </div></a>
   <a href='/use-cases/#hold-for-access'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/hand-holding-dollar-solid.svg'>
+    <img class='use-case-icon' alt='Hold for Access' src='./images/hand-holding-dollar-solid.svg'>
     <span class='use-case-text'>Hold for Access</span>
   </div></a>
 </div>
@@ -57,6 +61,10 @@ Buy real stuff! Allow your users to purchase products with Kin in your app.
 ### Digital Purchases
 **Spend Transaction**<br/>
 Who doesn't love NFTs? Use Kin for purchasing NFTs or other digital products.
+### Staking
+**Earn Transaction**<br/>
+Stake your Kin to earn more! Sounds good? Learn more <a href='https://www.coinbase.com/learn/crypto-basics/what-is-staking' target='_blank'>here</a>.
+<br/>Staking is a feature offered by [MadLipz](https://www.madlipz.com/), [Playtoshi](https://playtoshi.com/), [Perfect365](https://www.perfect365.com/) and more!.
 ### In-App Scoring
 **Earn Transaction**<br/>
 Use Kin as an in-app scoring system.
