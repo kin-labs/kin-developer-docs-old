@@ -155,7 +155,7 @@ yarn dev:services:solana
 ```
 yarn dev:api
 ```
-- run the Kinetic Admin Tool (`localhost:4400`)
+- run the Kinetic Manager (`localhost:4400`)
 ```
 yarn dev:admin
 ```
@@ -164,7 +164,7 @@ yarn dev:admin
 yarn dev:demo
 ```
 
-#### Open The Kinetic Admin Tool
+#### Open The Kinetic Manager
 - You can log in using the details set in your `.env` file.
 - <a href='http://localhost:4400' target='_blank'>Click Here</a>
 #### Open The Kinetic Demo
