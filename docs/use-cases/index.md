@@ -63,7 +63,7 @@ Buy real stuff! Allow your users to purchase products with Kin in your app.
 Who doesn't love NFTs? Use Kin for purchasing NFTs or other digital products.
 ### Staking
 **Earn Transaction**<br/>
-Stake your Kin to earn more! Sounds good? Learn more <a href='https://www.coinbase.com/learn/crypto-basics/what-is-staking' target='_blank'>here</a>.
+Stake your Kin to earn more! Sounds good? Learn about staking <a href='https://solana.com/staking' target='_blank'>here</a>.
 <br/>Staking is a feature offered by [MadLipz](https://www.madlipz.com/), [Playtoshi](https://playtoshi.com/), [Perfect365](https://www.perfect365.com/) and more!.
 ### In-App Scoring
 **Earn Transaction**<br/>

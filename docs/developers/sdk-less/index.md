@@ -41,7 +41,7 @@ This is the step containing the the amount of Kin and where it is going.
 ### OPTIONAL
 In the example above, we've used `Memo Program v2` to add some SKU info about the transaction.
 
-## How about the code?
+## How About the Code?
 To try it yourself, check out our [Kin DApp Demo](https://github.com/kin-labs/kin-dapp-demo).
 
 Look [here](https://github.com/kin-labs/kin-dapp-demo/blob/master/src/helpers/SDKless/handleSendKin.ts) if you want to skip straight to creating transactions.
@@ -55,7 +55,7 @@ const transaction = new Transaction()
 await sendTransaction(transaction, connection);
 ```
 
-## Did it work?
+## Did It Work?
 To check if your transaction was correctly formatted, again head over to our [Kin Laboratory](https://laboratory.kin.org/transaction) and check the status of your transaction.
 
 ![KIN Transaction](./images/SDKless-05-transaction.png)
@@ -68,7 +68,7 @@ And that's it! The specific implementation will be different depending on how yo
 
 If you have any issues, please drop us a line in our [Developer Discord](https://discord.gg/kdRyUNmHDn) and jump into our `sdk-less` [channel](https://discord.com/channels/808859554997469244/946095829205266533)
 
-## Demos and Starter Kits
+## Demos And Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
 
 ### [Kin SDK-less DApp Demo](https://github.com/kin-starters/kin-dapp-sdk-less)

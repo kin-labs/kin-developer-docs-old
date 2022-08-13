@@ -754,6 +754,7 @@ body[layout='layout-home-background'] .page-background {
 .essentials,
 .integrations,
 .use-cases,
+.developers-hosting-options,
 .developers-languages {
   display: flex;
   flex-direction: row;
@@ -774,12 +775,15 @@ body[layout='layout-home-background'] .page-background {
 .essentials a,
 .integrations a,
 .use-cases a,
+.developers-hosting-options a,
 .developers-languages a {
   width: 31.3%;
   margin-bottom: 20px;
   margin-right: 2%;
 }
 
+.markdown-body .developers-hosting-options a:hover,
+.markdown-body .developers-hosting-options a,
 .markdown-body .developers-languages a:hover,
 .markdown-body .developers-languages a,
 .markdown-body .contacts a:hover,
@@ -798,6 +802,7 @@ body[layout='layout-home-background'] .page-background {
 .essential,
 .integration,
 .use-case,
+.developers-hosting-option,
 .developers-language {
   display: flex;
   width: 100%;
@@ -816,6 +821,7 @@ body[layout='layout-home-background'] .page-background {
 .contact,
 .essential,
 .integration,
+.developers-hosting-option,
 .use-case {
   height: 120px;
   text-decoration: none;
@@ -825,6 +831,7 @@ body[layout='layout-home-background'] .page-background {
 .essential:hover,
 .integration:hover,
 .use-case:hover,
+.developers-hosting-option:hover,
 .developers-language:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -832,6 +839,7 @@ body[layout='layout-home-background'] .page-background {
 }
 
 .developers-language span,
+.developers-hosting-option span,
 .contact span,
 .essential span,
 .integration span,
@@ -842,6 +850,7 @@ body[layout='layout-home-background'] .page-background {
 
 @media screen and (min-width: 1024px) {
   .developers-language span,
+  .developers-hosting-option span,
   .contact span,
   .essential span,
   .integration span,
@@ -850,12 +859,14 @@ body[layout='layout-home-background'] .page-background {
   }
 
   .essential span.image-logo-text,
+  .developers-hosting-option span.image-logo-text,
   .developers-language span.image-logo-text,
   .integration span.image-logo-text {
     margin-left: auto;
   }
 }
 
+.markdown-body img.developers-hosting-option-icon,
 .markdown-body img.developers-language-icon,
 .markdown-body img.contact-icon,
 .markdown-body img.essential-icon,
@@ -890,11 +901,11 @@ body[layout='layout-home-background'] .page-background {
 }
 
 .markdown-body img.essential-icon.image-logo {
-    width: 60px;
+  width: 60px;
 }
 
 .markdown-body .essential:hover img.essential-icon.image-logo {
-    background-color: var(--primary-color-accent);
+  background-color: var(--primary-color-accent);
 }
 
 .markdown-body img.developers-language-icon.image-logo {
@@ -905,6 +916,12 @@ body[layout='layout-home-background'] .page-background {
   width: auto;
 }
 
+.markdown-body img.developers-hosting-option-icon.image-logo {
+  height: auto;
+  width: 80px;
+  margin-left: 0;
+  margin-right: 20px;
+}
 
 
 

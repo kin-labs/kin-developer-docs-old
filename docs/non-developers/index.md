@@ -36,7 +36,7 @@ Apps built with the Kin No-Code Plugin are also automatically compatible with th
 
 With the Kin No-Code Plugin, developers have all the tools and resources at their disposal to build the innovative App they’ve always dreamed of, utilizing Kin, without the hurdles and barriers related to blockchain coding knowledge. 
 
-## Kin Plugin Features:
+## Kin Plugin Features
 
 - Zero Costs: The Kin No-Code Plugin is 100% free. Bubble also has a free tier to test out ideas.
 - Hundreds of Templates: Free and Premium templates can give you a jumpstart on development.

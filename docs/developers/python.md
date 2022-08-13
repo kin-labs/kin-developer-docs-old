@@ -77,10 +77,15 @@ A full-fat server based implementation of Kin Kinetic.
 
 This server is compatible with the [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground) Front End.
 
-## Production
-Once you've got your lovely App working on the Solana Devnet, you'll want to think about the next step.
+## Ready for Production?
+If your App is ready for production, this is the place for you!
 
-[Learn more](/developers/production/)
+<div class='essentials'>
+  <a href='/developers/production/'><div class='essential'>
+    <img class='essential-icon' alt='production' src='./images/coins-solid.svg'>
+    <span class='essential-text'>Production</span>
+  </div></a>
+</div>
 
 ## Earn Kin via the KRE
 If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
