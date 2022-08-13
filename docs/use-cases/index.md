@@ -56,33 +56,34 @@ Kin Use Cases are arranged around three types of transactions:<br/>
 ### Real World Purchases
 **Spend Transaction**<br/>
 Buy real stuff! Allow your users to purchase products with Kin in your app. 
-<br/>To see this in action, check out [giftery.io](https://giftery.io).
+<br/>To see this in action, check out <a href='https://giftery.io' target='_blank'>giftery.io</a> and <a href='https://www.perfect365.com/' target='_blank'>Perfect365</a>.
 
 ### Digital Purchases
 **Spend Transaction**<br/>
-Who doesn't love NFTs? Use Kin for purchasing NFTs or other digital products.
+Who doesn't love NFTs? Use Kin for purchasing NFTs or other digital products.<br/>
+<a href='https://pop.in/getapp' target='_blank'>pop.in</a> is a great example from our ecosystem.
 ### Staking
 **Earn Transaction**<br/>
 Stake your Kin to earn more! Sounds good? Learn about staking <a href='https://solana.com/staking' target='_blank'>here</a>.
-<br/>Staking is a feature offered by [MadLipz](https://www.madlipz.com/), [Playtoshi](https://playtoshi.com/), [Perfect365](https://www.perfect365.com/) and more!.
+<br/>Staking is a feature offered by <a href='https://www.madlipz.com/' target='_blank'>MadLipz</a>, <a href='https://playtoshi.com/' target='_blank'>Playtoshi</a> and <a href='https://www.perfect365.com/' target='_blank'>Perfect365</a>
 ### In-App Scoring
 **Earn Transaction**<br/>
 Use Kin as an in-app scoring system.
-<br/>A great example of this can be seen in the excellent [Perfect365](https://play.google.com/store/apps/details?id=com.arcsoft.perfect365&hl=en).
+<br/>A great example of this can be seen in the excellent <a href='https://www.perfect365.com/' target='_blank'>Perfect365</a>.
 ### P2P Tipping
 **P2P Transaction**<br/>
 Give users the ability to tip each other for producing great content. A rising tide lifts all boats! 
-<br/>Check out [Coinkit](https://app.coinkit.de/login) and [PIP](https://www.getpip.com/) if this tickles your fancy.
+<br/>Check out <a href='https://app.coinkit.de/login' target='_blank'>Coinkit</a> and <a href='https://www.getpip.com/' target='_blank'>PIP</a> if this tickles your fancy.
 ### User Rewards
 **Earn Transaction**<br/>
 Directly reward your users for completing tasks, activities, etc. Turn your gamification into something tangible. 
-<br/>[Kreechures](https://www.kreechures.com/) offers a fantastic game experience, but this is only one example of a very common use case across our ecosystem apps.
+<br/><a href='https://www.kreechures.com/' target='_blank'>Kreechures</a> offers a fantastic game experience, but this is only one example of a very common use case across our ecosystem apps.
 ### Pay for Access
 **Spend Transaction**<br/>
 Put your content behind a Kin-powered paywall.
 ### Hold for Access
 Only allow users who hold enough Kin to enter specific spaces.
-<br/>Check out [Cafeteria](https://cafeteria.gg/) for examples of this in the wild.
+<br/>Check out <a href='https://cafeteria.gg/' target='_blank'>Cafeteria</a> for examples of this in the wild.
 
 ## Kin Ecosystem Apps
 If you need even more inspiration, why not check out some of our ecosystem partner apps:
