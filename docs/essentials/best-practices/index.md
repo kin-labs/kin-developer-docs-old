@@ -1,4 +1,4 @@
-# Developer Best Practices ||30
+# Developer Best Practices ||40
 
 We want to make it as easy as possible for Kin developers to release their beautiful Apps out into the world. As such, here are a few things that we think will be useful to keep in mind as you work.
 

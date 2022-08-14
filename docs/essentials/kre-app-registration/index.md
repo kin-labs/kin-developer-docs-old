@@ -1,4 +1,4 @@
-# App Management ||40
+# KRE App Registration ||20
 
 ## Developer Portal
 

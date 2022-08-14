@@ -904,6 +904,7 @@ body[layout='layout-home-background'] .page-background {
   width: 60px;
 }
 
+.markdown-body .developers-hosting-option:hover img.essential-icon.image-logo,
 .markdown-body .essential:hover img.essential-icon.image-logo {
   background-color: var(--primary-color-accent);
 }

@@ -56,11 +56,11 @@ And where `ecosystem_aub` is the sum total of eligible `AUB` for all apps partic
 
 ## How We Reduce Gaming and Prevent Monopolies
 
-To be eligible to participate in the [KRE](/essentials/kin-rewards-engine/), apps must first build a functioning integration on the Testnet and then [apply for an AppIndex](/essentials/app-management/#register) in our Kin [developer portal](/essentials/app-management/#developer-portal). By having a valid [AppIndex](/essentials/app-management/#register), we are able to verify ecosystem apps’ Kin based transactions and user balances.
+To be eligible to participate in the [KRE](/essentials/kin-rewards-engine/), apps must first build a functioning integration on the Testnet and then [apply for an AppIndex](/essentials/kre-app-registration/#register) in our Kin [developer portal](/essentials/kre-app-registration/#developer-portal). By having a valid [AppIndex](/essentials/kre-app-registration/#register), we are able to verify ecosystem apps’ Kin based transactions and user balances.
 
 Apps are regularly audited, manually and programmatically (via transaction data), to ensure they are creating positive user experiences, are improving the overall Kin ecosystem, and are meeting our [Spend Checklist](/essentials/kre-checklist/#spend-checklist), [Developer Terms](https://kin.org/kin-developer-terms/), and [Terms of Use](https://kin.org/terms-and-conditions/) to remain eligible to receive rewards from the [KRE](/essentials/kin-rewards-engine/).
 
-In order to prevent monopolies, no App ([AppIndex](/essentials/app-management/#register)) will receive more than 66.67% of the `Daily Payout`. Furthermore, any developer that would have received more than 50% of the `Daily Payout` will have their portion of the `Daily Payout` adjusted.
+In order to prevent monopolies, no App ([AppIndex](/essentials/kre-app-registration/#register)) will receive more than 66.67% of the `Daily Payout`. Furthermore, any developer that would have received more than 50% of the `Daily Payout` will have their portion of the `Daily Payout` adjusted.
 
 No two apps ([AppIndexes](/essentials/terms-and-concepts/#app-index)) will receive more than 90% of the `Daily Payout` and residual payouts will be redistributed proportionally to remaining developers.
 

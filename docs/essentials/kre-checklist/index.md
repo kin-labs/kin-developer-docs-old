@@ -1,4 +1,4 @@
-# KRE Checklist ||20
+# KRE Checklist ||30
 
 The Kin Rewards Engine [KRE](/essentials/kin-rewards-engine/) rewards developers for creating awesome experiences that utilize Kin. In order to maintain a fair playing field amongst Kin developers and a safe experience for users, applications must satisfy these requirements to be eligible for rewards from the [KRE](/essentials/kin-rewards-engine/).
 
