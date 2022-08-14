@@ -75,7 +75,7 @@ For larger scale Apps or those looking for more control.
 - Configure multiple hot-wallets
 - Customisable (Open Source)
 
-### Self Hosted - Connect
+### Connecting To Your Own Kinetic Instance
 Point to `mainnet` as your `environment` and set your `endpoint` to where you've deployed your own Kinetic Instance.
 E.g. TypeScript SDK:
 ```JS
@@ -88,7 +88,7 @@ const clientOptions = {
 const kineticClient = await KineticSdk.setup(clientOptions);
 ```
 This is the easy bit. Below, we'll explain how to run, deploy and manage your own Kinetic instance.
-### Self Hosted - Run Locally
+### Running Kinetic Locally
 
 #### Requirements:
 ```
@@ -105,28 +105,10 @@ cd kinetic
 yarn install
 ```
 #### Prepare your Environment Variables
-You can copy the contents of `.env.example` into your own `.env` file.
-```
-ADMIN_USERNAME="alice"
-ADMIN_PASSWORD="Kinetic@admin1"
-# Provision more apps by providing the byte array of the fee payer and name
-APP_1_FEE_PAYER_BYTE_ARRAY=[24,20,238,188,26,234,120,209,88,63,170,46,66,98,21,113,194,120,143,228,231,37,91,0,242,32,180,99,243,179,57,144,11,233,235,235,203,20,105,33,47,140,152,253,12,148,72,175,141,253,242,110,225,110,21,211,118,87,111,206,208,166,190,78]
-APP_1_NAME="App 1"
-COOKIE_DOMAINS="localhost,local.kinetic.kin.org,pages.dev"
-#COOKIE_NAME="__session"
-CORS_ORIGINS=http://localhost:4200
-#METRICS_ENABLED=true
-DATABASE_URL="postgresql://prisma:prisma@localhost:5432/prisma?schema=kinetic"
-JWT_SECRET="KineticJwtSecret!"
-#DEFAULT_MINT_AIRDROP_AMOUNT=1000
-#DEFAULT_MINT_AIRDROP_MAX=50000
-DEFAULT_MINT_AIRDROP_SECRET_KEY=[24,20,238,188,26,234,120,209,88,63,170,46,66,98,21,113,194,120,143,228,231,37,91,0,242,32,180,99,243,179,57,144,11,233,235,235,203,20,105,33,47,140,152,253,12,148,72,175,141,253,242,110,225,110,21,211,118,87,111,206,208,166,190,78]
-DEFAULT_MINT_DECIMALS=5
-DEFAULT_MINT_PUBLIC_KEY=MoGaMuJnB3k8zXjBYBnHxHG47vWcW3nyb7bFYvdVzek
-PORT=3000
-SOLANA_DEVNET_RPC_ENDPOINT=http://localhost:8899
-#SOLANA_MAINNET_RPC_ENDPOINT=mainnet
-```
+Kinetic is highly configurable, but don't worry, we've provided an example file you can use to get started quickly.<br/>
+Just copy the contents of the `.env.example` file into your own `.env` file.<br/>
+See the full list of environment variables <a href='https://github.com/kin-labs/kinetic/blob/dev/.env.example' target='_blank'>here</a>.
+
 #### Make sure Docker is running
 <div class='essentials'>
   <a href='https://www.docker.com/' target='_blank'><div class='essential'>
@@ -165,24 +147,25 @@ yarn dev:demo
 ```
 
 #### Open The Kinetic Manager
+- Kinetic Manager is a full-featured GUI for Kinetic
 - You can log in using the details set in your `.env` file.
-- <a href='http://localhost:4400' target='_blank'>Click Here</a>
+- <a href='http://localhost:4400' target='_blank'>Click here</a> to open localhost:4400
 #### Open The Kinetic Demo
-- Use the demo to test Kin transactions on your Kinetic instance
-- <a href='http://localhost:4200' target='_blank'>Click Here</a>
-### Self Hosted - Kinetic Manager
+- Use the built-in Kinetic Demo to test Kin transactions on your Kinetic instance
+- <a href='http://localhost:4200' target='_blank'>Click here</a> to open localhost:4200
+### Configure Your Kinetic Instance with Kinetic Manager
 <div class='developers-hosting-options'>
   <a href='/developers/kinetic-manager/'><div class='developers-hosting-option'>
     <img class='developers-hosting-option-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
-    <span class='developers-hosting-option-text'>Managing Kinetic</span>
+    <span class='developers-hosting-option-text'>Configure Kinetic</span>
   </div></a>
 </div>
 
-### Self Hosted - Deployment
+### Deploy your Kinetic Instance to Heroku
 <div class='developers-hosting-options'>
   <a href='/developers/deployment/'><div class='developers-hosting-option'>
     <img class='developers-hosting-option-icon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='developers-hosting-option-text image-logo-text'>Deploying Kinetic</span>
+    <span class='developers-hosting-option-text image-logo-text'>Deploy Kinetic</span>
   </div></a>
 </div>
 
