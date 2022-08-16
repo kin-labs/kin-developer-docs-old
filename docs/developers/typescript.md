@@ -100,7 +100,7 @@ Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/k
 ## Upgrading from Agora to Kinetic?
 Here we will go over the key changes that will allow you to upgrade to the new version of the Kin SDK as powered by Kinetic.
 
-## What if I get stuck?
+## What If I Get Stuck?
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 

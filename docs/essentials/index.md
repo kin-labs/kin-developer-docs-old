@@ -99,7 +99,7 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
   </div></a>
 </div>
 
-## What if I get stuck?
+## What If I Get Stuck?
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 

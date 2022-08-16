@@ -1,46 +1,33 @@
 # KRE App Registration ||20
 
-## Developer Portal
+## Create an Account on the Kin Developer Portal
+To earn Kin via the KRE, you have to have registered your App on our Kin Developer Portal.
 
-TODO!!!!!!!!!!!!!
+We'll send an email to the account you used during registration. Open that email and follow the instructions to verify your account
 
-<!-- App management can now take place in the beta version of our new Developer Portal!
+<div class='essentials'>
+  <a href='https://portal.kin.org/' target='_blank'><div class='essential'>
+    <img class='essential-icon image-logo' alt='Kin' src='../images/kin_logo.svg'>
+    <span class='essential-text image-logo-text'>Developer Portal</span>
+  </div></a>
+</div>
 
-To fully register your app, as described in the [Getting Started tutorial](/tutorials/#getting-started), navigate to [portal.kin.org](https://portal.kin.org) and complete the following steps:
 
-- Create an account on the [Kin Developer Portal](https://portal.kin.org/register)
-- Open the email sent to the account used during registration and follow the instructions to verify your account
-- Login to the [Kin Developer Portal](https://portal.kin.org) and navigate to [Apps](https://portal.kin.org/apps)
-- Click [Create App](https://portal.kin.org/apps/create), fill in your details, and submit
 
-Congrats! Your App is now registered!
+## Register Your App
+Go to Dashboard / Create App and fill in your App Details<br/><br/>
+<img src="./images/DeveloperPortal01.png" alt="Kin Developer Portal Create App"/>
 
-At anytime, you can navigate back to the [Apps section](https://portal.kin.org/apps) to find your `App Index` or manage:
+This will create your App and give you your all-important App Index. Your App Index is used to identify your transactions and make sure you get paid via the KRE.<br/><br/>
+<img src="./images/DeveloperPortal02.png" alt="Kin Developer Portal App Index"/>
 
-- Your [App settings](https://portal.kin.org/apps)
-- Your environments (production and testing)
-
-Please note, App registration is _not_ required to get started with creating accounts and submitting simple payments. Developers can get started by configuring their SDKs to use the Solana 'devnet'.
-
-However, to qualify for KRE rewards, apps must register using the [Kin Developer Portal](https://portal.kin.org). After registering, you'll be able to create a new app, be automatically issued an App Index, and manage the production and test environments.
-
-After you've [registered for the Developer Portal and created an app](#register), your App will be issued an [App Index](/essentials/terms-and-concepts/#app-index), which should be included when using the an SDK for transactions to be properly attributed to specific apps. When you initialize your Kin SDK with your App Index, it automatically gets included in the memo of transactions sent by your users and/or backend server. -->
-
-## Register
-
-To register your app:
-
-- Create an account on the [Kin Developer Portal](https://portal.kin.org)
-- We'll send an email to the account you used during registration. Open that email and follow the instructions to verify your account
-- Login to the [Kin Developer Portal](https://portal.kin.org) and navigate to Apps
-- Click [Create App](https://portal.kin.org/apps/create), fill in your details, and submit
+## Complete Your App Settings
+Go to Settings and fill in all of the required information. Make sure you include your Public Key where you'd like KRE payments to go or we won't be able to activate your App.<br/><br/>
+<img src="./images/DeveloperPortal03.png" alt="Kin Developer Portal App Settings"/>
 
 Congrats! Your App is now registered!
 
-At anytime, you can navigate back to the Apps section to find your App Index or manage:
 
-- Your App settings
-- Your environments (production and testing)
 
 <!-- ## Configurable Options
 
@@ -56,9 +43,24 @@ The following options are configurable for developers interested in using [webho
 
 ## Updating Your Apps
 
-If you update your App details (either Settings or Environments) in the [Kin Developer Portal](https://portal.kin.org/), make sure you let us know in the [dev-portal-support](https://discord.com/channels/808859554997469244/866647819913396224) channel on Discord so that we can update your App on our backend. If you don't, you might be missing out on your KRE rewards or not have your webhooks firing, etc.
+If you update your App details (either Settings or Environments) in the [Kin Developer Portal](https://portal.kin.org/), make sure you let us know in the [dev-portal-support](https://discord.com/channels/808859554997469244/866647819913396224) channel on Discord so that we can update your App on our backend. If you don't, you might be missing out on your KRE rewards or not have your webhooks firing, etc.<br/><br/>
+<img src="./images/DeveloperPortal04.png" alt="Kin Developer Portal App Settings Update"/>
 
-![Kin Developer Portal](./images/kin_developer_portal.png)
+## What If I Get Stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='essentials'>
+<a href='/essentials/getting-help/'><div class='essential'>
+    <img class='essential-icon' alt='Getting Help' src='../images/circle-question-regular.svg'>
+    <span class='essential-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
+    <img class='essential-icon' alt='Discord' src='../images/discord-brands.svg'>
+    <span class='essential-text'>Kin Developer Discord</span>
+  </div></a>
+</div>
+
 
 ***
 **Was this page helpful?**<br/>

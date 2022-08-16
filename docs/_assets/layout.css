@@ -788,6 +788,8 @@ body[layout='layout-home-background'] .page-background {
 .markdown-body .developers-languages a,
 .markdown-body .contacts a:hover,
 .markdown-body .contacts a,
+.markdown-body .contacts-index a:hover,
+.markdown-body .contacts-index a,
 .markdown-body .essentials a:hover,
 .markdown-body .essentials a,
 .markdown-body .integrations a:hover,
@@ -845,7 +847,9 @@ body[layout='layout-home-background'] .page-background {
 .integration span,
 .use-case span,
 .developers-language span {
+  text-decoration: none;
   margin: auto;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

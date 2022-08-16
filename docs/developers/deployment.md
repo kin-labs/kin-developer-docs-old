@@ -58,7 +58,7 @@ That's it! You should be good to go. Click 'Open app' to open the Kinetic Manage
   </div></a>
 </div>
 
-## What if I get stuck?
+## What If I Get Stuck?
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 
