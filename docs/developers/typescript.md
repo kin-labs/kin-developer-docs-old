@@ -98,7 +98,7 @@ await kineticClient.makeTransferBatch(transferBatchOptions);
 In [Kinetic Manager](/developers/kinetic-manager/), you can configure your App to use the following webhooks:
 #### Events Webhook
 This webhook can be used to receive information about completed transactions.
-E.g. In a node express server:
+<br/>E.g. In a node express server:
 ```JS
 app.use('/events', async (req, res) => {
   const event = req.body
@@ -108,7 +108,7 @@ app.use('/events', async (req, res) => {
 ```
 #### Verify Webhook
 This webhook can be used to verify transactions.
-E.g. In a node express server return a `200` status code to approve the transaction:
+<br/>E.g. In a node express server return a `200` status code to approve the transaction:
 ```JS
 app.use('/verify', async (req, res) => {
   const transaction = req.body
