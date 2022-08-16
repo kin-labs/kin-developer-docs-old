@@ -12,9 +12,6 @@ eleventyNavigation:
 
 Getting started with Kin is incredibly straightforward. Just follow the steps below to start transacting with Kin in your App.
 
-We recommend starting with Devnet before moving on to Mainnet. Remember, if you want to earn Kin via the KRE, you'll have to register your App on our Dev Portal and apply for access. 
-
-But, this doesn't stop you from building and running your App in the meantime.
 
 #### Installation
 ```
@@ -27,15 +24,28 @@ import { KineticSdk } from '@kin-kinetic/sdk';
 import { TransactionType } from '@kin-tools/kin-memo';
 ```
 #### Instantiate the Kinetic Client
+
 The Kinetic Client will give you access to all the methods you need to work with Kin on the blockchain.
+
+We recommend starting with Devnet before moving on to Mainnet. 
+
 ```JS
 const clientOptions = {
-    environment : 'devnet', // mainnet or devnet
+  environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
 };
 
 const kineticClient = await KineticSdk.setup(clientOptions);
 ```
+Don't have an App Index? Register your App on our Developer Portal so you can get your App Index that allows you to transact with our SDKs and earn via the KRE.
+
+<div class='essentials'>
+  <a href='/essentials/kre-app-registration/'><div class='essential'>
+    <img class='essential-icon' alt='Developer' src='../essentials/images/address-card-solid.svg'>
+    <span class='essential-text'>Register Your App</span>
+  </div></a>
+</div>
+
 #### Create Account
 You can create accounts from existing mnemonics or secret keys. In this case we'll generate a mnemonic and use that to creat the keypair we use for creating the account on the blockchain.
 ```JS
@@ -146,7 +156,7 @@ If your App is ready for production, this is the place for you!
 
 ## Earn Kin via the KRE
 <div class='essentials'>
-  <a href='/essentials/kre-app-registration/'><div class='essential'>
+  <a href='/essentials/kin-rewards-engine/'><div class='essential'>
     <img class='essential-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
     <span class='essential-text'>Kin Rewards Engine</span>
   </div></a>
