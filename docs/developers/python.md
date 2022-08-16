@@ -96,6 +96,21 @@ Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/k
 ## Upgrading from Agora to Kinetic?
 Do the thingz
 
+## What if I get stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='essentials'>
+<a href='/essentials/getting-help/'><div class='essential'>
+    <img class='essential-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <span class='essential-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
+    <img class='essential-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <span class='essential-text'>Kin Developer Discord</span>
+  </div></a>
+</div>
+
 ## Developer Best Practices
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.

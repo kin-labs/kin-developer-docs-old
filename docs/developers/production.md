@@ -129,7 +129,7 @@ yarn dev:services:postgres
 ```
 yarn prisma migrate reset && yarn prisma db push
 ```
-- run Solana (`localhost:8899`)
+- run Solana locally (`localhost:8899`) or set `SOLANA_DEVNET_RPC_ENDPOINT=devnet` and skip this step
 ```
 yarn dev:services:solana
 ```
