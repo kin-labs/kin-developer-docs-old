@@ -13,7 +13,7 @@ Kin offers a range of SDKs to make connecting your App to the blockchain as seam
 
 These SDKs are powered by Kinetic.
 
-## What is Kinetic?
+### What is Kinetic?
 
 Kinetic is a suite of tools that make it easy to build apps that integrate Solana.
 

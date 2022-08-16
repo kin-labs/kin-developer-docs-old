@@ -153,7 +153,17 @@ yarn dev:demo
 #### Open The Kinetic Demo
 - Use the built-in Kinetic Demo to test Kin transactions on your Kinetic instance
 - <a href='http://localhost:4200' target='_blank'>Click here</a> to open localhost:4200
+### Deploy your Kinetic Instance to Heroku
+Learn how to deploy your self-hosted Kinetic instance to Heroku
+<div class='developers-hosting-options'>
+  <a href='/developers/deployment/'><div class='developers-hosting-option'>
+    <img class='developers-hosting-option-icon image-logo' alt='deployment' src='./images/heroku.png'>
+    <span class='developers-hosting-option-text image-logo-text'>Deploy Kinetic</span>
+  </div></a>
+</div>
+
 ### Configure Your Kinetic Instance with Kinetic Manager
+See how you can use Kinetic Manager to configure your self-hosted Kinetic instance
 <div class='developers-hosting-options'>
   <a href='/developers/kinetic-manager/'><div class='developers-hosting-option'>
     <img class='developers-hosting-option-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
@@ -161,13 +171,6 @@ yarn dev:demo
   </div></a>
 </div>
 
-### Deploy your Kinetic Instance to Heroku
-<div class='developers-hosting-options'>
-  <a href='/developers/deployment/'><div class='developers-hosting-option'>
-    <img class='developers-hosting-option-icon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='developers-hosting-option-text image-logo-text'>Deploy Kinetic</span>
-  </div></a>
-</div>
 
 
 

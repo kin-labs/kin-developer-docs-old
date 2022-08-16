@@ -3,7 +3,7 @@ title: Production
 layout: layout-index
 eleventyNavigation:
   key: 'Kinetic Manager'
-  order: 99
+  order: 100
 ---
 # Kinetic Manager
 

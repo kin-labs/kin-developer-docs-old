@@ -3,7 +3,7 @@ title: Kinetic Deployment
 layout: layout-index
 eleventyNavigation:
   key: 'Kinetic Deployment'
-  order: 109
+  order: 99
 ---
 # Deploying Kinetic to Heroku
 
