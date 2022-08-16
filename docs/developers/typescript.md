@@ -50,7 +50,7 @@ await kineticClient.createAccount(accountOptions);
 ```JS
 const airdropOptions = {
     account: keypair.publicKey,
-    amount: 1000,
+    amount: '1000',
 }
 await kineticClient.requestAirdrop(airdropOptions);
 ```
@@ -61,7 +61,7 @@ const { balance } = kineticClient.getBalance({ account: keypair.publicKey })
 #### Transfer Kin
 ```JS
 const transferOptions = {
-    amount : 5000,
+    amount : '5000',
     destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
     owner: keypair,
     type: TransactionType.P2P, // Can be Unknown, None, Earn, Spend or P2P
@@ -69,6 +69,59 @@ const transferOptions = {
 
 await kineticClient.makeTransfer(transferOptions);
 ```
+#### Transfer Kin Batch
+```JS
+const destinations = [
+  {
+    amount: '500',
+    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
+  },
+  {
+    amount: '600',
+    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
+  },
+  {
+    amount: '800',
+    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
+  },
+]
+
+const transferBatchOptions = {
+    owner: keypair,
+    destinations,
+};
+
+await kineticClient.makeTransferBatch(transferBatchOptions);
+```
+
+### Webhooks
+In [Kinetic Manager](/developers/kinetic-manager/), you can configure your App to use the following webhooks:
+#### Events Webhook
+This webhook can be used to receive information about completed transactions.
+E.g. In a node express server:
+```JS
+app.use('/events', async (req, res) => {
+  const event = req.body
+  // DO STUFF WITH THE EVENT DATA
+  res.sendStatus(200);
+});
+```
+#### Verify Webhook
+This webhook can be used to verify transactions.
+E.g. In a node express server return a `200` status code to approve the transaction:
+```JS
+app.use('/verify', async (req, res) => {
+  const transaction = req.body
+  // CHECK THAT YOU WANT THIS TRANSACTION TO PROCEED
+  // e.g.
+  if (transaction.amount < 1000000) {
+    res.sendStatus(200);
+  }
+  res.sendStatus(400);
+});
+```
+## Upgrading from Agora to Kinetic?
+Here we will go over the key changes that will allow you to upgrade to the new version of the Kin SDK as powered by Kinetic.
 
 ## Demos and Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
@@ -92,13 +145,24 @@ If your App is ready for production, this is the place for you!
 </div>
 
 ## Earn Kin via the KRE
-If you want to earn Kin via the KRE, make sure you sign-up to the [Kin Developer Portal](https://portal.kin.org/) and register your app. The App Index you get will allow you to earn Kin once you've successfully applied for access to the KRE.
+<div class='essentials'>
+  <a href='/essentials/kre-app-registration/'><div class='essential'>
+    <img class='essential-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
+    <span class='essential-text'>Kin Rewards Engine</span>
+  </div></a>
+</div>
 
 ## Contribute
-Want to contribute to the Kin Node SDK? Get stuck in [here](https://github.com/kinecosystem/kin-node).
+Want to contribute to the Kin Node SDK?
+<div class='essentials'>
+  <a href='https://github.com/kinecosystem/kin-node' target='_blank'><div class='essential'>
+    <img class='essential-icon' alt='Kinetic' src='./images/github-brands.svg'>
+    <span class='essential-text'>Kinetic Node SDK</span>
+  </div></a>
+</div>
 
-## Upgrading from Agora to Kinetic?
-Here we will go over the key changes that will allow you to upgrade to the new version of the Kin SDK as powered by Kinetic.
+
+
 
 ## What If I Get Stuck?
 

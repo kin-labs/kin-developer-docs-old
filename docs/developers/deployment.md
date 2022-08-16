@@ -39,7 +39,8 @@ Go to Overview / Configure Add-ons, search and choose the Heroku Postrgres addon
 <img src="./images/Heroku04.png" alt="Heroku Config Vars" />
 
 ### Set your Environment Variables
-Go to Settings / Config Vars and add your environment variables as you would have in your `.env` file when [running Kinetic locally](/developers/production/#prepare-your-environment-variables)<br/>
+Go to Settings / Config Vars and add your environment variables as you would have in your `.env` file when [running Kinetic locally](/developers/production/#prepare-your-environment-variables).<br/>
+Make sure not to include quote marks around your strings as Heroku won't filter them out.<br/>
 <img src="./images/Heroku03.png" alt="Heroku Config Vars" />
 
 ### Deploy Kinetic
