@@ -1,12 +1,12 @@
 ---
-title: Agora to Kinetic Upgrade
+title: Upgrade To Kinetic
 layout: layout-index
 eleventyNavigation:
-  key: 'Agora to Kinetic Upgrade'
+  key: 'Upgrade To Kinetic'
   order: 109
 ---
 
-# Upgrading from Agora to Kinetic?
+# Upgrading to Kinetic from Agora?
 Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old versions of our SDKs to the new Kinetic versions
 
 ## TypeScript / Node SDK
@@ -18,28 +18,28 @@ Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated t
 #### Instantiate the Kin Client
 - Kinetic
 ```JS
-import { KineticSdk } from '@kin-kinetic/sdk';
-const kinClient = await KineticSdk.setup({ environment, index});
+import { KineticSdk } from '@kin-kinetic/sdk'
+const kinClient = await KineticSdk.setup({ environment, index})
 ```
 - Agora
 ```JS
-import { Client } from '@kinecosystem/kin-sdk-v2';
-const kinClient = new Client(env, { appIndex });
+import { Client } from '@kinecosystem/kin-sdk-v2'
+const kinClient = new Client(env, { appIndex })
 ```
 
 #### Create Account
 - Kinetic
 ```JS
-await kinClient.createAccount({ owner: keypair});
+await kinClient.createAccount({ owner: keypair})
 ```
 - Agora
 ```JS
-await kinClient.createAccount(privateKey);
+await kinClient.createAccount(privateKey)
 ```
 #### Airdrop Funds ('devnet' only)
 - Kinetic
 ```JS
-await kinClient.requestAirdrop({ account, amount});
+await kinClient.requestAirdrop({ account, amount })
 ```
 - Agora
 ```JS
@@ -52,28 +52,31 @@ const { balance } = await kinClient.getBalance({ account })
 ```
 - Agora
 ```JS
-const balance = await kinClient.getBalance(publicKey);
+const balance = await kinClient.getBalance(publicKey)
 ```
 #### Transfer Kin
 - Kinetic
 ```JS
-await kinClient.makeTransfer({ amount, destination, owner, type });
+await kinClient.makeTransfer({ amount, destination, owner, type })
 ```
 - Agora
 ```JS
-await kinClient.submitPayment({ quarks, destination, sender, type});
+await kinClient.submitPayment({ quarks, destination, sender, type})
 ```
 #### Transfer Kin Batch
 - Kinetic
 ```JS
 const destinations = [{ destination, amount }]
-await kinClient.makeTransferBatch({ owner, destinations });
+await kinClient.makeTransferBatch({ owner, destinations })
 ```
 - Agora
 ```JS
 const earns = [{ destination, quarks }]
-await kinClient.submitEarnBatch({ sender, earns });
+await kinClient.submitEarnBatch({ sender, earns })
 ```
+
+#### Webhooks
+In Agora, we used the `sign_transaction` webhook. That's been deprecated and we now have the `verify` webhook that can simply return a 200 status code to confirm verification of a request.
 
 
 ***

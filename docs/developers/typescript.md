@@ -116,6 +116,7 @@ app.use('/events', async (req, res) => {
   res.sendStatus(200);
 });
 ```
+
 #### Verify Webhook
 This webhook can be used to verify transactions.
 <br/>E.g. In a node express server return a `200` status code to approve the transaction:
@@ -130,8 +131,14 @@ app.use('/verify', async (req, res) => {
   res.sendStatus(400);
 });
 ```
-## Upgrading from Agora to Kinetic?
-Here we will go over the key changes that will allow you to upgrade to the new version of the Kin SDK as powered by Kinetic.
+
+## Upgrading to Kinetic from Agora?
+<div class='essentials'>
+  <a href='/developers/upgrade-to-kinetic/'><div class='essential'>
+    <img class='essential-icon' alt='Developer' src='./images/turn-up-solid.svg'>
+    <span class='essential-text'>Upgrade To Kinetic</span>
+  </div></a>
+</div>
 
 ## Demos and Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
