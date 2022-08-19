@@ -31,7 +31,7 @@ We recommend starting with Devnet before moving on to Mainnet.
 
 ```JS
 const clientOptions = {
-  environment : 'devnet', // mainnet or devnet
+    environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
 };
 
@@ -66,7 +66,7 @@ await kineticClient.requestAirdrop(airdropOptions);
 ```
 #### Check Balance
 ```JS
-const { balance } = kineticClient.getBalance({ account: keypair.publicKey })
+const { balance } = await kineticClient.getBalance({ account: keypair.publicKey })
 ```
 #### Transfer Kin
 ```JS

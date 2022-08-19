@@ -55,7 +55,7 @@ await kineticClient.requestAirdrop(airdropOptions);
 ```
 #### Check Balance
 ```JS
-const { balance } = kineticClient.getBalance({ account: keypair.publicKey })
+const { balance } = await kineticClient.getBalance({ account: keypair.publicKey })
 ```
 #### Transfer Kin
 ```JS
