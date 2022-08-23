@@ -63,6 +63,10 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
     <img class='navIcon-icon' alt='swift' src='./images/unity.svg'>
     <span class='navIcon-text'>Unity</span>
   </div></a>
+  <a href='/developers/flutter-dart/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='swift' src='./images/dart.png'>
+    <span class='navIcon-text'>Flutter (Dart)</span>
+  </div></a>
 </div>
 
 ## SDK-less
