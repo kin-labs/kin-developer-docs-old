@@ -43,6 +43,10 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
     <img class='navIcon-icon' alt='python' src='./images/python2.png'>
     <span class='navIcon-text'>Python</span>
   </div></a>
+  <a href='/developers/cdn/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='web' src='./images/circle-nodes-solid.svg'>
+    <span class='navIcon-text'>Web (CDN)</span>
+  </div></a>
   <a href='/developers/ios-swift/'><div class='navIcon'>
     <img class='navIcon-icon swiftIcon' alt='swift' src='./images/swift.png'>
     <span class='navIcon-text'>iOS (Swift)</span>
