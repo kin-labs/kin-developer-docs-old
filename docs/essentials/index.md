@@ -18,8 +18,8 @@ Kin exists as a token on Solana, a consumer-grade blockchain built for scale. So
 For more information about Kin, see here:
 <div class='navIcons'>
   <a href='https://kin.org' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon kinIcon image-logo' alt='Kin' src='./images/kin_logo.svg'>
-    <span class='navIcon-text image-logo-text'>KIN.ORG</span>
+    <img class='navIcon-icon kinIcon' alt='Kin' src='./images/kin_logo.svg'>
+    <span class='navIcon-text'>KIN.ORG</span>
   </div></a>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='navIcon'>
     <img class='navIcon-icon' alt='Developer' src='./images/cubes-solid.svg'>
@@ -74,7 +74,7 @@ Devs to the left, non-devs to the right!
   </div></a>
   <a href='/non-developers/'><div class='navIcon'>
     <img class='navIcon-icon' alt='Non-Developer' src='./images/computer-mouse-solid.svg'>
-    <span class='navIcon-text giftery-text'>I'm a Non-Developer</span>
+    <span class='navIcon-text'>I'm a Non-Developer</span>
   </div></a>
 </div>
 

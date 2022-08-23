@@ -36,12 +36,28 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 
 <div class='navIcons'>
   <a href='/developers/typescript/'><div class='navIcon'>
-    <img class='navIcon-icon developers-language image-logo' alt='typescript' src='./images/typescript.svg'>
-    <span class='navIcon-text image-logo-text'>TypeScript</span>
+    <img class='navIcon-icon' alt='typescript' src='./images/typescript.svg'>
+    <span class='navIcon-text'>TypeScript</span>
   </div></a>
   <a href='/developers/python/'><div class='navIcon'>
-    <img class='navIcon-icon developers-language image-logo' alt='python' src='./images/python2.png'>
-    <span class='navIcon-text image-logo-text'>Python</span>
+    <img class='navIcon-icon' alt='python' src='./images/python2.png'>
+    <span class='navIcon-text'>Python</span>
+  </div></a>
+  <a href='/developers/ios-swift/'><div class='navIcon'>
+    <img class='navIcon-icon swiftIcon' alt='swift' src='./images/swift.png'>
+    <span class='navIcon-text'>iOS (Swift)</span>
+  </div></a>
+  <a href='/developers/android-kotlin/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='swift' src='./images/kotlin.png'>
+    <span class='navIcon-text'>Android (Kotlin)</span>
+  </div></a>
+  <a href='/developers/android-java/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='swift' src='./images/java.svg'>
+    <span class='navIcon-text'>Android (Java)</span>
+  </div></a>
+  <a href='/developers/unity/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='swift' src='./images/unity.svg'>
+    <span class='navIcon-text'>Unity</span>
   </div></a>
 </div>
 
@@ -50,8 +66,8 @@ Alternatively, go [SDK-less](/developers/sdk-less/) and transact directly on Sol
 
 <div class='navIcons'>
   <a href='/developers/sdk-less/'><div class='navIcon'>
-    <img class='navIcon-icon developers-language image-logo' alt='solana' src='./images/solana.png'>
-    <span class='navIcon-text image-logo-text'>Solana</span>
+    <img class='navIcon-icon' alt='solana' src='./images/solana.png'>
+    <span class='navIcon-text'>Solana</span>
   </div></a>
 </div>
 

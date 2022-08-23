@@ -22,8 +22,8 @@ Fork you own version of Kinetic that we'll use to deploy on Heroku
 ### Sign Up To Heroku 
 <div class='navIcons'>
   <a href='https://dashboard.heroku.com/apps/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon herokuIcon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='navIcon-text image-logo-text'>Heroku Account</span>
+    <img class='navIcon-icon herokuIcon' alt='deployment' src='./images/heroku.png'>
+    <span class='navIcon-text'>Heroku Account</span>
   </div></a>
 </div>
 

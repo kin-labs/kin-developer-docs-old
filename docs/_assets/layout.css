@@ -803,7 +803,6 @@ body[layout='layout-home-background'] .page-background {
   text-align: left;
 }
 
-
 .markdown-body img.navIcon-icon {
   color: white;
   width: auto;
@@ -818,44 +817,20 @@ body[layout='layout-home-background'] .page-background {
   }
 }
 
-.markdown-body img.navIcon-icon.image-logo {
-  color: white;
-  height: calc(100% - 10px);
-  width: auto;
-  background-color: rgb(41, 41, 41);
-  border-radius: 5px;
-  padding: 5px;
+.markdown-body img.navIcon-icon.swiftIcon {
+  margin-top: -5px;
 }
 
-.markdown-body img.navIcon-icon.image-logo {
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  height: auto;
-  width: 90px;
-  border-radius: 0;
-  transition: all 0.2s ease-in;
-}
-
-.markdown-body .navIcon:hover img.navIcon-icon.image-logo {
-  background-color: var(--primary-color-accent);
-}
-
-.markdown-body img.navIcon-icon.kinIcon.image-logo {
+.markdown-body img.navIcon-icon.kinIcon {
+  box-sizing: border-box;
   border-top: 5px solid var(--primary-color-darker);
   border-bottom: 5px solid var(--primary-color-darker);
-  width: 60px;
+  width: 80px;
   margin-left: 0;
 }
 
-.markdown-body img.navIcon-icon.developers-language.image-logo {
-  border: none;
-  background-color: unset;
-  padding: 0;
-  height: 60px;
-  width: auto;
-}
 
-.markdown-body img.navIcon-icon.herokuIcon.image-logo {
+.markdown-body img.navIcon-icon.herokuIcon {
   height: 70px;
   width: auto;
   margin-top: -5px;
@@ -864,8 +839,8 @@ body[layout='layout-home-background'] .page-background {
   padding: 0;
 }
 
-.markdown-body .navIcon:hover img.navIcon-icon.gifteryIcon.image-logo,
-.markdown-body img.navIcon-icon.gifteryIcon.image-logo {
+.markdown-body .navIcon:hover img.navIcon-icon.gifteryIcon,
+.markdown-body img.navIcon-icon.gifteryIcon {
   height: 50px;
   width: auto;
   background-color: rgb(41, 41, 41);

@@ -1,11 +1,11 @@
 ---
-title: Python
+title: iOS (Swift)
 layout: layout-index
 eleventyNavigation:
-  key: Python SDK
-  order: 19
+  key: iOS SDK (Swift)
+  order: 29
 ---
-# Python SDK
+# iOS SDK (Swift)
 
 Coming Soon!
 

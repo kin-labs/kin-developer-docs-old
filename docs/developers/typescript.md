@@ -2,10 +2,10 @@
 title: TypeScript
 layout: layout-index
 eleventyNavigation:
-  key: TypeScript
+  key: TypeScript SDK
   order: 09
 ---
-# TypeScript
+# TypeScript SDK
 
 
 ## Get Started or Add to an Existing Project

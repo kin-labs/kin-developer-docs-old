@@ -1,11 +1,11 @@
 ---
-title: Python
+title: Android (Kotlin)
 layout: layout-index
 eleventyNavigation:
-  key: Python SDK
-  order: 19
+  key: Android SDK (Kotlin)
+  order: 39
 ---
-# Python SDK
+# Android SDK (Kotlin)
 
 Coming Soon!
 

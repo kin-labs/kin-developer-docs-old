@@ -27,8 +27,8 @@ You'll notice in the example above, you can pass in an optional `endpoint` when 
 
 <div class='navIcons'>
   <a href='/developers/production/#kin-hosted'><div class='navIcon'>
-    <img class='navIcon-icon kinIcon image-logo' alt='Kin Hosted' src='../essentials/images/kin_logo.svg'>
-    <span class='navIcon-text image-logo-text'>Kin <br/>Hosted</span>
+    <img class='navIcon-icon kinIcon' alt='Kin Hosted' src='../essentials/images/kin_logo.svg'>
+    <span class='navIcon-text'>Kin <br/>Hosted</span>
   </div></a>
   <a href='/developers/production/#self-hosted'><div class='navIcon'>
     <img class='navIcon-icon' alt='Self hosted' src='./images/server-solid.svg'>
@@ -157,8 +157,8 @@ yarn dev:demo
 Learn how to deploy your self-hosted Kinetic instance to Heroku
 <div class='navIcons'>
   <a href='/developers/deployment/'><div class='navIcon'>
-    <img class='navIcon-icon herokuIcon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='navIcon-text image-logo-text'>Deploy Kinetic</span>
+    <img class='navIcon-icon herokuIcon' alt='deployment' src='./images/heroku.png'>
+    <span class='navIcon-text'>Deploy Kinetic</span>
   </div></a>
 </div>
 

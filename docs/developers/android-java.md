@@ -1,11 +1,11 @@
 ---
-title: Python
+title: Android (Java)
 layout: layout-index
 eleventyNavigation:
-  key: Python SDK
-  order: 19
+  key: Android SDK (Java)
+  order: 49
 ---
-# Python SDK
+# Android SDK (Java)
 
 Coming Soon!
 
