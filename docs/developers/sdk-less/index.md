@@ -70,14 +70,14 @@ And that's it! The specific implementation will be different depending on how yo
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today and jump into our `sdk-less` [channel](https://discord.com/channels/808859554997469244/946095829205266533)!
 
-<div class='essentials'>
-<a href='/essentials/getting-help/'><div class='essential'>
-    <img class='essential-icon' alt='Getting Help' src='../../essentials/images/circle-question-regular.svg'>
-    <span class='essential-text'>Getting Help</span>
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../../essentials/images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
   </div></a>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Discord' src='../../essentials/images/discord-brands.svg'>
-    <span class='essential-text'>Kin Developer Discord</span>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../../essentials/images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
 
@@ -95,9 +95,9 @@ A multi-functional Kin Front-End that allows you to connect to a Kin Server or c
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

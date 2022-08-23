@@ -12,18 +12,18 @@ Here we will show how you can deploy your own Kinetic Instance to Heroku.
 ## Deployment Steps
 ### Fork Kinetic
 Fork you own version of Kinetic that we'll use to deploy on Heroku
-<div class='essentials'>
-  <a href='https://github.com/kin-labs/kinetic/fork/' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Docker' src='./images/github-brands.svg'>
-    <span class='essential-text'>Fork Kinetic</span>
+<div class='navIcons'>
+  <a href='https://github.com/kin-labs/kinetic/fork/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Docker' src='./images/github-brands.svg'>
+    <span class='navIcon-text'>Fork Kinetic</span>
   </div></a>
 </div>
 
 ### Sign Up To Heroku 
-<div class='developers-hosting-options'>
-  <a href='https://dashboard.heroku.com/apps/' target='_blank'><div class='developers-hosting-option'>
-    <img class='developers-hosting-option-icon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='developers-hosting-option-text image-logo-text'>Create a Heroku Account</span>
+<div class='navIcons'>
+  <a href='https://dashboard.heroku.com/apps/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon herokuIcon image-logo' alt='deployment' src='./images/heroku.png'>
+    <span class='navIcon-text image-logo-text'>Heroku Account</span>
   </div></a>
 </div>
 
@@ -52,10 +52,10 @@ Go to Deploy / Manual Deploy and deploy Kinetic. You can also choose to set up a
 That's it! You should be good to go. Click 'Open app' to open the Kinetic Manager. Heroku has great options for viewing logs etc through the online console and also has a brilliant CLI if you want to go down that route.
 
 ### Configure Your Kinetic Instance with Kinetic Manager
-<div class='developers-hosting-options'>
-  <a href='/developers/kinetic-manager/'><div class='developers-hosting-option'>
-    <img class='developers-hosting-option-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
-    <span class='developers-hosting-option-text'>Configure Kinetic</span>
+<div class='navIcons'>
+  <a href='/developers/kinetic-manager/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
+    <span class='navIcon-text'>Configure Kinetic</span>
   </div></a>
 </div>
 
@@ -63,14 +63,14 @@ That's it! You should be good to go. Click 'Open app' to open the Kinetic Manage
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 
-<div class='essentials'>
-<a href='/essentials/getting-help/'><div class='essential'>
-    <img class='essential-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
-    <span class='essential-text'>Getting Help</span>
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
   </div></a>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
-    <span class='essential-text'>Kin Developer Discord</span>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
 
@@ -81,9 +81,9 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

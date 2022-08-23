@@ -5,16 +5,16 @@ module.exports = function () {
     name: "Kin",
     description:
       "Easy. Quick. Intuitive. Integrate cryptocurrency into your app’s experience.",
-    socialLinks: [
-      {
-        name: "GitHub",
-        url: "https://github.com/kinecosystem",
-      },
-      {
-        name: "Discord",
-        url: "https://discord.gg/kdRyUNmHDn",
-      },
-    ],
+    // socialLinks: [
+    //   {
+    //     name: "GitHub",
+    //     url: "https://github.com/kinecosystem",
+    //   },
+    //   {
+    //     name: "Discord",
+    //     url: "https://discord.gg/kdRyUNmHDn",
+    //   },
+    // ],
     gitSiteUrl: "https://docs.kin.org",
     gitBranch: "main",
     helpUrl: "https://discord.gg/kdRyUNmHDn",

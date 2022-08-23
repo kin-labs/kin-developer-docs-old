@@ -17,38 +17,38 @@ Kin Use Cases are arranged around three types of transactions:<br/>
 
 ## Common Kin Use Cases
 
-<div class='use-cases'>
-  <a href='/use-cases/#real-world-purchases'><div class='use-case'>
-    <img class='use-case-icon' alt='Real World Purchases' src='./images/cart-shopping-solid.svg'>
-    <span class='use-case-text'>Real World Purchases</span>
+<div class='navIcons use-cases'>
+  <a href='/use-cases/#real-world-purchases'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Real World Purchases' src='./images/cart-shopping-solid.svg'>
+    <span class='navIcon-text'>Real World Purchases</span>
   </div></a>
-  <a href='/use-cases/#digital-purchases'><div class='use-case'>
-    <img class='use-case-icon' alt='Digital Purchases' src='./images/icons-solid.svg'>
-    <span class='use-case-text'>Digital Purchases</span>
+  <a href='/use-cases/#digital-purchases'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Digital Purchases' src='./images/icons-solid.svg'>
+    <span class='navIcon-text'>Digital Purchases</span>
   </div></a>
-  <a href='/use-cases/#staking'><div class='use-case'>
-    <img class='use-case-icon' alt='Staking' src='./images/money-bill-transfer-solid.svg'>
-    <span class='use-case-text'>Staking</span>
+  <a href='/use-cases/#staking'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Staking' src='./images/money-bill-transfer-solid.svg'>
+    <span class='navIcon-text'>Staking</span>
   </div></a>
-  <a href='/use-cases/#in-app-scoring'><div class='use-case'>
-    <img class='use-case-icon' alt='In-App Scoring' src='./images/ghost-solid.svg'>
-    <span class='use-case-text'>In-App Scoring</span>
+  <a href='/use-cases/#in-app-scoring'><div class='navIcon'>
+    <img class='navIcon-icon' alt='In-App Scoring' src='./images/ghost-solid.svg'>
+    <span class='navIcon-text'>In-App Scoring</span>
   </div></a>
-  <a href='/use-cases/#p2p-tipping'><div class='use-case'>
-    <img class='use-case-icon' alt='P2P Tipping' src='./images/gratipay-brands.svg'>
-    <span class='use-case-text'>P2P Tipping</span>
+  <a href='/use-cases/#p2p-tipping'><div class='navIcon'>
+    <img class='navIcon-icon' alt='P2P Tipping' src='./images/gratipay-brands.svg'>
+    <span class='navIcon-text'>P2P Tipping</span>
   </div></a>
-  <a href='/use-cases/#user-rewards'><div class='use-case'>
-    <img class='use-case-icon' alt='User Rewards' src='./images/gem-solid.svg'>
-    <span class='use-case-text'>User Rewards</span>
+  <a href='/use-cases/#user-rewards'><div class='navIcon'>
+    <img class='navIcon-icon' alt='User Rewards' src='./images/gem-solid.svg'>
+    <span class='navIcon-text'>User Rewards</span>
   </div></a>
-  <a href='/use-cases/#pay-for-access'><div class='use-case'>
-    <img class='use-case-icon' alt='Pay for Access' src='./images/person-through-window-solid.svg'>
-    <span class='use-case-text'>Pay for Access</span>
+  <a href='/use-cases/#pay-for-access'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Pay for Access' src='./images/person-through-window-solid.svg'>
+    <span class='navIcon-text'>Pay for Access</span>
   </div></a>
-  <a href='/use-cases/#hold-for-access'><div class='use-case'>
-    <img class='use-case-icon' alt='Hold for Access' src='./images/hand-holding-dollar-solid.svg'>
-    <span class='use-case-text'>Hold for Access</span>
+  <a href='/use-cases/#hold-for-access'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Hold for Access' src='./images/hand-holding-dollar-solid.svg'>
+    <span class='navIcon-text'>Hold for Access</span>
   </div></a>
 </div>
 
@@ -87,10 +87,10 @@ Only allow users who hold enough Kin to enter specific spaces.
 
 ## Kin Ecosystem Apps
 If you need even more inspiration, why not check out some of our ecosystem partner apps:
-<div class='use-cases'>
-  <a href='https://kin.org/kin-apps/' target='_blank'><div class='use-case'>
-    <img class='use-case-icon' alt='Developer' src='../essentials/images/cubes-solid.svg'>
-    <span class='use-case-text'>Kin Ecosystem Apps</span>
+<div class='navIcons'>
+  <a href='https://kin.org/kin-apps/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/cubes-solid.svg'>
+    <span class='navIcon-text'>Kin Ecosystem Apps</span>
   </div></a>
 </div>
 
@@ -99,24 +99,24 @@ If you need even more inspiration, why not check out some of our ecosystem partn
 Great question! You can give them some to get started. Don't have any Kin yourself?<br/>
 Apply to join the KRE or for a grant via our Catalyst Fund!
 
-<div class='use-cases'>
-  <a href='/essentials/kin-rewards-engine/'><div class='use-case'>
-    <img class='use-case-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
-    <span class='use-case-text'>Kin Rewards Engine</span>
+<div class='navIcons'>
+  <a href='/essentials/kin-rewards-engine/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
+    <span class='navIcon-text'>Kin Rewards Engine</span>
   </div></a>
-  <a href='https://kin.org/catalyst-fund/' target='_blank'><div class='use-case'>
-    <img class='use-case-icon' alt='Developer' src='../essentials/images/sack-dollar-solid.svg'>
-    <span class='use-case-text'>Catalyst Fund</span>
+  <a href='https://kin.org/catalyst-fund/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/sack-dollar-solid.svg'>
+    <span class='navIcon-text'>Catalyst Fund</span>
   </div></a>
 </div>
 
 Or...
 
 Why not add a Buy Module so users can purchase Kin directly in your App!
-<div class='use-cases'>
-  <a href='/integrations/buy-modules/'><div class='use-case'>
-    <img class='use-case-icon' alt='Buy Modules' src='../integrations/images/credit-card-solid.svg'>
-    <span class='use-case-text'>Buy Modules</span>
+<div class='navIcons'>
+  <a href='/integrations/buy-modules/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Buy Modules' src='../integrations/images/credit-card-solid.svg'>
+    <span class='navIcon-text'>Buy Modules</span>
   </div></a>
 </div>
 
@@ -124,9 +124,9 @@ Why not add a Buy Module so users can purchase Kin directly in your App!
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

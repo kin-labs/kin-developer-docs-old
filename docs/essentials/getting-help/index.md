@@ -3,10 +3,10 @@
 ## Kin Developer Discord
 Our [Kin Developer Discord](https://discord.gg/kdRyUNmHDn) is a vibrant community of active Kin App developers, supported by members of the Kin Foundation as well as a host of Kin specialists and enthusiasts. It's a great place to come and get support for your app, whether you want help with integrating SDKs, to discuss the KRE, get feedback on your App or anything really!
 
-<div class='essentials'>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Discord' src='../images/discord-brands.svg'>
-    <span class='essential-text'>Kin Developer Discord</span>
+<div class='navIcons'>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
 
@@ -21,10 +21,10 @@ Some things we'd like to highlight are:
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
 

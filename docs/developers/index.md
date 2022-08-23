@@ -21,10 +21,10 @@ It provides a consistent and clean abstraction over the Solana SDKs and enhances
 
 Kinetic is aimed at developers that want to build crypto-experiences for the users of their app, hiding a lot of the details about the blockchain out of sight for both the developer and the end user.
 
-<div class='essentials'>
-  <a href='https://github.com/kin-labs/kinetic/' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Kinetic' src='./images/github-brands.svg'>
-    <span class='essential-text'>Kinetic GitHub</span>
+<div class='navIcons'>
+  <a href='https://github.com/kin-labs/kinetic/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
+    <span class='navIcon-text'>Kinetic GitHub</span>
   </div></a>
 </div>
 
@@ -34,34 +34,34 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
 
 ### Select your preferred language:
 
-<div class='developers-languages'>
-  <a href='/developers/typescript/'><div class='developers-language'>
-    <img class='developers-language-icon image-logo' alt='typescript' src='./images/typescript.svg'>
-    <span class='developers-language-text image-logo-text'>TypeScript</span>
+<div class='navIcons'>
+  <a href='/developers/typescript/'><div class='navIcon'>
+    <img class='navIcon-icon developers-language image-logo' alt='typescript' src='./images/typescript.svg'>
+    <span class='navIcon-text image-logo-text'>TypeScript</span>
   </div></a>
-  <a href='/developers/python/'><div class='developers-language'>
-    <img class='developers-language-icon image-logo' alt='python' src='./images/python2.png'>
-    <span class='developers-language-text image-logo-text'>Python</span>
+  <a href='/developers/python/'><div class='navIcon'>
+    <img class='navIcon-icon developers-language image-logo' alt='python' src='./images/python2.png'>
+    <span class='navIcon-text image-logo-text'>Python</span>
   </div></a>
 </div>
 
 ## SDK-less
 Alternatively, go [SDK-less](/developers/sdk-less/) and transact directly on Solana. It's a bit trickier to set-up, but you can still use Kin and earn via the KRE.
 
-<div class='developers-languages'>
-  <a href='/developers/sdk-less/'><div class='developers-language'>
-    <img class='developers-language-icon image-logo' alt='solana' src='./images/solana.png'>
-    <span class='developers-language-text image-logo-text'>Solana</span>
+<div class='navIcons'>
+  <a href='/developers/sdk-less/'><div class='navIcon'>
+    <img class='navIcon-icon developers-language image-logo' alt='solana' src='./images/solana.png'>
+    <span class='navIcon-text image-logo-text'>Solana</span>
   </div></a>
 </div>
 
 ## Ready for Production?
 If your App is ready for production, this is the place for you!
 
-<div class='essentials'>
-  <a href='/developers/production/'><div class='essential'>
-    <img class='essential-icon' alt='production' src='./images/coins-solid.svg'>
-    <span class='essential-text'>Production</span>
+<div class='navIcons'>
+  <a href='/developers/production/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
+    <span class='navIcon-text'>Production</span>
   </div></a>
 </div>
 
@@ -69,10 +69,10 @@ If your App is ready for production, this is the place for you!
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
 

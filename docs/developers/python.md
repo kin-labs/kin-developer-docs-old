@@ -80,10 +80,10 @@ This server is compatible with the [Kin DApp Playground](https://github.com/kin-
 ## Ready for Production?
 If your App is ready for production, this is the place for you!
 
-<div class='essentials'>
-  <a href='/developers/production/'><div class='essential'>
-    <img class='essential-icon' alt='production' src='./images/coins-solid.svg'>
-    <span class='essential-text'>Production</span>
+<div class='navIcons'>
+  <a href='/developers/production/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
+    <span class='navIcon-text'>Production</span>
   </div></a>
 </div>
 
@@ -100,14 +100,14 @@ Do the thingz
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 
-<div class='essentials'>
-<a href='/essentials/getting-help/'><div class='essential'>
-    <img class='essential-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
-    <span class='essential-text'>Getting Help</span>
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
   </div></a>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
-    <span class='essential-text'>Kin Developer Discord</span>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
 
@@ -115,10 +115,10 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
-<div class='essentials'>
-  <a href='/essentials/best-practices/'><div class='essential'>
-    <img class='essential-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
-    <span class='essential-text'>Best Practices</span>
+<div class='navIcons'>
+  <a href='/essentials/best-practices/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <span class='navIcon-text'>Best Practices</span>
   </div></a>
 </div>
 
@@ -126,9 +126,9 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

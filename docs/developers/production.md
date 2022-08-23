@@ -25,18 +25,18 @@ const kineticClient = await KineticSdk.setup(clientOptions);
 ```
 You'll notice in the example above, you can pass in an optional `endpoint` when you set up the Kinetic Client. <br/> This setting gives us some options in the ways we can connect to Kinetic on mainnet:
 
-<div class='developers-hosting-options'>
-  <a href='/developers/production/#kin-hosted'><div class='developers-hosting-option'>
-    <img class='essential-icon image-logo' alt='Kin' src='../essentials/images/kin_logo.svg'>
-    <span class='essential-text image-logo-text'>Kin <br/>Hosted</span>
+<div class='navIcons'>
+  <a href='/developers/production/#kin-hosted'><div class='navIcon'>
+    <img class='navIcon-icon kinIcon image-logo' alt='Kin Hosted' src='../essentials/images/kin_logo.svg'>
+    <span class='navIcon-text image-logo-text'>Kin <br/>Hosted</span>
   </div></a>
-  <a href='/developers/production/#self-hosted'><div class='developers-hosting-option'>
-    <img class='use-case-icon' alt='Digital Purchases' src='./images/server-solid.svg'>
-    <span class='use-case-text'>Self Hosted</span>
+  <a href='/developers/production/#self-hosted'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Self hosted' src='./images/server-solid.svg'>
+    <span class='navIcon-text'>Self Hosted</span>
   </div></a>
-  <a href='/developers/production/#3rd-party-hosted'><div class='developers-hosting-option'>
-    <img class='use-case-icon' alt='Staking' src='./images/globe-solid.svg'>
-    <span class='use-case-text'>3rd Party Hosted (Coming Soon)</span>
+  <a href='/developers/production/#3rd-party-hosted'><div class='navIcon'>
+    <img class='navIcon-icon' alt='3rd Party Hosted' src='./images/globe-solid.svg'>
+    <span class='navIcon-text'>3rd Party Hosted (Coming Soon)</span>
   </div></a>
 </div>
 
@@ -110,10 +110,10 @@ Just copy the contents of the `.env.example` file into your own `.env` file.<br/
 See the full list of environment variables <a href='https://github.com/kin-labs/kinetic/blob/dev/.env.example' target='_blank'>here</a>.
 
 #### Make sure Docker is running
-<div class='essentials'>
-  <a href='https://www.docker.com/' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Docker' src='./images/docker-brands.svg'>
-    <span class='essential-text'>Docker</span>
+<div class='navIcons'>
+  <a href='https://www.docker.com/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Docker' src='./images/docker-brands.svg'>
+    <span class='navIcon-text'>Docker</span>
   </div></a>
 </div>
 
@@ -155,19 +155,19 @@ yarn dev:demo
 - <a href='http://localhost:4200' target='_blank'>Click here</a> to open localhost:4200
 ### Deploy your Kinetic Instance to Heroku
 Learn how to deploy your self-hosted Kinetic instance to Heroku
-<div class='developers-hosting-options'>
-  <a href='/developers/deployment/'><div class='developers-hosting-option'>
-    <img class='developers-hosting-option-icon image-logo' alt='deployment' src='./images/heroku.png'>
-    <span class='developers-hosting-option-text image-logo-text'>Deploy Kinetic</span>
+<div class='navIcons'>
+  <a href='/developers/deployment/'><div class='navIcon'>
+    <img class='navIcon-icon herokuIcon image-logo' alt='deployment' src='./images/heroku.png'>
+    <span class='navIcon-text image-logo-text'>Deploy Kinetic</span>
   </div></a>
 </div>
 
 ### Configure Your Kinetic Instance with Kinetic Manager
 See how you can use Kinetic Manager to configure your self-hosted Kinetic instance
-<div class='developers-hosting-options'>
-  <a href='/developers/kinetic-manager/'><div class='developers-hosting-option'>
-    <img class='developers-hosting-option-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
-    <span class='developers-hosting-option-text'>Configure Kinetic</span>
+<div class='navIcons'>
+  <a href='/developers/kinetic-manager/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
+    <span class='navIcon-text'>Configure Kinetic</span>
   </div></a>
 </div>
 
@@ -188,9 +188,9 @@ Stay tuned!
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

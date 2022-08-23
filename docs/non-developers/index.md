@@ -24,8 +24,8 @@ The amazing folks at [Uproll](https://uproll.app/) have created a [No-Code Kin p
 Don't believe us? Checkout out [giftery.io](https://giftery.io/) to see a powerful ecommerce App built by Uproll with the No-Code plugin.
 
 
-<img src="../integrations/giftery/images/Giftery1.png" alt="drawing" class='docImage'/>
-<img src="../integrations/giftery/images/Giftery2.png" alt="drawing" class='docImage'/>
+<img src="../integrations/giftery/images/Giftery1.png" alt="drawing"/>
+<img src="../integrations/giftery/images/Giftery2.png" alt="drawing"/>
 <br/>
 <br/>
 
@@ -47,7 +47,7 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 - Check out the [Docs](https://docs.thekinplugin.com/) to sign up and see how to get started.
 - Check out this fantastic video tutorial to see a detailed 'How To' guide:
 <a href='https://www.youtube.com/watch?v=JrQ6MGQaiv4' target='_blank'>
-  <img src="./images/no-code-tutorial.png" alt="No-Code Tutorial" class='docImage'/>
+  <img src="./images/no-code-tutorial.png" alt="No-Code Tutorial"/>
 </a>
 
 ## Demo Apps
@@ -59,10 +59,10 @@ With the Kin No-Code Plugin, developers have all the tools and resources at thei
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
 
-<div class='contacts'>
-  <a href='/essentials/best-practices/'><div class='essential'>
-    <img class='contact-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
-    <span class='contact-text'>Best Practices</span>
+<div class='navIcons'>
+  <a href='/essentials/best-practices/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <span class='navIcon-text'>Best Practices</span>
   </div></a>
 </div>
 
@@ -70,10 +70,10 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
 

@@ -5,10 +5,10 @@ To earn Kin via the KRE, you have to have registered your App on our Kin Develop
 
 We'll send an email to the account you used during registration. Open that email and follow the instructions to verify your account
 
-<div class='essentials'>
-  <a href='https://portal.kin.org/' target='_blank'><div class='essential'>
-    <img class='essential-icon image-logo' alt='Kin' src='../images/kin_logo.svg'>
-    <span class='essential-text image-logo-text'>Developer Portal</span>
+<div class='navIcons'>
+  <a href='https://portal.kin.org/' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon kinIcon image-logo' alt='Kin' src='../images/kin_logo.svg'>
+    <span class='navIcon-text image-logo-text'>Developer Portal</span>
   </div></a>
 </div>
 
@@ -50,14 +50,14 @@ If you update your App details (either Settings or Environments) in the [Kin Dev
 
 Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
 
-<div class='essentials'>
-<a href='/essentials/getting-help/'><div class='essential'>
-    <img class='essential-icon' alt='Getting Help' src='../images/circle-question-regular.svg'>
-    <span class='essential-text'>Getting Help</span>
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
   </div></a>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
-    <img class='essential-icon' alt='Discord' src='../images/discord-brands.svg'>
-    <span class='essential-text'>Kin Developer Discord</span>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
 
@@ -66,10 +66,10 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
 

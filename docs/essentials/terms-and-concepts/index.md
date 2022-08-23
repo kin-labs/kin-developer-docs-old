@@ -74,13 +74,28 @@ These are the fees (in SOL) charged by Solana the blockchain for every transacti
 
 Registered Kin apps currently have their fees subsidized by the Kin Foundation when approving transactions via the Sign Transaction webhook. At some point in the future the apps will be responsible for these fees but will be notified well in advance.
 
+## What If I Get Stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
+  </div></a>
+</div>
+
 ***
 **Was this page helpful?**<br/>
 If you'd like to tell us how we can make these docs better, let us know here:
 
-<div class='contacts-index'>
-  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='contact'>
-    <img class='contact-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
-    <span class='contact-text'>Feedback</span>
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
