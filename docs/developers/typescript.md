@@ -133,12 +133,78 @@ app.use('/verify', async (req, res) => {
 ```
 
 ## Upgrading to Kinetic from Agora?
-<div class='essentials'>
+
+Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
+
+#### General notes
+- For methods that request Kin be transferred, 'amount' is the amount of Kin, not quarks.
+- Response objects from requests have changed as well so these will have to be taken into account.
+
+#### Instantiate the Kin Client
+```JS
+// Kinetic
+import { KineticSdk } from '@kin-kinetic/sdk'
+const kinClient = await KineticSdk.setup({ environment, index})
+
+// Agora
+import { Client } from '@kinecosystem/kin-sdk-v2'
+const kinClient = new Client(env, { appIndex })
+```
+
+#### Create Account
+```JS
+// Kinetic
+await kinClient.createAccount({ owner: keypair})
+
+// Agora
+await kinClient.createAccount(privateKey)
+```
+#### Airdrop Funds ('devnet' only)
+```JS
+// Kinetic
+await kinClient.requestAirdrop({ account, amount })
+
+// Agora
+await kinClient.requestAirdrop(publicKey, quarks)
+```
+
+#### Check Balance
+```JS
+// Kinetic
+const { balance } = await kinClient.getBalance({ account })
+
+// Agora
+const balance = await kinClient.getBalance(publicKey)
+```
+
+#### Transfer Kin
+```JS
+// Kinetic
+await kinClient.makeTransfer({ amount, destination, owner, type })
+
+// Agora
+await kinClient.submitPayment({ quarks, destination, sender, type})
+```
+
+#### Transfer Kin Batch
+```JS
+// Kinetic
+const destinations = [{ destination, amount }]
+await kinClient.makeTransferBatch({ owner, destinations })
+
+// Agora
+const earns = [{ destination, quarks }]
+await kinClient.submitEarnBatch({ sender, earns })
+```
+
+#### Webhooks
+In Agora, we used the `sign_transaction` webhook. That's been deprecated and we now have the `verify` webhook that can simply return a 200 status code to confirm verification of a request.
+<!-- <div class='essentials'>
   <a href='/developers/upgrade-to-kinetic/'><div class='essential'>
     <img class='essential-icon' alt='Developer' src='./images/turn-up-solid.svg'>
     <span class='essential-text'>Upgrade To Kinetic</span>
   </div></a>
-</div>
+</div> -->
 
 ## Demos and Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!

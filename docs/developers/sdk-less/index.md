@@ -66,8 +66,21 @@ You should also be able to see the transaction when you log in to the [Kin Devel
 
 And that's it! The specific implementation will be different depending on how you are interacting with Solana, but the basic principle applies, and as long as you've created your transaction correctly, you should be good to go!
 
-## Getting Help
-If you have any issues, please drop us a line in our [Developer Discord](https://discord.gg/kdRyUNmHDn) and jump into our `sdk-less` [channel](https://discord.com/channels/808859554997469244/946095829205266533)
+## What If I Get Stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today and jump into our `sdk-less` [channel](https://discord.com/channels/808859554997469244/946095829205266533)!
+
+<div class='essentials'>
+<a href='/essentials/getting-help/'><div class='essential'>
+    <img class='essential-icon' alt='Getting Help' src='../../essentials/images/circle-question-regular.svg'>
+    <span class='essential-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='essential'>
+    <img class='essential-icon' alt='Discord' src='../../essentials/images/discord-brands.svg'>
+    <span class='essential-text'>Kin Developer Discord</span>
+  </div></a>
+</div>
+
 
 ## Demos And Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
