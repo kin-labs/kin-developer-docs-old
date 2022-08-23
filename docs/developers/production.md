@@ -36,7 +36,7 @@ You'll notice in the example above, you can pass in an optional `endpoint` when 
   </div></a>
   <a href='/developers/production/#3rd-party-hosted'><div class='navIcon'>
     <img class='navIcon-icon' alt='3rd Party Hosted' src='./images/globe-solid.svg'>
-    <span class='navIcon-text'>3rd Party Hosted (Coming Soon)</span>
+    <span class='navIcon-text'>3rd Party Hosted</span>
   </div></a>
 </div>
 
