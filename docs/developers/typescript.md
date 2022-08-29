@@ -56,17 +56,18 @@ const accountOptions = {
 }
 await kineticClient.createAccount(accountOptions);
 ```
-#### Airdrop Funds ('devnet' only)
+#### Check Balance
+```JS
+const balanceOptions = { account: keypair.publicKey }
+const { balance } = await kineticClient.getBalance(balanceOptions)
+```
+#### Airdrop Funds (devnet)
 ```JS
 const airdropOptions = {
     account: keypair.publicKey,
     amount: '1000',
 }
 await kineticClient.requestAirdrop(airdropOptions);
-```
-#### Check Balance
-```JS
-const { balance } = await kineticClient.getBalance({ account: keypair.publicKey })
 ```
 #### Transfer Kin
 ```JS
@@ -104,6 +105,17 @@ const transferBatchOptions = {
 await kineticClient.makeTransferBatch(transferBatchOptions);
 ```
 
+#### Get Transaction Details
+```JS
+// Coming Soon
+```
+
+#### Get Account History
+```JS
+const historyOptions = { account: keypair.publicKey }
+await kineticClient.getHistory(historyOptions)
+```
+
 ### Webhooks
 In [Kinetic Manager](/developers/kinetic-manager/), you can configure your App to use the following webhooks:
 #### Events Webhook
@@ -137,8 +149,8 @@ app.use('/verify', async (req, res) => {
 Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
 
 #### General notes
-- For methods that request Kin be transferred, 'amount' is the amount of Kin, not quarks.
-- Response objects from requests have changed as well so these will have to be taken into account.
+- For methods that request Kin be transferred, `amount` is the amount of Kin, not quarks.
+- Response objects from requests have updated / changed.
 
 #### Instantiate the Kin Client
 ```JS
@@ -159,14 +171,6 @@ await kinClient.createAccount({ owner: keypair})
 // Agora
 await kinClient.createAccount(privateKey)
 ```
-#### Airdrop Funds ('devnet' only)
-```JS
-// Kinetic
-await kinClient.requestAirdrop({ account, amount })
-
-// Agora
-await kinClient.requestAirdrop(publicKey, quarks)
-```
 
 #### Check Balance
 ```JS
@@ -175,6 +179,14 @@ const { balance } = await kinClient.getBalance({ account })
 
 // Agora
 const balance = await kinClient.getBalance(publicKey)
+```
+#### Airdrop Funds (devnet)
+```JS
+// Kinetic
+await kinClient.requestAirdrop({ account, amount })
+
+// Agora
+await kinClient.requestAirdrop(publicKey, quarks)
 ```
 
 #### Transfer Kin
@@ -195,6 +207,17 @@ await kinClient.makeTransferBatch({ owner, destinations })
 // Agora
 const earns = [{ destination, quarks }]
 await kinClient.submitEarnBatch({ sender, earns })
+```
+
+#### Get Transaction Details
+```JS
+// Kinetic
+// Coming Soon
+
+// Agora
+import bs58 from 'bs58';
+const transactionBuffer = bs58.decode(transactionId);
+const data = await kineticClient.getTransaction(transactionBuffer);
 ```
 
 #### Webhooks
