@@ -1,11 +1,11 @@
 ---
-title: TypeScript SDK
+title: TODO SDK
 layout: layout-index
 eleventyNavigation:
-  key: TypeScript SDK
-  order: 09
+  key: TODO SDK
+  order: 19
 ---
-# TypeScript SDK
+# TODO SDK
 
 ## Get Started or Add to an Existing Project
 
@@ -14,7 +14,6 @@ Getting started with Kin is incredibly straightforward. Just follow the steps be
 
 #### Installation
 ```
-npm i @kin-kinetic/sdk
 ```
 
 #### Instantiate the Kinetic Client
@@ -24,14 +23,7 @@ The Kinetic Client will give you access to all the methods you need to work with
 We recommend starting with Devnet before moving on to Mainnet. 
 
 ```
-import { KineticSdk } from '@kin-kinetic/sdk';
 
-const clientOptions = {
-    environment : 'devnet', // mainnet or devnet
-    index : 999, // your App Index
-};
-
-const kineticClient = await KineticSdk.setup(clientOptions);
 ```
 Don't have an App Index? Register your App on our Developer Portal so you can get your App Index that allows you to transact with our SDKs and earn via the KRE.
 
@@ -45,73 +37,32 @@ Don't have an App Index? Register your App on our Developer Portal so you can ge
 #### Create Account
 You can create accounts from existing mnemonics or secret keys. In this case we'll generate a mnemonic and use that to creat the keypair we use for creating the account on the blockchain.
 ```
-const mnemonic = Keypair.generateMnemonic();
-const keypair = Keypair.fromMnemonic(mnemonic);
-const accountOptions = {
-    owner: keypair,
-}
-await kineticClient.createAccount(accountOptions);
+
 ```
 #### Check Balance
 ```
-const balanceOptions = { account: keypair.publicKey }
-const { balance } = await kineticClient.getBalance(balanceOptions)
+
 ```
 #### Airdrop Funds (devnet)
 ```
-const airdropOptions = {
-    account: keypair.publicKey,
-    amount: '1000',
-}
-await kineticClient.requestAirdrop(airdropOptions);
+
 ```
 #### Transfer Kin
 ```
-import { TransactionType } from '@kin-tools/kin-memo';
 
-const transferOptions = {
-    amount : '5000',
-    destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
-    owner: keypair,
-    type: TransactionType.P2P, // Can be Unknown, None, Earn, Spend or P2P
-};
-
-await kineticClient.makeTransfer(transferOptions);
 ```
 #### Transfer Kin Batch
 ```
-const destinations = [
-  {
-    amount: '500',
-    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
-  },
-  {
-    amount: '600',
-    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
-  },
-  {
-    amount: '800',
-    destination: destination: `BQJi5K2s4SDDbed1ArpXjb6n7yVUfM34ym9a179MAqVo`,
-  },
-]
 
-const transferBatchOptions = {
-    owner: keypair,
-    destinations,
-};
-
-await kineticClient.makeTransferBatch(transferBatchOptions);
 ```
 
 #### Get Transaction Details
 ```
-// Coming Soon
 ```
 
 #### Get Account History
 ```
-const historyOptions = { account: keypair.publicKey }
-await kineticClient.getHistory(historyOptions)
+
 ```
 
 ### Webhooks
@@ -142,6 +93,11 @@ app.use('/verify', async (req, res) => {
 });
 ```
 
+#### Examples
+For examples of how to create your own server for handling webhooks, see:
+- [Node SDK Demo](https://github.com/kin-starters/kin-demo-node-sdk)
+- [Python SDK Demo](https://github.com/kin-starters/kin-demo-python-sdk)
+
 ## Upgrading to Kinetic from Agora?
 
 Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
@@ -153,69 +109,56 @@ Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated t
 #### Instantiate the Kin Client
 ```
 // Kinetic
-import { KineticSdk } from '@kin-kinetic/sdk'
-const kinClient = await KineticSdk.setup({ environment, index})
 
 // Agora
-import { Client } from '@kinecosystem/kin-sdk-v2'
-const kinClient = new Client(env, { appIndex })
+
 ```
 
 #### Create Account
 ```
 // Kinetic
-await kinClient.createAccount({ owner: keypair})
 
 // Agora
-await kinClient.createAccount(privateKey)
+
 ```
 
 #### Check Balance
 ```
 // Kinetic
-const { balance } = await kinClient.getBalance({ account })
 
 // Agora
-const balance = await kinClient.getBalance(publicKey)
+
 ```
 #### Airdrop Funds (devnet)
 ```
 // Kinetic
-await kinClient.requestAirdrop({ account, amount })
 
 // Agora
-await kinClient.requestAirdrop(tokenAccountPublicKey, quarks)
+
 ```
 
 #### Transfer Kin
 ```
 // Kinetic
-await kinClient.makeTransfer({ amount, destination, owner, type })
 
 // Agora
-await kinClient.submitPayment({ quarks, destination, sender, type})
+
 ```
 
 #### Transfer Kin Batch
 ```
 // Kinetic
-const destinations = [{ destination, amount }]
-await kinClient.makeTransferBatch({ owner, destinations })
 
 // Agora
-const earns = [{ destination, quarks }]
-await kinClient.submitEarnBatch({ sender, earns })
+
 ```
 
 #### Get Transaction Details
 ```
 // Kinetic
-// Coming Soon
 
 // Agora
-import bs58 from 'bs58';
-const transactionBuffer = bs58.decode(transactionId);
-const data = await kineticClient.getTransaction(transactionBuffer);
+
 ```
 
 #### Webhooks
@@ -225,13 +168,9 @@ In Agora, we used the `sign_transaction` webhook. That's been deprecated and we 
 ## Demos and Starter Kits
 Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
 
-### [Kinetic DApp Demo](https://github.com/kin-starters/kin-dapp-kinetic)
-A lightweight web-based implementation of Kinetic with a fully functional Next.js based interface.
+### [TODO SDK Demo](https://github.com/kin-starters/kin-demo-python-sdk)
+TODO DESCRIPTION. 
 
-### [Node SDK Demo](https://github.com/kin-starters/kin-demo-node-sdk)
-A full-fat server based implementation of Kin Kinetic. 
-
-This server is compatible with the [Kin DApp Playground](https://github.com/kin-starters/kin-dapp-playground) Front End.
 
 ## Ready for Production?
 If your App is ready for production, this is the place for you!
@@ -252,11 +191,11 @@ If your App is ready for production, this is the place for you!
 </div>
 
 ## Contribute
-Want to contribute to the Kin Node SDK?
+Want to contribute to the Kin Python SDK?
 <div class='navIcons'>
-  <a href='https://github.com/kinecosystem/kin-node' target='_blank'><div class='navIcon'>
+  <a href='https://github.com/kinecosystem/kin-python' target='_blank'><div class='navIcon'>
     <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
-    <span class='navIcon-text'>Kinetic Node SDK</span>
+    <span class='navIcon-text'>Kinetic Python SDK</span>
   </div></a>
 </div>
 

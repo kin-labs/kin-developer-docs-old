@@ -49,7 +49,7 @@ To try it yourself, check out our [Kin DApp Demo](https://github.com/kin-labs/ki
 Look [here](https://github.com/kin-labs/kin-dapp-demo/blob/master/src/helpers/SDKless/handleSendKin.ts) if you want to skip straight to creating transactions.
 
 TLDR?
-```JavaScript
+```
 const transaction = new Transaction()
     .add(appIndexMemoInstruction) // Must be the first instruction
     .add(transferInstruction);

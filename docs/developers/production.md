@@ -14,7 +14,7 @@ Before moving your application onto the Mainnet, it's good practice to make sure
 When you set up your Kinetic Client using one of our SDKs, you need to set your environment. This can be either `devnet` or `mainnet`. For Production, you should choose `mainnet`.
 
 For example, here's how it works with the TypeScript SDK:
-```JS
+```
 const clientOptions = {
     environment : 'mainnet', // mainnet or devnet
     index : 999, // your App Index
@@ -52,7 +52,7 @@ This is the easiest option and what we recommend for small-scale Apps that are j
 ### How To Connect
 Just point to `mainnet` as your environment when you instantiate your Kinetic Client via your SDK of choice.
 E.g. TypeScript SDK:
-```JS
+```
 const clientOptions = {
     environment : 'mainnet', // mainnet or devnet
     index : 999, // your App Index
@@ -78,7 +78,7 @@ For larger scale Apps or those looking for more control.
 ### Connecting To Your Own Kinetic Instance
 Point to `mainnet` as your `environment` and set your `endpoint` to where you've deployed your own Kinetic Instance.
 E.g. TypeScript SDK:
-```JS
+```
 const clientOptions = {
     environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
