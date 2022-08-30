@@ -854,5 +854,15 @@ body[layout='layout-home-background'] .page-background {
   padding: 5px;
 }
 
+.kinetic_coming_soon {
+  padding: 10px 40px 30px;
+  border-radius: 5px;
+  background-color: var(--primary-color-accent);
+}
+
+.markdown-body .kinetic_coming_soon h1 {
+  border-bottom: none;
+}
+
 
 

@@ -6,7 +6,24 @@ eleventyNavigation:
   order: 29
 ---
 
+
+<div class="kinetic_coming_soon">
+<h1>Kin Kinetic - Coming Soon!</h1>
+<h4>
+Kin's next generation of SDKs is coming soon, powered by Kinetic, a new suite of tools that will take the Kin development experience to a higher level.
+</h4>
+<h4>
+Keep watching...
+</h4>
+
+
+</div>
+
+
+
 # Developers
+
+
 
 Before you begin, there are some steps you'll need to complete...
 <div class='navIcons'>
