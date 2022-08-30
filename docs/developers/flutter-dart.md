@@ -1,11 +1,11 @@
 ---
-title: Flutter (Dart)
+title: Flutter SDK (Dart)
 layout: layout-index
 eleventyNavigation:
-  key: Flutter (Dart) SDK
+  key: Flutter SDK (Dart)
   order: 59
 ---
-# Flutter (Dart) SDK
+# Flutter SDK (Dart) 
 
 Coming Soon!
 
