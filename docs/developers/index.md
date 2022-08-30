@@ -43,9 +43,9 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
     <img class='navIcon-icon' alt='python' src='./images/python2.png'>
     <span class='navIcon-text'>Python</span>
   </div></a>
-  <a href='/developers/cdn/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='web' src='./images/circle-nodes-solid.svg'>
-    <span class='navIcon-text'>Web (CDN)</span>
+  <a href='/developers/flutter-dart/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='swift' src='./images/dart.png'>
+    <span class='navIcon-text'>Flutter (Dart)</span>
   </div></a>
   <a href='/developers/ios-swift/'><div class='navIcon'>
     <img class='navIcon-icon swiftIcon' alt='swift' src='./images/swift.png'>
@@ -55,17 +55,9 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
     <img class='navIcon-icon' alt='swift' src='./images/kotlin.png'>
     <span class='navIcon-text'>Android (Kotlin)</span>
   </div></a>
-  <a href='/developers/android-java/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='swift' src='./images/java.svg'>
-    <span class='navIcon-text'>Android (Java)</span>
-  </div></a>
   <a href='/developers/unity/'><div class='navIcon'>
     <img class='navIcon-icon' alt='swift' src='./images/unity.svg'>
     <span class='navIcon-text'>Unity</span>
-  </div></a>
-  <a href='/developers/flutter-dart/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='swift' src='./images/dart.png'>
-    <span class='navIcon-text'>Flutter (Dart)</span>
   </div></a>
 </div>
 

@@ -3,7 +3,7 @@ title: iOS (Swift)
 layout: layout-index
 eleventyNavigation:
   key: iOS SDK (Swift)
-  order: 29
+  order: 39
 ---
 # iOS SDK (Swift)
 
