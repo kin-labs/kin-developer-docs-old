@@ -97,4 +97,42 @@ The two keys above are different representations of the same blockchain address.
 
 In all other instances, use the Solana format for consistency. The Stellar format is an artefact from Kin's previous blockchain.
 
+## What If I Get Stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../../essentials/images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../../essentials/images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
+  </div></a>
+</div>
+
+## Developer Best Practices
+
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+
+<div class='navIcons'>
+  <a href='/essentials/best-practices/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Best Practices' src='../../essentials/images/rainbow-solid.svg'>
+    <span class='navIcon-text'>Best Practices</span>
+  </div></a>
+</div>
+
+***
+**Was this page helpful?**<br/>
+If you'd like to tell us how we can make these docs better, let us know here:
+
+<div class='navIcons'>
+  <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../../essentials/images/comment-dots-solid.svg'>
+    <span class='navIcon-text'>Feedback</span>
+  </div></a>
+</div>
+
+
 
