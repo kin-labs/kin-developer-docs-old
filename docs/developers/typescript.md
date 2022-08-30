@@ -13,7 +13,7 @@ Getting started with Kin is incredibly straightforward. Just follow the steps be
 
 
 #### Installation
-```
+```js
 npm i @kin-kinetic/sdk
 ```
 
@@ -23,7 +23,7 @@ The Kinetic Client will give you access to all the methods you need to work with
 
 We recommend starting with Devnet before moving on to Mainnet. 
 
-```
+```js
 import { KineticSdk } from '@kin-kinetic/sdk';
 
 const clientOptions = {
@@ -44,7 +44,7 @@ Don't have an App Index? Register your App on our Developer Portal so you can ge
 
 #### Create Account
 You can create accounts from existing mnemonics or secret keys. In this case we'll generate a mnemonic and use that to creat the keypair we use for creating the account on the blockchain.
-```
+```js
 const mnemonic = Keypair.generateMnemonic();
 const keypair = Keypair.fromMnemonic(mnemonic);
 const accountOptions = {
@@ -53,12 +53,12 @@ const accountOptions = {
 await kineticClient.createAccount(accountOptions);
 ```
 #### Check Balance
-```
+```js
 const balanceOptions = { account: keypair.publicKey }
 const { balance } = await kineticClient.getBalance(balanceOptions)
 ```
 #### Airdrop Funds (devnet)
-```
+```js
 const airdropOptions = {
     account: keypair.publicKey,
     amount: '1000',
@@ -66,7 +66,7 @@ const airdropOptions = {
 await kineticClient.requestAirdrop(airdropOptions);
 ```
 #### Transfer Kin
-```
+```js
 import { TransactionType } from '@kin-tools/kin-memo';
 
 const transferOptions = {
@@ -79,7 +79,7 @@ const transferOptions = {
 await kineticClient.makeTransfer(transferOptions);
 ```
 #### Transfer Kin Batch
-```
+```js
 const destinations = [
   {
     amount: '500',
@@ -104,12 +104,12 @@ await kineticClient.makeTransferBatch(transferBatchOptions);
 ```
 
 #### Get Transaction Details
-```
+```js
 // Coming Soon
 ```
 
 #### Get Account History
-```
+```js
 const historyOptions = { account: keypair.publicKey }
 await kineticClient.getHistory(historyOptions)
 ```
@@ -119,7 +119,8 @@ In [Kinetic Manager](/developers/kinetic-manager/), you can configure your App t
 #### Events Webhook
 This webhook can be used to receive information about completed transactions.
 <br/>E.g. In a node express server:
-```
+
+```js
 app.use('/events', async (req, res) => {
   const event = req.body
   // DO STUFF WITH THE EVENT DATA
@@ -130,7 +131,8 @@ app.use('/events', async (req, res) => {
 #### Verify Webhook
 This webhook can be used to verify transactions.
 <br/>E.g. In a node express server return a `200` status code to approve the transaction:
-```
+
+```js
 app.use('/verify', async (req, res) => {
   const transaction = req.body
   // CHECK THAT YOU WANT THIS TRANSACTION TO PROCEED
@@ -141,85 +143,6 @@ app.use('/verify', async (req, res) => {
   res.sendStatus(400);
 });
 ```
-
-## Upgrading to Kinetic from Agora?
-
-Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
-
-#### General notes
-- For methods that request Kin be transferred, `amount` is the amount of Kin, not quarks.
-- Response objects from requests have updated / changed.
-
-#### Instantiate the Kin Client
-```
-// Kinetic
-import { KineticSdk } from '@kin-kinetic/sdk'
-const kinClient = await KineticSdk.setup({ environment, index})
-
-// Agora
-import { Client } from '@kinecosystem/kin-sdk-v2'
-const kinClient = new Client(env, { appIndex })
-```
-
-#### Create Account
-```
-// Kinetic
-await kinClient.createAccount({ owner: keypair})
-
-// Agora
-await kinClient.createAccount(privateKey)
-```
-
-#### Check Balance
-```
-// Kinetic
-const { balance } = await kinClient.getBalance({ account })
-
-// Agora
-const balance = await kinClient.getBalance(publicKey)
-```
-#### Airdrop Funds (devnet)
-```
-// Kinetic
-await kinClient.requestAirdrop({ account, amount })
-
-// Agora
-await kinClient.requestAirdrop(tokenAccountPublicKey, quarks)
-```
-
-#### Transfer Kin
-```
-// Kinetic
-await kinClient.makeTransfer({ amount, destination, owner, type })
-
-// Agora
-await kinClient.submitPayment({ quarks, destination, sender, type})
-```
-
-#### Transfer Kin Batch
-```
-// Kinetic
-const destinations = [{ destination, amount }]
-await kinClient.makeTransferBatch({ owner, destinations })
-
-// Agora
-const earns = [{ destination, quarks }]
-await kinClient.submitEarnBatch({ sender, earns })
-```
-
-#### Get Transaction Details
-```
-// Kinetic
-// Coming Soon
-
-// Agora
-import bs58 from 'bs58';
-const transactionBuffer = bs58.decode(transactionId);
-const data = await kineticClient.getTransaction(transactionBuffer);
-```
-
-#### Webhooks
-In Agora, we used the `sign_transaction` webhook. That's been deprecated and we now have the `verify` webhook that can simply return a 200 status code to confirm verification of a request.
 
 
 ## Demos and Starter Kits
@@ -278,8 +201,6 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
   </div></a>
 </div>
 
-
-
 ## Developer Best Practices
 
 Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
@@ -290,6 +211,87 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
     <span class='navIcon-text'>Best Practices</span>
   </div></a>
 </div>
+
+## Upgrading to Kinetic from Agora?
+
+Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
+
+#### General notes
+- For methods that request Kin be transferred, `amount` is the amount of Kin, not quarks.
+- Response objects from requests have updated / changed.
+
+#### Instantiate the Kin Client
+```js
+// Kinetic
+import { KineticSdk } from '@kin-kinetic/sdk'
+const kinClient = await KineticSdk.setup({ environment, index})
+
+// Agora
+import { Client } from '@kinecosystem/kin-sdk-v2'
+const kinClient = new Client(env, { appIndex })
+```
+
+#### Create Account
+```js
+// Kinetic
+await kinClient.createAccount({ owner: keypair})
+
+// Agora
+await kinClient.createAccount(privateKey)
+```
+
+#### Check Balance
+```js
+// Kinetic
+const { balance } = await kinClient.getBalance({ account })
+
+// Agora
+const balance = await kinClient.getBalance(publicKey)
+```
+#### Airdrop Funds (devnet)
+```js
+// Kinetic
+await kinClient.requestAirdrop({ account, amount })
+
+// Agora
+await kinClient.requestAirdrop(tokenAccountPublicKey, quarks)
+```
+
+#### Transfer Kin
+```js
+// Kinetic
+await kinClient.makeTransfer({ amount, destination, owner, type })
+
+// Agora
+await kinClient.submitPayment({ quarks, destination, sender, type})
+```
+
+#### Transfer Kin Batch
+```js
+// Kinetic
+const destinations = [{ destination, amount }]
+await kinClient.makeTransferBatch({ owner, destinations })
+
+// Agora
+const earns = [{ destination, quarks }]
+await kinClient.submitEarnBatch({ sender, earns })
+```
+
+#### Get Transaction Details
+```js
+// Kinetic
+// Coming Soon
+
+// Agora
+import bs58 from 'bs58';
+const transactionBuffer = bs58.decode(transactionId);
+const data = await kineticClient.getTransaction(transactionBuffer);
+```
+
+#### Webhooks
+In Agora, we used the `sign_transaction` webhook. That's been deprecated and we now have the `verify` webhook that can simply return a 200 status code to confirm verification of a request.
+
+
 
 ***
 **Was this page helpful?**<br/>

@@ -14,7 +14,7 @@ Before moving your application onto the Mainnet, it's good practice to make sure
 When you set up your Kinetic Client using one of our SDKs, you need to set your environment. This can be either `devnet` or `mainnet`. For Production, you should choose `mainnet`.
 
 For example, here's how it works with the TypeScript SDK:
-```
+```js
 const clientOptions = {
     environment : 'mainnet', // mainnet or devnet
     index : 999, // your App Index
@@ -52,7 +52,7 @@ This is the easiest option and what we recommend for small-scale Apps that are j
 ### How To Connect
 Just point to `mainnet` as your environment when you instantiate your Kinetic Client via your SDK of choice.
 E.g. TypeScript SDK:
-```
+```js
 const clientOptions = {
     environment : 'mainnet', // mainnet or devnet
     index : 999, // your App Index
@@ -78,7 +78,7 @@ For larger scale Apps or those looking for more control.
 ### Connecting To Your Own Kinetic Instance
 Point to `mainnet` as your `environment` and set your `endpoint` to where you've deployed your own Kinetic Instance.
 E.g. TypeScript SDK:
-```
+```js
 const clientOptions = {
     environment : 'devnet', // mainnet or devnet
     index : 999, // your App Index
@@ -87,78 +87,16 @@ const clientOptions = {
 
 const kineticClient = await KineticSdk.setup(clientOptions);
 ```
-This is the easy bit. Below, we'll explain how to run, deploy and manage your own Kinetic instance.
-### Running Kinetic Locally
 
-#### Requirements:
-```
-Node.js 14+
-Docker 20+
-Yarn v1.22+
-```
-
-#### Get Started
-To get started with Kinetic, pull down the [Kinetic](https://github.com/kin-labs/kinetic) repo and install dependencies.
-```
-git clone git@github.com:kin-labs/kinetic.git
-cd kinetic
-yarn install
-```
-#### Prepare your Environment Variables
-Kinetic is highly configurable, but don't worry, we've provided an example file you can use to get started quickly.<br/>
-Just copy the contents of the `.env.example` file into your own `.env` file.<br/>
-See the full list of environment variables <a href='https://github.com/kin-labs/kinetic/blob/dev/.env.example' target='_blank'>here</a>.
-
-#### Make sure Docker is running
+Your `endpoint` can be your own deployed Kinetic instance or a locally running instance.
 <div class='navIcons'>
-  <a href='https://www.docker.com/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Docker' src='./images/docker-brands.svg'>
-    <span class='navIcon-text'>Docker</span>
-  </div></a>
-</div>
-
-
-#### Run Kinetic Services
-Then, in separate terminals, do each of the following:
-
-- run the database
-```
-yarn dev:services:postgres
-```
-- prepare the database
-```
-yarn prisma migrate reset && yarn prisma db push
-```
-- run Solana locally (`localhost:8899`) or set `SOLANA_DEVNET_RPC_ENDPOINT=devnet` and skip this step
-```
-yarn dev:services:solana
-```
-- run the Kinetic API (`localhost:3000`)
-```
-yarn dev:api
-```
-- run the Kinetic Manager (`localhost:4400`)
-```
-yarn dev:admin
-```
-- run the Kinetic Demo App (`localhost:4200`)
-```
-yarn dev:demo
-```
-
-#### Open The Kinetic Manager
-- Kinetic Manager is a full-featured GUI for Kinetic
-- You can log in using the details set in your `.env` file.
-- <a href='http://localhost:4400' target='_blank'>Click here</a> to open localhost:4400
-#### Open The Kinetic Demo
-- Use the built-in Kinetic Demo to test Kin transactions on your Kinetic instance
-- <a href='http://localhost:4200' target='_blank'>Click here</a> to open localhost:4200
-### Deploy your Kinetic Instance to Heroku
-Learn how to deploy your self-hosted Kinetic instance to Heroku
-<div class='navIcons'>
-  <a href='/developers/deployment/'><div class='navIcon'>
+  <a href='/developers/deployment/#deploying-kinetic-to-heroku'><div class='navIcon'>
     <img class='navIcon-icon herokuIcon' alt='deployment' src='./images/heroku.png'>
     <span class='navIcon-text'>Deploy Kinetic</span>
+  </div></a>
+  <a href='/developers/deployment/#running-kinetic-locally'><div class='navIcon'>
+    <img class='navIcon-icon' alt='deployment' src='./images/docker-brands.svg'>
+    <span class='navIcon-text'>Run Kinetic Locally</span>
   </div></a>
 </div>
 

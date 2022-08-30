@@ -98,6 +98,67 @@ For examples of how to create your own server for handling webhooks, see:
 - [Node SDK Demo](https://github.com/kin-starters/kin-demo-node-sdk)
 - [Python SDK Demo](https://github.com/kin-starters/kin-demo-python-sdk)
 
+
+## Demos and Starter Kits
+Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
+
+### [TODO SDK Demo](https://github.com/kin-starters/kin-demo-python-sdk)
+TODO DESCRIPTION. 
+
+
+## Ready for Production?
+If your App is ready for production, this is the place for you!
+
+<div class='navIcons'>
+  <a href='/developers/production/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
+    <span class='navIcon-text'>Production</span>
+  </div></a>
+</div>
+
+## Earn Kin via the KRE
+<div class='navIcons'>
+  <a href='/essentials/kin-rewards-engine/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
+    <span class='navIcon-text'>Kin Rewards Engine</span>
+  </div></a>
+</div>
+
+## Contribute
+Want to contribute to the Kin Python SDK?
+<div class='navIcons'>
+  <a href='https://github.com/kinecosystem/kin-python' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
+    <span class='navIcon-text'>Kinetic Python SDK</span>
+  </div></a>
+</div>
+
+## What If I Get Stuck?
+
+Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
+
+<div class='navIcons'>
+<a href='/essentials/getting-help/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <span class='navIcon-text'>Getting Help</span>
+  </div></a>
+  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <span class='navIcon-text'>Developer Discord</span>
+  </div></a>
+</div>
+
+## Developer Best Practices
+
+Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
+
+<div class='navIcons'>
+  <a href='/essentials/best-practices/'><div class='navIcon'>
+    <img class='navIcon-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <span class='navIcon-text'>Best Practices</span>
+  </div></a>
+</div>
+
 ## Upgrading to Kinetic from Agora?
 
 Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated technology called Agora. Here, we will outline the key API changes from the old version of our SDK to the new Kinetic version.
@@ -164,71 +225,6 @@ Prior to the release of Kinetic, our Kin SDKs were powered by a now-deprecated t
 #### Webhooks
 In Agora, we used the `sign_transaction` webhook. That's been deprecated and we now have the `verify` webhook that can simply return a 200 status code to confirm verification of a request.
 
-
-## Demos and Starter Kits
-Created to help get you up and running as quickly as possible, these projects can be a great reference point when you get stuck or even a starter for your own project. Happy coding!
-
-### [TODO SDK Demo](https://github.com/kin-starters/kin-demo-python-sdk)
-TODO DESCRIPTION. 
-
-
-## Ready for Production?
-If your App is ready for production, this is the place for you!
-
-<div class='navIcons'>
-  <a href='/developers/production/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
-    <span class='navIcon-text'>Production</span>
-  </div></a>
-</div>
-
-## Earn Kin via the KRE
-<div class='navIcons'>
-  <a href='/essentials/kin-rewards-engine/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
-    <span class='navIcon-text'>Kin Rewards Engine</span>
-  </div></a>
-</div>
-
-## Contribute
-Want to contribute to the Kin Python SDK?
-<div class='navIcons'>
-  <a href='https://github.com/kinecosystem/kin-python' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
-    <span class='navIcon-text'>Kinetic Python SDK</span>
-  </div></a>
-</div>
-
-
-
-
-## What If I Get Stuck?
-
-Fortunately, we have an amazing developer community on our Developer Discord server. Join today!
-
-<div class='navIcons'>
-<a href='/essentials/getting-help/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
-    <span class='navIcon-text'>Getting Help</span>
-  </div></a>
-  <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
-    <span class='navIcon-text'>Developer Discord</span>
-  </div></a>
-</div>
-
-
-
-## Developer Best Practices
-
-Once you're ready to code, have a quick look at our [Developer Best Practices](/essentials/best-practices/) where we cover some useful topics that you'll want to keep in mind as you build out your Kin application.
-
-<div class='navIcons'>
-  <a href='/essentials/best-practices/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
-    <span class='navIcon-text'>Best Practices</span>
-  </div></a>
-</div>
 
 ***
 **Was this page helpful?**<br/>
