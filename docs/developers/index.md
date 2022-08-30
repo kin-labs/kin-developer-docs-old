@@ -38,11 +38,6 @@ Before you begin, there are some steps you'll need to complete...
 
 Kin offers a range of SDKs to make connecting your App to the blockchain as seamless as possible. 
 
-
-
-
-### Select your preferred language:
-
 <div class='navIcons'>
   <a href='/developers/typescript/'><div class='navIcon'>
     <img class='navIcon-icon' alt='typescript' src='./images/typescript.svg'>
