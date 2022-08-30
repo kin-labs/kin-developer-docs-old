@@ -60,7 +60,6 @@ That's it! You should be good to go. Click 'Open app' to open the Kinetic Manage
   </div></a>
 </div>
 
-This is the easy bit. Below, we'll explain how to run, deploy and manage your own Kinetic instance.
 ## Running Kinetic Locally
 
 #### Requirements:
