@@ -32,7 +32,7 @@ Kinetic is aimed at developers that want to build crypto-experiences for the use
 No! Our Kinetic SDKs have been designed so that you can start building straight away, without needing to jump through a bunch of hoops.
 
 
-### Select your preferred language:
+### Choose your Kinetic SDK:
 
 <div class='navIcons'>
   <a href='/developers/typescript/'><div class='navIcon'>
