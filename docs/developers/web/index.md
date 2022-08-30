@@ -65,7 +65,7 @@ if (error) {
 
 ### Step 5: Get Balances
 
-The next step is resolving the balances. A 'balance' (or 'token account') is where the Kin is actually stored, as Kin is a token on the Solana blockchain. You can [read more details here](/docs/solana/#token-accounts).
+The next step is resolving the balances. A 'balance' (or 'token account') is where the Kin is actually stored, as Kin is a token on the Solana blockchain. You can [read more details here](/essentials/terms-and-concepts/#token-account).
 
 ```js
 // Get Balances

@@ -12,7 +12,7 @@ This tutorial will take you through the basics of creating a Kin enabled app usi
 
 ### Requirements
 
-Make sure you have read [Getting Started](/tutorials/#getting-started) and have the required environment variables
+Make sure you have read [Getting Started](/developers/getting-started/) and have the required environment variables
 
 
 #### 1. Install the Kin SDK for Python to your project:

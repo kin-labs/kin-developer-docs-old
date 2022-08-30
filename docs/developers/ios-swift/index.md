@@ -13,7 +13,7 @@ This tutorial will take you through the basics of creating a Kin enabled app usi
 
 ### Requirements
 
-Make sure you have read [Getting Started](/developers/getting-started) and have the required environment variables
+Make sure you have read [Getting Started](/developers/getting-started/) and have the required environment variables
 
 
 #### 1. Make sure your project is set up for [cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)

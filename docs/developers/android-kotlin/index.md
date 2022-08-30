@@ -13,7 +13,7 @@ This tutorial will take you through the basics of creating a Kin enabled app usi
 
 ### Requirements
 
-Make sure you have read [Getting Started](/tutorials/#getting-started) and have the required environment variables
+Make sure you have read [Getting Started](/developers/getting-started/) and have the required environment variables
 
 
 #### 1. Create an empty Android app and add the [Kin.kt](https://github.com/kintegrate/kin-starter-kotlin/blob/master/app/src/main/java/com/kin/kin/Kin.kt) class to your app
