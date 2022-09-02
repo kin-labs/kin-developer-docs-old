@@ -1,11 +1,13 @@
 html {
-  --primary-color: #6f41e8;
+  --primary-color: #dea2f7;
+  /* --primary-color: #6f41e8; */
   --primary-color-lighter: #c9b5fd;
   --primary-color-lightest: #e6dff8;
   --primary-color-darker: #5728d1;
   --primary-color-accent: #cee5f6;
   --primary-color-lightest: #efedf5;
-  --primary-text-color: #2c3e50;
+  /* --primary-text-color: #2c3e50; */
+  --primary-text-color: #efedf5;
   --primary-lines-color: #ccc;
   --white: #ffffff;
 
@@ -24,12 +26,39 @@ html {
   --contrast-color-dark: #1d3557;
 
   /* background-colors */
-  --page-background: white;
-  --footer-background: #6f41e8;
+  --page-background: linear-gradient(
+    160deg, 
+    rgb(0, 0, 0) 0%,
+    rgb(18, 0, 34) 67%, 
+    rgb(48, 0, 77) 100%
+  );
+
+  --sidebar-background-overlay: rgb(11, 0, 22);
+ 
+  --sidebar-background: linear-gradient(
+    125deg, 
+    rgb(63, 0, 99) 0%, 
+    rgb(27, 0, 49) 20%, 
+    rgb(31, 1, 63) 70%, 
+    rgb(59, 1, 95) 100%
+  );
+
+      /* --header-background: rgb(20, 0, 39); */
+
+  --header-background: linear-gradient(
+      125deg, 
+      rgb(0, 0, 0) 0%,
+      rgb(18, 0, 34) 100%
+  );
+  /* --header-background: rgb(37, 1, 58); */
+  /* --footer-background: rgb(37, 1, 58); */
+  --footer-background: linear-gradient(66deg, rgba(253,253,254,1) 0%, rgba(217,161,250,1) 37%, rgba(255,215,188,1) 43%, rgba(255,250,255,1) 51%, rgba(244,223,255,1) 100%);
+  /* --footer-background: #6f41e8; */
 
   /* typography */
   --text-color: black;
-  --primary-font-family: "Open Sans", sans-serif;
+  --primary-font-family: 'Neue Haas Grotesk Display Pro', "Open Sans", sans-serif;
+  /* --primary-font-family: "Open Sans", sans-serif; */
   --secondary-font-family: "Montserrat", sans-serif;
   --monospace-font-family: "SFMono-Regular", "Consolas", "Liberation Mono",
     "Menlo", "Courier", monospace;
@@ -43,30 +72,15 @@ html {
   /* Shadows and Hover States */
   --link-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
   --link-shadow-hover: 3px 5px 4px rgba(0, 0, 0, 0.2);
-  --markdown-link-color: #6f41e8;
+  --markdown-link-color: #dea2f7;
+
+  /* Nav Icons */
+  --navIcon-background-color: rgb(30, 0, 48);
+  /* --navIcon-background-color: rgb(51, 18, 70); */
+  /* --navIcon-background-color: rgb(37, 1, 58); */
+  --navIcon-border-color: #fff;
+  --navIcon-text-color: #fff;
+  --navIcon-text-color-hover: #fff;
+  --navIcon-invert-filter: invert(0.9)
 }
 
-html.dark {
-  --primary-color: #e63946;
-  --primary-color-lighter: #e25761;
-  --primary-color-darker: #a22831;
-  --primary-color-accent: #cee5f6;
-  --primary-text-color: #eee;
-
-  /* Contrast colors */
-  --contrast-color-light: #fff;
-  --contrast-color-dark: #1d3557;
-
-  /* background-colors */
-  --page-background: #333;
-  --footer-background: #6f41e8;
-
-  /* typography */
-  --text-color: white;
-
-  /* markdown */
-  --markdown-octicon-link: white;
-  --markdown-syntax-background-color: #efedf5;
-  --markdown-link-color: #6f41e8;
-  --markdown-blockquote-color: #c9e3ff;
-}

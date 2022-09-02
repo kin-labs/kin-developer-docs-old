@@ -5,7 +5,7 @@ eleventyNavigation:
   key: TypeScript SDK
   order: 09
 ---
-# TypeScript SDK
+# TypeScript
 
 ## Get Started or Add to an Existing Project
 
@@ -13,7 +13,7 @@ Getting started with Kin is incredibly straightforward. Just follow the steps be
 
 
 #### Installation
-```js
+```shell
 npm i @kin-kinetic/sdk
 ```
 
@@ -37,7 +37,7 @@ Don't have an App Index? Register your App on our Developer Portal so you can ge
 
 <div class='navIcons'>
   <a href='/essentials/kre-app-registration/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/address-card-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/address-card-solid.svg'>
     <span class='navIcon-text'>Register Your App</span>
   </div></a>
 </div>
@@ -161,7 +161,7 @@ If your App is ready for production, this is the place for you!
 
 <div class='navIcons'>
   <a href='/developers/production/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
+    <img class='navIcon-icon invert' alt='production' src='./images/coins-solid.svg'>
     <span class='navIcon-text'>Production</span>
   </div></a>
 </div>
@@ -169,7 +169,7 @@ If your App is ready for production, this is the place for you!
 ## Earn Kin via the KRE
 <div class='navIcons'>
   <a href='/essentials/kin-rewards-engine/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/money-bill-trend-up-solid.svg'>
     <span class='navIcon-text'>Kin Rewards Engine</span>
   </div></a>
 </div>
@@ -178,7 +178,7 @@ If your App is ready for production, this is the place for you!
 Want to contribute to the Kin Node SDK?
 <div class='navIcons'>
   <a href='https://github.com/kinecosystem/kin-node' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
+    <img class='navIcon-icon invert' alt='Kinetic' src='./images/github-brands.svg'>
     <span class='navIcon-text'>Kinetic Node SDK</span>
   </div></a>
 </div>
@@ -192,11 +192,11 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 
 <div class='navIcons'>
 <a href='/essentials/getting-help/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <img class='navIcon-icon invert' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
     <span class='navIcon-text'>Getting Help</span>
   </div></a>
   <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <img class='navIcon-icon invert' alt='Discord' src='../essentials/images/discord-brands.svg'>
     <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
@@ -207,7 +207,7 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
 
 <div class='navIcons'>
   <a href='/essentials/best-practices/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
+    <img class='navIcon-icon invert' alt='Best Practices' src='../essentials/images/rainbow-solid.svg'>
     <span class='navIcon-text'>Best Practices</span>
   </div></a>
 </div>
@@ -299,7 +299,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

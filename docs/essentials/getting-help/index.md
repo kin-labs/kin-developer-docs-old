@@ -5,7 +5,7 @@ Our [Kin Developer Discord](https://discord.gg/kdRyUNmHDn) is a vibrant communit
 
 <div class='navIcons'>
   <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Discord' src='../images/discord-brands.svg'>
+    <img class='navIcon-icon invert' alt='Discord' src='../images/discord-brands.svg'>
     <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
@@ -23,7 +23,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

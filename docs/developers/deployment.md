@@ -15,7 +15,7 @@ Here we will show how you can deploy your own Kinetic Instance to Heroku.
 Fork you own version of Kinetic that we'll use to deploy on Heroku
 <div class='navIcons'>
   <a href='https://github.com/kin-labs/kinetic/fork/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Docker' src='./images/github-brands.svg'>
+    <img class='navIcon-icon invert' alt='Docker' src='./images/github-brands.svg'>
     <span class='navIcon-text'>Fork Kinetic</span>
   </div></a>
 </div>
@@ -40,7 +40,7 @@ Go to Overview / Configure Add-ons, search and choose the Heroku Postrgres addon
 <img src="./images/Heroku04.png" alt="Heroku Config Vars" />
 
 ### Set your Environment Variables
-Go to Settings / Config Vars and add your environment variables as you would have in your `.env` file when [running Kinetic locally](/developers/production/#prepare-your-environment-variables).<br/>
+Go to Settings / Config Vars and add your environment variables as you would have in your `.env` file when [running Kinetic locally](/developers/deployment/#prepare-your-environment-variables).<br/>
 Make sure not to include quote marks around your strings as Heroku won't filter them out.<br/>
 <img src="./images/Heroku03.png" alt="Heroku Config Vars" />
 
@@ -55,7 +55,7 @@ That's it! You should be good to go. Click 'Open app' to open the Kinetic Manage
 ### Configure Your Kinetic Instance with Kinetic Manager
 <div class='navIcons'>
   <a href='/developers/kinetic-manager/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
+    <img class='navIcon-icon invert' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
     <span class='navIcon-text'>Configure Kinetic</span>
   </div></a>
 </div>
@@ -63,7 +63,7 @@ That's it! You should be good to go. Click 'Open app' to open the Kinetic Manage
 ## Running Kinetic Locally
 
 #### Requirements:
-```js
+```shell
 Node.js 14+
 Docker 20+
 Yarn v1.22+
@@ -72,7 +72,7 @@ Yarn v1.22+
 #### Get Started
 To get started with Kinetic, pull down the [Kinetic](https://github.com/kin-labs/kinetic) repo and install dependencies.
 
-```js
+```shell
 git clone git@github.com:kin-labs/kinetic.git
 cd kinetic
 yarn install
@@ -85,7 +85,7 @@ See the full list of environment variables <a href='https://github.com/kin-labs/
 #### Make sure Docker is running
 <div class='navIcons'>
   <a href='https://www.docker.com/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Docker' src='./images/docker-brands.svg'>
+    <img class='navIcon-icon invert' alt='Docker' src='./images/docker-brands.svg'>
     <span class='navIcon-text'>Docker</span>
   </div></a>
 </div>
@@ -95,27 +95,27 @@ See the full list of environment variables <a href='https://github.com/kin-labs/
 Then, in separate terminals, do each of the following:
 
 - run the database
-```js
+```shell
 yarn dev:services:postgres
 ```
 - prepare the database
-```js
+```shell
 yarn prisma migrate reset && yarn prisma db push
 ```
 - run Solana locally (`localhost:8899`) or set `SOLANA_DEVNET_RPC_ENDPOINT=devnet` and skip this step
-```js
+```shell
 yarn dev:services:solana
 ```
 - run the Kinetic API (`localhost:3000`)
-```js
+```shell
 yarn dev:api
 ```
 - run the Kinetic Manager (`localhost:4400`)
-```js
+```shell
 yarn dev:admin
 ```
 - run the Kinetic Demo App (`localhost:4200`)
-```js
+```shell
 yarn dev:demo
 ```
 
@@ -134,11 +134,11 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 
 <div class='navIcons'>
 <a href='/essentials/getting-help/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
+    <img class='navIcon-icon invert' alt='Getting Help' src='../essentials/images/circle-question-regular.svg'>
     <span class='navIcon-text'>Getting Help</span>
   </div></a>
   <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Discord' src='../essentials/images/discord-brands.svg'>
+    <img class='navIcon-icon invert' alt='Discord' src='../essentials/images/discord-brands.svg'>
     <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
@@ -152,7 +152,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

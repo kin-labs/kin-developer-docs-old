@@ -31,11 +31,11 @@ You'll notice in the example above, you can pass in an optional `endpoint` when 
     <span class='navIcon-text'>Kin <br/>Hosted</span>
   </div></a>
   <a href='/developers/production/#self-hosted'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Self hosted' src='./images/server-solid.svg'>
+    <img class='navIcon-icon invert' alt='Self hosted' src='./images/server-solid.svg'>
     <span class='navIcon-text'>Self Hosted</span>
   </div></a>
   <a href='/developers/production/#3rd-party-hosted'><div class='navIcon'>
-    <img class='navIcon-icon' alt='3rd Party Hosted' src='./images/globe-solid.svg'>
+    <img class='navIcon-icon invert' alt='3rd Party Hosted' src='./images/globe-solid.svg'>
     <span class='navIcon-text'>3rd Party Hosted</span>
   </div></a>
 </div>
@@ -95,7 +95,7 @@ Your `endpoint` can be your own deployed Kinetic instance or a locally running i
     <span class='navIcon-text'>Deploy Kinetic</span>
   </div></a>
   <a href='/developers/deployment/#running-kinetic-locally'><div class='navIcon'>
-    <img class='navIcon-icon' alt='deployment' src='./images/docker-brands.svg'>
+    <img class='navIcon-icon invert' alt='deployment' src='./images/docker-brands.svg'>
     <span class='navIcon-text'>Run Kinetic Locally</span>
   </div></a>
 </div>
@@ -104,7 +104,7 @@ Your `endpoint` can be your own deployed Kinetic instance or a locally running i
 See how you can use Kinetic Manager to configure your self-hosted Kinetic instance
 <div class='navIcons'>
   <a href='/developers/kinetic-manager/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
+    <img class='navIcon-icon invert' alt='deployment' src='./images/screwdriver-wrench-solid.svg'>
     <span class='navIcon-text'>Configure Kinetic</span>
   </div></a>
 </div>
@@ -128,7 +128,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

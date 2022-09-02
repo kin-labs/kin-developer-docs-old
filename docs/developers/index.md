@@ -23,7 +23,7 @@ Kinetic is aimed at developers that want to build crypto-experiences for the use
 
 <div class='navIcons'>
   <a href='https://github.com/kin-labs/kinetic/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Kinetic' src='./images/github-brands.svg'>
+    <img class='navIcon-icon invert' alt='Kinetic' src='./images/github-brands.svg'>
     <span class='navIcon-text'>Kinetic GitHub</span>
   </div></a>
 </div>
@@ -56,7 +56,7 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
     <span class='navIcon-text'>Android (Kotlin)</span>
   </div></a>
   <a href='/developers/unity/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='swift' src='./images/unity.svg'>
+    <img class='navIcon-icon unityIcon' alt='swift' src='./images/unity.svg'>
     <span class='navIcon-text'>Unity</span>
   </div></a>
 </div>
@@ -76,7 +76,7 @@ If your App is ready for production, this is the place for you!
 
 <div class='navIcons'>
   <a href='/developers/production/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='production' src='./images/coins-solid.svg'>
+    <img class='navIcon-icon invert' alt='production' src='./images/coins-solid.svg'>
     <span class='navIcon-text'>Production</span>
   </div></a>
 </div>
@@ -87,7 +87,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='../essentials/images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>

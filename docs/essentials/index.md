@@ -22,7 +22,7 @@ For more information about Kin, see here:
     <span class='navIcon-text'>KIN.ORG</span>
   </div></a>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/cubes-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/cubes-solid.svg'>
     <span class='navIcon-text'>Kin Ecosystem Apps</span>
   </div></a>
 </div>
@@ -41,11 +41,11 @@ That's exactly right! The [Kin Rewards Engine](/essentials/kin-rewards-engine/) 
 
 <div class='navIcons'>
   <a href='/essentials/kin-rewards-engine/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/money-bill-trend-up-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/money-bill-trend-up-solid.svg'>
     <span class='navIcon-text'>Kin Rewards Engine</span>
   </div></a>
   <a href='https://kin.org/catalyst-fund/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/sack-dollar-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/sack-dollar-solid.svg'>
     <span class='navIcon-text'>Catalyst Fund</span>
   </div></a>
 </div>
@@ -56,7 +56,7 @@ That's exactly right! The [Kin Rewards Engine](/essentials/kin-rewards-engine/) 
 Great question! Why not check out some common use cases?
 <div class='navIcons'>
   <a href='/use-cases/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/diagram-project-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/diagram-project-solid.svg'>
     <span class='navIcon-text'>Use Cases</span>
   </div></a>
   
@@ -69,11 +69,11 @@ Devs to the left, non-devs to the right!
 
 <div class='navIcons'>
   <a href='/developers/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/code-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/code-solid.svg'>
     <span class='navIcon-text'>I'm a Developer</span>
   </div></a>
   <a href='/non-developers/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Non-Developer' src='./images/computer-mouse-solid.svg'>
+    <img class='navIcon-icon invert' alt='Non-Developer' src='./images/computer-mouse-solid.svg'>
     <span class='navIcon-text'>I'm a Non-Developer</span>
   </div></a>
 </div>
@@ -83,7 +83,7 @@ We've got that covered too!
 
 <div class='navIcons'>
   <a href='/essentials/nfts-with-kin/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Best Practices' src='./images/nft-token.svg'>
+    <img class='navIcon-icon invert' alt='Best Practices' src='./images/nft-token.svg'>
     <span class='navIcon-text'>NFTs with Kin</span>
   </div></a>
 </div>
@@ -94,7 +94,7 @@ Once you're ready to code, have a quick look at our [Developer Best Practices](/
 
 <div class='navIcons'>
   <a href='/essentials/best-practices/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Best Practices' src='./images/rainbow-solid.svg'>
+    <img class='navIcon-icon invert' alt='Best Practices' src='./images/rainbow-solid.svg'>
     <span class='navIcon-text'>Best Practices</span>
   </div></a>
 </div>
@@ -105,11 +105,11 @@ Fortunately, we have an amazing developer community on our Developer Discord ser
 
 <div class='navIcons'>
 <a href='/essentials/getting-help/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Getting Help' src='./images/circle-question-regular.svg'>
+    <img class='navIcon-icon invert' alt='Getting Help' src='./images/circle-question-regular.svg'>
     <span class='navIcon-text'>Getting Help</span>
   </div></a>
   <a href='https://discord.com/invite/kdRyUNmHDn' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Discord' src='./images/discord-brands.svg'>
+    <img class='navIcon-icon invert' alt='Discord' src='./images/discord-brands.svg'>
     <span class='navIcon-text'>Developer Discord</span>
   </div></a>
 </div>
@@ -120,7 +120,7 @@ Here's your one-stop-shop!
 
 <div class='navIcons'>
   <a href='/essentials/terms-and-concepts/'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Terms and Concepts' src='./images/circle-info-solid.svg'>
+    <img class='navIcon-icon invert' alt='Terms and Concepts' src='./images/circle-info-solid.svg'>
     <span class='navIcon-text'>Terms and Concepts</span>
   </div></a>
 </div>
@@ -131,7 +131,7 @@ If you'd like to tell us how we can make these docs better, let us know here:
 
 <div class='navIcons'>
   <a href='https://forms.gle/qhjcDJR59v8RJsaY7' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon' alt='Developer' src='./images/comment-dots-solid.svg'>
+    <img class='navIcon-icon invert' alt='Developer' src='./images/comment-dots-solid.svg'>
     <span class='navIcon-text'>Feedback</span>
   </div></a>
 </div>
