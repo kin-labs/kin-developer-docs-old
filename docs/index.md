@@ -17,7 +17,7 @@ useCases:
   link: /use-cases/
 
 codeNoCode:
-- header: Love Coding? Use our SDKs.s
+- header: Love Coding? Use our SDKs.
   text: Harness the power of Kin with our range of SDKs.
   graphicUrl: "/_assets/kin_sticker_white.png"
   link: /developers/
