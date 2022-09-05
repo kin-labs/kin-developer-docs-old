@@ -1,8 +1,8 @@
 ---
-title: Android (Kotlin)
+title: Android
 layout: layout-index
 eleventyNavigation:
-  key: Android SDK (Kotlin)
+  key: Android
   order: 49
 ---
 # Android

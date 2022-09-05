@@ -49,11 +49,11 @@ No! Our Kinetic SDKs have been designed so that you can start building straight 
   </div></a>
   <a href='/developers/ios-swift/'><div class='navIcon'>
     <img class='navIcon-icon swiftIcon' alt='swift' src='./images/swift.png'>
-    <span class='navIcon-text'>iOS (Swift)</span>
+    <span class='navIcon-text'>iOS</span>
   </div></a>
   <a href='/developers/android-kotlin/'><div class='navIcon'>
     <img class='navIcon-icon' alt='swift' src='./images/kotlin.png'>
-    <span class='navIcon-text'>Android (Kotlin)</span>
+    <span class='navIcon-text'>Android</span>
   </div></a>
   <a href='/developers/unity/'><div class='navIcon'>
     <img class='navIcon-icon unityIcon' alt='swift' src='./images/unity.svg'>

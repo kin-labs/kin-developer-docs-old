@@ -1,8 +1,8 @@
 ---
-title: Python SDK
+title: Python
 layout: layout-index
 eleventyNavigation:
-  key: Python SDK
+  key: Python
   order: 19
 ---
 # Python

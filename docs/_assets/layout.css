@@ -40,9 +40,18 @@ pre {
 }
 
 .logo-link img {
-  width: 50px;
+  width: 100px;
+  margin-left: -15px;
   height: 50px;
   vertical-align: middle;
+}
+
+#main-header .logo-link span.logo-link-text {
+  font-size: 14px;
+  color: var(--white);
+  margin-left: -10px;
+  vertical-align: bottom;
+  line-height: 39px;
 }
 
 .sr-only {
@@ -901,17 +910,13 @@ body[layout='layout-home-background'] .page-background {
 }
 
 .markdown-body img.navIcon-icon.kinIcon {
-  width: 80px;
+  transform: scale(1.5);
+  margin: auto 10px;
 }
 
 
 .markdown-body img.navIcon-icon.herokuIcon {
-  height: 70px;
-  width: auto;
-  margin-top: -5px;
-  margin-right: -15px;
-  margin-left: -10px;
-  padding: 0;
+  transform:scale(1.2);
 }
 
 .markdown-body .navIcon:hover img.navIcon-icon.gifteryIcon,

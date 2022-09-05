@@ -91,7 +91,7 @@ const kineticClient = await KineticSdk.setup(clientOptions);
 Your `endpoint` can be your own deployed Kinetic instance or a locally running instance.
 <div class='navIcons'>
   <a href='/developers/deployment/#deploying-kinetic-to-heroku'><div class='navIcon'>
-    <img class='navIcon-icon herokuIcon' alt='deployment' src='./images/heroku.png'>
+    <img class='navIcon-icon herokuIcon invert' alt='deployment' src='./images/heroku.png'>
     <span class='navIcon-text'>Deploy Kinetic</span>
   </div></a>
   <a href='/developers/deployment/#running-kinetic-locally'><div class='navIcon'>

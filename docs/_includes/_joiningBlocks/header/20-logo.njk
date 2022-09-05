@@ -1,7 +1,7 @@
 {% if layout === "home.njk" and rocketLaunch.homeLayout === "background" %}
 	<a class="logo-link" href="{{ '/' | url }}">
-		<img src="{{ '/_assets/logo.svg' | asset | url }}" alt="{{ site.logoAlt }}" />
-		<span class="sr-only">{{ site.name }}</span>
+		<img src="{{ '/_assets/kin_logo_with_name.svg' | asset | url }}" alt="{{ site.logoAlt }}" />
+		<span class="logo-link-text">[ developer docs ]</span>
 	</a>
 {% else %}
 	{% include 'partials/_shared/logoLink.njk' %}

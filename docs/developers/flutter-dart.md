@@ -1,8 +1,8 @@
 ---
-title: Flutter SDK (Dart)
+title: Flutter (Dart)
 layout: layout-index
 eleventyNavigation:
-  key: Flutter SDK (Dart)
+  key: Flutter (Dart)
   order: 29
 ---
 # Flutter

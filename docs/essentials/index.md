@@ -19,7 +19,7 @@ For more information about Kin, see here:
 <div class='navIcons'>
   <a href='https://kin.org' target='_blank'><div class='navIcon'>
     <img class='navIcon-icon kinIcon' alt='Kin' src='./images/kin_logo.svg'>
-    <span class='navIcon-text'>KIN.ORG</span>
+    <span class='navIcon-text'>Kin Website</span>
   </div></a>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='navIcon'>
     <img class='navIcon-icon invert' alt='Developer' src='./images/cubes-solid.svg'>

@@ -1,8 +1,8 @@
 ---
-title: TypeScript SDK
+title: TypeScript
 layout: layout-index
 eleventyNavigation:
-  key: TypeScript SDK
+  key: TypeScript
   order: 09
 ---
 # TypeScript

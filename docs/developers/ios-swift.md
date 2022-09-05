@@ -1,8 +1,8 @@
 ---
-title: iOS (Swift)
+title: iOS
 layout: layout-index
 eleventyNavigation:
-  key: iOS SDK (Swift)
+  key: iOS
   order: 39
 ---
 # iOS

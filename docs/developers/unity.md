@@ -2,7 +2,7 @@
 title: Unity
 layout: layout-index
 eleventyNavigation:
-  key: Unity SDK
+  key: Unity
   order: 59
 ---
 # Unity
