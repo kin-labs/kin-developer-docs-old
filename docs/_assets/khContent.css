@@ -79,6 +79,7 @@ section.kh-start__wrapper {
 .kh-start__item-text {
   margin: 0.5rem 0 0 0;
   line-height: var(--line-height);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
