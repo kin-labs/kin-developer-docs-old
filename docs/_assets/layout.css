@@ -619,6 +619,12 @@ main > * {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .markdown-body h1 {
+    font-size: 3em;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   main {
     z-index: 50;
