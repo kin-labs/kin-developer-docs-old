@@ -47,7 +47,7 @@ section.kh-start__wrapper {
   border: 1px solid var(--primary-color);
 }
 
-.kh-start__item-wrapper:visited {
+.kh-start__item-wrapper:visited .h-start__item-text {
   color: var(--white);
 }
 
@@ -77,6 +77,7 @@ section.kh-start__wrapper {
   margin: 0;
 }
 .kh-start__item-text {
+  color: var(--white);
   margin: 0.5rem 0 0 0;
   line-height: var(--line-height);
   text-decoration: none;

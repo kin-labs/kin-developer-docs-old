@@ -12,7 +12,7 @@ essentials:
 
 useCases:
 - header: How is Kin Used?
-  text: See how our top earning apps use Kin to their advantage
+  text: See how our top earning apps use Kin to their advantage.
   graphicUrl: "/_assets/kin_sticker.png"
   link: /use-cases/
 
