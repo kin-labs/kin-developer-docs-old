@@ -392,10 +392,6 @@ rocket-navigation a {
   transition: all 0.2s ease-in-out;
 }
 
-rocket-navigation a:hover {
-  color: var(--markdown-link-color);
-}
-
 /* line on the left to indicate current page */
 rocket-navigation > ul > li > ul li.current ul li.anchor.current::before {
   content: '';
@@ -461,6 +457,9 @@ rocket-navigation ul li.menu-item.current a {
 }
 rocket-navigation ul li.menu-item.current a.anchor {
   color: var(--white)
+}
+rocket-navigation ul li.menu-item.current a.anchor:hover {
+  color: var(--primary-color)
 }
 
 
