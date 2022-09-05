@@ -197,6 +197,10 @@ body[layout^='layout-home'] #main-header a:hover {
   color: inherit;
 }
 
+#main-header .sections-nav {
+  display: none;
+}
+
 #mobile-menu-trigger {
   color: inherit;
   position: absolute;
@@ -303,14 +307,6 @@ body[layout^='layout-home'] #main-header a:hover {
   overflow: auto;
 }
 
-.global-overlays #sidebar-nav .logo-link span.logo-link-text {
-  font-size: 14px;
-  color: var(--white);
-  margin-left: -10px;
-  vertical-align: bottom;
-  line-height: 39px;
-}
-
 .global-overlays #sidebar-nav {
   background-color: var(--sidebar-background-overlay);
   width: 100vw;
@@ -318,6 +314,41 @@ body[layout^='layout-home'] #main-header a:hover {
   max-height: 100vh;
   top: 0;
   padding: 20px;
+}
+
+.global-overlays #sidebar-nav .logo-link {
+  border-bottom: none;
+}
+
+.global-overlays #sidebar-nav .logo-link img {
+  margin-left: -25px;
+}
+
+.global-overlays #sidebar-nav .logo-link span.logo-link-text {
+  font-size: 14px;
+  color: var(--white);
+  margin-left: -20px;
+  vertical-align: bottom;
+  line-height: 39px;
+}
+
+.global-overlays #sidebar-nav div.sections-nav .logo-link {
+  display: none;
+}
+
+.global-overlays #sidebar-nav div.sections-nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.global-overlays #sidebar-nav div.sections-nav .section-link {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0 10px 10px 0;
 }
 
 rocket-navigation {
