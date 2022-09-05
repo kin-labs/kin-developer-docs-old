@@ -368,8 +368,13 @@ rocket-navigation {
 .global-overlays #sidebar-nav rocket-navigation ul li.menu-item.current a {
   color: var(--primary-color)
 }
+
 .global-overlays #sidebar-nav rocket-navigation ul li.menu-item.current a.anchor {
   color: var(--white)
+}
+
+.global-overlays #sidebar-nav rocket-navigation ul li.menu-item:last-of-type:not(.anchor) {
+  margin-bottom: 50px;
 }
 
 rocket-navigation .light-dark-switch {
