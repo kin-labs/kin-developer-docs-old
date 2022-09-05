@@ -303,6 +303,14 @@ body[layout^='layout-home'] #main-header a:hover {
   overflow: auto;
 }
 
+.global-overlays #sidebar-nav .logo-link span.logo-link-text {
+  font-size: 14px;
+  color: var(--white);
+  margin-left: -10px;
+  vertical-align: bottom;
+  line-height: 39px;
+}
+
 .global-overlays #sidebar-nav {
   background-color: var(--sidebar-background-overlay);
   width: 100vw;
@@ -326,8 +334,11 @@ rocket-navigation {
   top: 0;
 }
 
-.global-overlays #sidebar-nav rocket-navigation li.current a {
-  color: var(--primary-color);
+.global-overlays #sidebar-nav rocket-navigation ul li.menu-item.current a {
+  color: var(--primary-color)
+}
+.global-overlays #sidebar-nav rocket-navigation ul li.menu-item.current a.anchor {
+  color: var(--white)
 }
 
 rocket-navigation .light-dark-switch {
