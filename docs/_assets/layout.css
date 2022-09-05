@@ -197,7 +197,7 @@ body[layout^='layout-home'] #main-header a:hover {
   color: inherit;
 }
 
-#main-header .sections-nav {
+.sections-nav {
   display: none;
 }
 
