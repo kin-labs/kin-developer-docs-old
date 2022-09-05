@@ -24,13 +24,16 @@ section.kh-start__wrapper {
   justify-content: space-between;
 }
 
+
 .kh-start__item-wrapper {
   width: calc(100%);
   display: flex;
-  background-color: var(--primary-color-lightest) !important;
   margin-bottom: 2rem;
-  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
   text-decoration: none;
+  border-radius: 64px;
+  transition: all 0.2s ease-in;
+  background-color: black !important;
+  border: 1px solid var(--white)
 }
 
 .kh-start__item-wrapper-half {
@@ -38,16 +41,17 @@ section.kh-start__wrapper {
 }
 
 .kh-start__item-wrapper:hover {
-  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  /* box-shadow: 1px 1px 5px var(--primary-color); */
+  /* transform: scale(1.01); */
+  background-color: var(--navIcon-background-color) !important;
+  border: 1px solid var(--primary-color);
 }
 
 .kh-start__item-wrapper:visited {
-  color: var(--text-color);
+  color: var(--white);
 }
 
 .kh-start__graphic-wrapper {
-  background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,6 +98,7 @@ section.kh-start__wrapper {
     width: 100%;
     position: relative;
     padding-left: 1.5rem;
+    border-radius: 5px;
   }
 
   .kh-start__graphic-wrapper {

@@ -26,10 +26,17 @@ html {
   --contrast-color-dark: #1d3557;
 
   /* background-colors */
-  --page-background: linear-gradient(
+  /* --page-background: linear-gradient(
     160deg, 
     rgb(0, 0, 0) 0%,
     rgb(18, 0, 34) 67%, 
+    rgb(48, 0, 77) 100%
+  ); */
+ 
+  --page-background: linear-gradient(
+    160deg, 
+    rgb(38, 0, 70) 0%,
+    rgb(7, 0, 14) 30%, 
     rgb(48, 0, 77) 100%
   );
 
@@ -47,8 +54,8 @@ html {
 
   --header-background: linear-gradient(
       125deg, 
-      rgb(0, 0, 0) 0%,
-      rgb(18, 0, 34) 100%
+      rgb(38, 0, 70) 0%,
+      rgb(18, 0, 32) 100%
   );
   /* --header-background: rgb(37, 1, 58); */
   /* --footer-background: rgb(37, 1, 58); */

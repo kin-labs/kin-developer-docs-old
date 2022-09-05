@@ -7,29 +7,29 @@ mainSubheader: Integrate cryptocurrency into your app’s experience.
 essentials:
 - header: Kin Essentials
   text: Earn via the Kin Rewards Engine. Build with best in class No-Code and SDK tools.
-  graphicUrl: "/_assets/kin-get-started.svg"
+  graphicUrl: "/_assets/kin_sticker_white.png"
   link: /essentials/
 
 useCases:
 - header: How is Kin Used?
   text: See how our top earning apps use Kin to their advantage
-  graphicUrl: "/_assets/kin-dev-portal.svg"
+  graphicUrl: "/_assets/kin_sticker.png"
   link: /use-cases/
 
 codeNoCode:
-- header: Love Coding? Use our SDKs.
+- header: Love Coding? Use our SDKs.s
   text: Harness the power of Kin with our range of SDKs.
-  graphicUrl: "/_assets/kin-tutorial.svg"
+  graphicUrl: "/_assets/kin_sticker_white.png"
   link: /developers/
 - header: Not a Dev? No Problem.
   text: Build powerful Kin Apps with no coding experience necessary.
-  graphicUrl: "/_assets/kin-tutorial.svg"
+  graphicUrl: "/_assets/kin_sticker_white.png"
   link: /non-developers/
 
 integrations:
 - header: Kin Integrations
   text: Easily power-up your App with these amazing integrations
-  graphicUrl: "/_assets/kin-sdks.svg"
+  graphicUrl: "/_assets/kin_sticker.png"
   link: /integrations/
   
 reasonHeader: Join a growing ecosystem of developers who are choosing the Kin monetization model
