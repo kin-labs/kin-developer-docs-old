@@ -455,6 +455,10 @@ rocket-navigation > ul {
 rocket-navigation ul li.menu-item.current a {
   color: var(--primary-color)
 }
+
+rocket-navigation ul li.menu-item a:hover {
+  color: var(--primary-color)
+}
 rocket-navigation ul li.menu-item.current a.anchor {
   color: var(--white)
 }
@@ -927,6 +931,7 @@ body[layout='layout-home-background'] .page-background {
   text-decoration: none;
   margin: auto auto auto 20px;
   text-align: left;
+  transition: all 0.2s ease-in;
 }
 
 .navIcon:hover span {

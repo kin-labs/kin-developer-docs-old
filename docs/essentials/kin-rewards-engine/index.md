@@ -20,7 +20,7 @@ The `Daily Budget` is currently set at 250,000,000 Kin (as of 10/12/2021). As th
 
 The exact amount of the `Daily Payout` is calculated by multiplying the `Daily Budget` by the difference of 1 minus the `Volatility Adjustment` (VA).
 
-```
+```shell
 Daily Payout = Daily Budget * (1 - Volatility Adjustment)
 ```
 
@@ -43,7 +43,7 @@ Apps earn Kin by encouraging their users to obtain and spend Kin which is proven
 
 The calculation is mathematically simple:
 
-```
+```shell
 portion_of_daily_payout = (your_eligible_aub / ecosystem_aub) * daily_payout
 ```
 
@@ -68,7 +68,7 @@ See below for a detailed example of how the “[Monopoly Clause](https://github.
 
 Let `s_1, s_2, …, s_n` be the [KRE](/essentials/kin-rewards-engine/) payout shares ordered by payout proportion in descending order before invoking the [monopoly clause](https://github.com/kinecosystem/rewards-engine/blob/master/current-KRE.md#monopoly-clause).
 
-```
+```shell
 If (s_1 + s_2  > 0.90) or (s_1 > 0.5):
     If s_1 > 0.5:
         s_1' = 0.5 + ((s_1 - 0.5) / 0.5) * (2/3 - 1/2)
