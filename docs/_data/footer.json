@@ -1,4 +1,10 @@
 [
+  {"name": "", 
+    "children": [
+      {"text" : "Ready to transform the web?"},
+      {"text" : "Join the global movement and start innovating with Kin."}
+    ]
+  },
   {
     "name": "Quick Links",
     "children": [
