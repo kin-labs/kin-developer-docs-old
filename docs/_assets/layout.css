@@ -692,6 +692,9 @@ main > * {
 
 .kh-footer nav:first-child,
 #footer-menu nav:first-child {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   max-width: 20%;
 }
 
@@ -705,6 +708,22 @@ main > * {
 }
 .kh-footer nav:first-child h3 {
   margin: 0 auto 10px -10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .kh-footer nav:first-child,
+  #footer-menu nav:first-child {
+    max-width: 80%;
+  }
+  .kh-footer nav:first-child h3,
+  #footer-menu nav:first-child h3 {
+    background-position:center center;
+    margin: 0 auto -10px;
+  }
+
+  .kh-footer nav:first-child h3 {
+    margin: 0 auto 10px auto;
+  }
 }
 
 .kh-footer nav:first-child ul li a,
