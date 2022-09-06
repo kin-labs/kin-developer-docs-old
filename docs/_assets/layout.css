@@ -694,7 +694,6 @@ main > * {
 #footer-menu nav:first-child {
   display: flex;
   flex-direction: column;
-  margin: auto;
   max-width: 20%;
 }
 
