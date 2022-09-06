@@ -7,7 +7,7 @@ We'll send an email to the account you used during registration. Open that email
 
 <div class='navIcons'>
   <a href='https://portal.kin.org/' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon kinIcon' alt='Kin' src='../images/kin_logo.svg'>
+    <img class='navIcon-icon kinIcon' alt='Kin' src='../images/kin_icon.svg'>
     <span class='navIcon-text'>Developer Portal</span>
   </div></a>
 </div>

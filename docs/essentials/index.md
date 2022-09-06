@@ -14,11 +14,10 @@ Welcome to the Kin Developer's Documentation. It contains everything required fo
 Simply put, Kin is money for the digital world and it provides a way for developers (like you) to monetize their apps and websites in a fundamentally new way.
 
 Kin exists as a token on Solana, a consumer-grade blockchain built for scale. Solana is fast, decentralized and secure, making it the perfect home for Kin. Read more at http://www.solana.com.
-
 For more information about Kin, see here:
 <div class='navIcons'>
   <a href='https://kin.org' target='_blank'><div class='navIcon'>
-    <img class='navIcon-icon kinIcon' alt='Kin' src='./images/kin_logo.svg'>
+    <img class='navIcon-icon kinIcon' alt='Kin' src='./images/kin_icon.svg'>
     <span class='navIcon-text'>Kin Website</span>
   </div></a>
   <a href='https://kin.org/kin-apps/' target='_blank'><div class='navIcon'>

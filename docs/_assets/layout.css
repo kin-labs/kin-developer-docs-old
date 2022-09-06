@@ -962,8 +962,8 @@ body[layout='layout-home-background'] .page-background {
 }
 
 .markdown-body img.navIcon-icon.kinIcon {
-  transform: scale(1.5);
-  margin: auto 10px;
+  transform: scale(2);
+  margin: auto 10px auto 0;
 }
 
 
