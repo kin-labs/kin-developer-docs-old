@@ -690,48 +690,6 @@ main > * {
   color: var(--text-color);
 }
 
-.kh-footer nav:first-child,
-#footer-menu nav:first-child {
-  display: flex;
-  flex-direction: column;
-  max-width: 20%;
-}
-
-.kh-footer nav:first-child h3,
-#footer-menu nav:first-child h3 {
-  height: 50px;
-  width: 200px;
-  background-image: url(./kin_logo_black.svg);
-  background-repeat: no-repeat;
-  margin: 10px auto -10px -10px;
-}
-.kh-footer nav:first-child h3 {
-  margin: 0 auto 10px -10px;
-}
-
-@media screen and (max-width: 1024px) {
-  .kh-footer nav:first-child,
-  #footer-menu nav:first-child {
-    max-width: 80%;
-  }
-  .kh-footer nav:first-child h3,
-  #footer-menu nav:first-child h3 {
-    background-position:center center;
-    margin: 0 auto -10px;
-  }
-
-  .kh-footer nav:first-child h3 {
-    margin: 0 auto 10px auto;
-  }
-}
-
-.kh-footer nav:first-child ul li a,
-#footer-menu nav:first-child ul li a {
-  text-decoration: none;
-  pointer-events: none;
-  font-weight: bold;
-}
-
 /** CALL TO ACTION ********************************************************************************/
 
 .markdown-body .call-to-action-list {

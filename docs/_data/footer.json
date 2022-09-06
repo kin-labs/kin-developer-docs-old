@@ -1,10 +1,4 @@
 [
-  {"name": "", 
-    "children": [
-      {"text" : "Ready to transform the web?", "href": "/"},
-      {"text" : "Join the global movement and start innovating with Kin.", "href": "/"}
-    ]
-  },
   {
     "name": "Quick Links",
     "children": [
