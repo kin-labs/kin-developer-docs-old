@@ -103,13 +103,11 @@
   width: 100%;
 }
 .kh-hero__graphic {
-  position: absolute;
   height: 500px;
+  /* z-index: 6; */
+  transform: scale(1.5);
+  pointer-events: none;
   width: auto;
-  top: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 888;
 }
 
 @media (max-width: 1040px) {
