@@ -702,7 +702,7 @@ main > * {
 #footer-menu nav:first-child h3 {
   height: 50px;
   width: 200px;
-  background-image: url("/_merged_assets/kin_logo_black.svg");
+  background-image: url("./kin_logo_black.svg");
   background-repeat: no-repeat;
   margin: 10px auto -10px -10px;
 }
