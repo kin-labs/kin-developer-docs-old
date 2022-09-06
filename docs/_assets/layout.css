@@ -707,7 +707,7 @@ main > * {
 .kh-footer nav:first-child h3:before,
 #footer-menu nav:first-child h3:before {
   content: '';
-  background:url('./kin_logo_black.svg');
+  background:url('../kin_logo_black.svg');
   background-repeat: no-repeat;
   width: 100px;
   height: 50px;
