@@ -101,11 +101,11 @@
 
 .kh-hero__graphic-section-wrapper {
   width: 100%;
+  /* transform: translateX(100px); */
 }
 .kh-hero__graphic {
   height: 500px;
-  /* z-index: 6; */
-  transform: scale(1.5);
+  transform: scale(1.3);
   pointer-events: none;
   width: auto;
 }
