@@ -51,6 +51,14 @@
   .kh-hero__header {
     font-size: 4rem;
     line-height: 3.5rem;
+    letter-spacing: -5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .kh-hero__header {
+    font-size: 4rem;
+    line-height: 3.5rem;
   }
 }
 
