@@ -65,8 +65,9 @@ html {
 
   /* typography */
   --text-color: black;
-  --primary-font-family: 'Neue Haas Grotesk Display Pro', "Open Sans", sans-serif;
+  /* --primary-font-family: 'Neue Haas Grotesk Display Pro', "Open Sans", sans-serif; */
   /* --primary-font-family: "Open Sans", sans-serif; */
+  --primary-font-family: "Open Sans", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
   --monospace-font-family: "SFMono-Regular", "Consolas", "Liberation Mono",
     "Menlo", "Courier", monospace;
