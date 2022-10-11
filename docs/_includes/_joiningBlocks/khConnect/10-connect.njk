@@ -1,9 +1,0 @@
-<section class="kh-connect__wrapper">
-    {% for item in connectAndJoinSection %}
-    <div class="kh-connect__item-wrapper">
-        <h2 class="kh-connect__header">{{ item.header }}</h2>
-        <p class="kh-connect__subheader-text">{{ item.text | safe }}</p>
-        <a href={{item.link}} class="kh-connect__link" target="_blank">{{ item.linkText | safe }}</a>
-    </div>
-    {% endfor %}
-</section>
